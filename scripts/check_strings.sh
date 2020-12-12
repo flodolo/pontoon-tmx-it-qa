@@ -6,15 +6,15 @@ root_path=$script_path/..
 cd $root_path
 
 # Get sha of latest commit on the dictionary repo
-latest=$(curl -s https://api.github.com/repos/flodolo/dizionario-it/commits/v.next | jq ".commit.tree.sha")
+latest=$(curl -s https://api.github.com/repos/flodolo/dizionario-it/git/refs/heads/v.next | jq ".object.sha")
 local=$(cat dictionaries/latest.txt)
 
 if [[ $local != $latest ]];
 then
-    echo "Downloading latest versions of the dictionary"
+    echo "Downloading latest version of the dictionary"
     echo $latest > dictionaries/latest.txt
-    curl -s -o dictionaries/it_IT.aff https://raw.githubusercontent.com/flodolo/dizionario-it/master/extension/dictionaries/it_IT.aff
-    curl -s -o dictionaries/it_IT.dic https://raw.githubusercontent.com/flodolo/dizionario-it/master/extension/dictionaries/it_IT.dic
+    curl -s -o dictionaries/it_IT.aff https://raw.githubusercontent.com/flodolo/dizionario-it/v.next/extension/dictionaries/it_IT.aff
+    curl -s -o dictionaries/it_IT.dic https://raw.githubusercontent.com/flodolo/dizionario-it/v.next/extension/dictionaries/it_IT.dic
 fi
 
 function setupVirtualEnv() {
