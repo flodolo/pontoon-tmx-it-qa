@@ -1,0 +1,4 @@
+compare-locales==8.1.0
+hunspell==0.5.5
+lxml==4.6.2
+nltk==3.5

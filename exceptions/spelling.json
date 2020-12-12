@@ -1,0 +1,218 @@
+{
+  "android-l10n:MozillaReality/FirefoxReality/app/src/main/res/values/strings.xml:bookmarks_desktop_folder_title": [
+    "pc"
+  ],
+  "android-l10n:MozillaReality/FirefoxReality/app/src/main/res/values/strings.xml:developer_options_env_override": [
+    "override"
+  ],
+  "android-l10n:MozillaReality/FirefoxReality/app/src/main/res/values/strings.xml:developer_options_msaa_2": [
+    "2x"
+  ],
+  "android-l10n:MozillaReality/FirefoxReality/app/src/main/res/values/strings.xml:developer_options_msaa_4": [
+    "4x"
+  ],
+  "android-l10n:MozillaReality/FirefoxReality/app/src/main/res/values/strings.xml:developer_options_show_console": [
+    "Logcat"
+  ],
+  "android-l10n:MozillaReality/FirefoxReality/app/src/main/res/values/strings.xml:settings_language_norwegian_bokmaal": [
+    "Bokm\u00e5l"
+  ],
+  "android-l10n:MozillaReality/FirefoxReality/app/src/main/res/values/strings.xml:settings_language_norwegian_nynorsk": [
+    "Nynorsk"
+  ],
+  "android-l10n:MozillaReality/FirefoxReality/app/src/main/res/values/strings.xml:settings_language_simplified_chinese": [
+    "Pinyin"
+  ],
+  "android-l10n:MozillaReality/FirefoxReality/app/src/main/res/values/strings.xml:settings_language_traditional_chinese": [
+    "Zhuyin"
+  ],
+  "android-l10n:mozilla-lockwise/lockwise-android/app/src/main/res/values/strings.xml:create_username_hint_text": [
+    "janedoe"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_port_blocked_message": [
+    "Mozilla.org:80"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_unknown_host_message": [
+    "ww"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_unknown_protocol_message": [
+    "wxyz"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager": [
+    "comp"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_rating_content_description": [
+    ".02f"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_status_no_update_available": [
+    "agg"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_apr": [
+    "Apr"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_dec": [
+    "Dic"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_feb": [
+    "Feb"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_jan": [
+    "Gen"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_jul": [
+    "Lug"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_jun": [
+    "Giu"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_may": [
+    "Mag"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_nov": [
+    "Nov"
+  ],
+  "android-l10n:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_oct": [
+    "Ott"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:about_open_source_licenses": [
+    "source"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_to_homescreen_title": [
+    "Agg"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:app_name_private": [
+    "Preview",
+    "nav"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:app_name_private_2": [
+    "Preview"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:app_name_private_3": [
+    "Preview",
+    "nav"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:app_name_private_4": [
+    "nav"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_to_homescreen": [
+    "Agg"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:cfr_pos_button_text": [
+    "Agg"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:default_top_site_baidu": [
+    "Baidu"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_desktop_bookmarks_root": [
+    "pc"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_screenshots": [
+    "Screenshot"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:pair_instructions": [
+    "firefox.com",
+    "pair"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:pair_instructions_2": [
+    "firefox.com",
+    "pair"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_allow_screenshots_in_private_mode": [
+    "screenshot"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_marketing_data_description": [
+    "Leanplum"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:resync_button_content_description": [
+    "Risincronizza"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_add_custom_engine_search_string_example": [
+    "www.google.com",
+    "search"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_cfr_message": [
+    "widget"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_cfr_pos_button_text": [
+    "widget"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sign_in_instructions": [
+    "firefox.com",
+    "pair"
+  ],
+  "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tip_firefox_preview_moved_header": [
+    "Preview"
+  ],
+  "firefox-monitor-website:app.ftl:-brand-hibp": [
+    "Have",
+    "Been",
+    "Pwned"
+  ],
+  "firefox-monitor-website:app.ftl:ba-next-step-blurb-2": [
+    "dark"
+  ],
+  "firefox-monitor-website:app.ftl:content-available": [
+    "Commons"
+  ],
+  "firefox-monitor-website:app.ftl:copyright-info": [
+    "Commons"
+  ],
+  "firefox-monitor-website:app.ftl:delayed-reporting-copy": [
+    "dark"
+  ],
+  "firefox-monitor-website:app.ftl:error-bot-blurb": [
+    "bot"
+  ],
+  "firefox-monitor-website:app.ftl:fxa-pwt-section-blurb": [
+    "ssw0rd"
+  ],
+  "firefox-monitor-website:app.ftl:mozilla-dot-org": [
+    "Mozilla.org"
+  ],
+  "firefox-monitor-website:app.ftl:pwt-section-blurb": [
+    "ssw0rd"
+  ],
+  "firefox-monitor-website:app.ftl:user-unsubscribe-token-email-error": [
+    "emaiHash"
+  ],
+  "firefox-monitor-website:data-classes.ftl:avatars": [
+    "avatar"
+  ],
+  "firefox-monitor-website:email-strings.ftl:share-by-email-message": [
+    "monitor.firefox.com"
+  ],
+  "firefox-monitor-website:recommendations.ftl:rec-moz-vpn": [
+    "Protocol"
+  ],
+  "firefox-monitor-website:recommendations.ftl:rec-pw-1": [
+    "passphrase"
+  ],
+  "firefox-monitor-website:recommendations.ftl:rec-ssn": [
+    "credit",
+    "credit"
+  ],
+  "firefox-monitor-website:recommendations.ftl:rec-ssn-cta": [
+    "credit"
+  ],
+  "firefox-monitor-website:recommendations.ftl:rec-ssn-subhead": [
+    "credit"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcsystemtrayhandlercppvpnsystraycaptiveportalalert": [
+    "portal"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcsystemtrayhandlercppvpnsystraycaptiveportalalerttitle": [
+    "portal"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioinfombps": [
+    "Mbps"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioninfogbps": [
+    "Gbps"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioninfokbps": [
+    "Kbps"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcuisettingsviewnetworksettingsqmlvpnsettingsipv6": [
+    "IPv6"
+  ]
+}
