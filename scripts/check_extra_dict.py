@@ -17,7 +17,7 @@ def main():
     )
 
     # Load the extra dictionary as a normal file
-    extra_dict = os.path.join(dictionary_path, 'additional_words.dic')
+    extra_dict = os.path.join(dictionary_path, 'mozilla_qa_specialized.dic')
     with open(extra_dict) as f:
         terms = []
         for i, line in enumerate(f):

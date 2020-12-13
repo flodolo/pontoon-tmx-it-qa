@@ -15,6 +15,7 @@ then
     echo $latest > dictionaries/latest.txt
     curl -s -o dictionaries/it_IT.aff https://raw.githubusercontent.com/flodolo/dizionario-it/v.next/extension/dictionaries/it_IT.aff
     curl -s -o dictionaries/it_IT.dic https://raw.githubusercontent.com/flodolo/dizionario-it/v.next/extension/dictionaries/it_IT.dic
+    curl -s -o dictionaries/mozilla_qa_specialized.dic https://raw.githubusercontent.com/flodolo/dizionario-it/v.next/mozilla_qa/mozilla_qa_specialized.dic
 fi
 
 function setupVirtualEnv() {

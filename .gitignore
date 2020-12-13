@@ -1,4 +1,4 @@
 data/it.all-projects.tmx
-dictionaries/it_IT.aff
-dictionaries/it_IT.dic
+dictionaries/*.aff
+dictionaries/*.dic
 python-venv
