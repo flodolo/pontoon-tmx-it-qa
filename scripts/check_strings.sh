@@ -39,5 +39,8 @@ setupVirtualEnv
 # Activate virtualenv
 source $root_path/python-venv/bin/activate || exit 1
 
+# Check extra dictionary
+python $script_path/check_extra_dict.py
+
 # Running main script
 python $script_path/check_strings.py $@

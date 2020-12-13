@@ -1,10 +1,11 @@
-257
-/ Additional dictionary used to spellcheck Italian translation of Firefox
+264
+/ Specialized dictionary used to check spelling of Italian translations of
+/ Mozilla products
+
 / Brand names
 1Password
 Adobe
 Amazon
-Android
 Apple
 Assembly
 Bitwarden
@@ -18,7 +19,6 @@ Edge
 Exchange
 Explorer
 Finder
-Firefox
 GeoTrust
 GitHub
 Gmail
@@ -32,8 +32,6 @@ LinkedIn
 Mac
 macOS
 MathML
-Microsoft
-Mozilla
 RapidSSL
 Symantec
 TestFlight
@@ -42,7 +40,6 @@ Unicode
 VeriSign
 WebVR
 WebXR
-Windows
 YouTube
 
 / Mozilla specific brand and feature names
@@ -68,7 +65,6 @@ Relay
 Screenshots
 Hubs
 Rust
-Thunderbird
 WebAssembly
 Webmaker
 
@@ -78,7 +74,6 @@ alert
 antitracciamento
 app
 autofirmato
-cookie
 cryptominer
 deregistrare/ALKhlI
 deregistrazione/S
@@ -91,7 +86,6 @@ georilevazione
 intersito
 kB
 malfunzionare/ALKhlI
-mantieni/b
 ms
 multicolonna
 multilinea
@@ -165,7 +159,6 @@ ephemeral
 esc
 extensions
 fallback
-false
 feature
 fetch
 FetchEvent.respondWith
@@ -211,7 +204,6 @@ oops
 overlay
 padding
 parsing
-pattern
 payload
 peer
 pinch

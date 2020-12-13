@@ -2,8 +2,6 @@
 
 from html.parser import HTMLParser
 from lxml import etree
-import argparse
-import configparser
 import hunspell
 import json
 import nltk
@@ -11,14 +9,6 @@ import os
 import re
 import string
 import sys
-
-# Import libraries
-try:
-    from compare_locales import parser
-except ImportError as e:
-    print('FATAL: make sure that dependencies are installed')
-    print(e)
-    sys.exit(1)
 
 
 class MLStripper(HTMLParser):
@@ -137,8 +127,8 @@ webthings-gateway
         file_name = os.path.join(self.exceptions_path, 'quotes.txt')
         with open(file_name, 'r') as f:
             exceptions = []
-            for l in f:
-                exceptions.append(l.rstrip())
+            for line in f:
+                exceptions.append(line.rstrip())
 
         straight_quotes = re.compile(r'\'|"')
 
