@@ -201,7 +201,6 @@ webthings-gateway
 
         punctuation = list(string.punctuation)
         stop_words = nltk.corpus.stopwords.words('italian')
-        stop_words += ['cos', 'quest', 'qualcos']
 
         placeables = {
             '.ftl':
@@ -268,16 +267,34 @@ webthings-gateway
             # Tokenize sentence
             tokens = nltk.word_tokenize(cleaned_message)
             errors = []
-            # Clean up tokens
-            tokens = [t for t in tokens if t not in punctuation]
-            tokens = [t for t in tokens if t.lower() not in stop_words]
-            for token in tokens:
+            for i, token in enumerate(tokens):
                 if message_id in exceptions and token in exceptions[message_id]:
                     continue
+
+                """
+                    Clean up tokens. Not doing it before the for cycle, because
+                    I need to be able to access the full sentence with indexes
+                    later on.
+                """
+                if token in punctuation:
+                    continue
+
+                if token.lower() in stop_words:
+                    continue
+
                 if not self.spellchecker.spell(token):
                     # It's misspelled, but I still need to remove a few outliers
                     if self.excludeToken(token):
                         continue
+
+                    """
+                    Check if the next token is an apostrophe. If it is,
+                    check spelling together  with the two next tokens.
+                    """
+                    if i + 3 <= len(tokens) and tokens[i+1] == '’':
+                        group = "".join(tokens[i:i+3])
+                        if self.spellchecker.spell(group):
+                            continue
 
                     errors.append(token)
                     if token not in misspelled_words:

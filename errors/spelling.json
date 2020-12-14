@@ -1,7 +1,4 @@
 {
-  "firefox-monitor-website:app.ftl:user-fb-not-compromised-blurb": [
-    "quell"
-  ],
   "mozillaorg:en/brands.ftl:-brand-name-common-voice": [
     "Common",
     "Voice"
@@ -276,9 +273,6 @@
   "mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-from-watching-a": [
     "multitasking"
   ],
-  "mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-go-from-light": [
-    "bell"
-  ],
   "mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-grab-a-high": [
     "screenshot"
   ],
@@ -436,7 +430,6 @@
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-a-mozilla-manager-or": [
     "community",
     "community",
-    "anch",
     "community"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-a-mozilla-manager-or-email": [
