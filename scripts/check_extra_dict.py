@@ -9,15 +9,14 @@ def main():
 
     # Set up spellcheckers
     # Load hunspell dictionaries
-    dictionary_path = os.path.join(
-        script_path, os.path.pardir, 'dictionaries')
+    dictionary_path = os.path.join(script_path, os.path.pardir, "dictionaries")
     spellchecker = hunspell.HunSpell(
-        os.path.join(dictionary_path, 'it_IT.dic'),
-        os.path.join(dictionary_path, 'it_IT.aff'),
+        os.path.join(dictionary_path, "it_IT.dic"),
+        os.path.join(dictionary_path, "it_IT.aff"),
     )
 
     # Load the extra dictionary as a normal file
-    extra_dict = os.path.join(dictionary_path, 'mozilla_qa_specialized.dic')
+    extra_dict = os.path.join(dictionary_path, "mozilla_qa_specialized.dic")
     with open(extra_dict) as f:
         terms = []
         for i, line in enumerate(f):
@@ -27,10 +26,10 @@ def main():
                 continue
 
             # Ignore comments and empty lines
-            if line == '' or line.startswith('/'):
+            if line == "" or line.startswith("/"):
                 continue
 
-            terms.append(line.split('/')[0])
+            terms.append(line.split("/")[0])
 
     print(f"Additional terms loaded: {len(terms)}")
     # Check spelling for each term. If it passes, it should be removed
@@ -44,5 +43,5 @@ def main():
         print("\n".join(to_remove))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
