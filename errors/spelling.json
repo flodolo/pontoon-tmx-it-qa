@@ -38,13 +38,6 @@
     "Big",
     "Tech"
   ],
-  "mozillaorg:en/firefox/all.ftl:firefox-all-arm64-installers": [
-    "AArch64"
-  ],
-  "mozillaorg:en/firefox/all.ftl:firefox-all-arm64-installers-optimized": [
-    "AArch64",
-    "Snapdragon"
-  ],
   "mozillaorg:en/firefox/all.ftl:firefox-all-the-pre-alpha-version": [
     "pre-alpha"
   ],
@@ -62,8 +55,7 @@
   ],
   "mozillaorg:en/firefox/browsers/best-browser.ftl:best-browser-today-is-a-different": [
     "fake",
-    "news",
-    "multitasking"
+    "news"
   ],
   "mozillaorg:en/firefox/browsers/chromebook.ftl:browsers-chromebook-alwayson-tracking-protection": [
     "cryptomining"
@@ -71,12 +63,6 @@
   "mozillaorg:en/firefox/browsers/chromebook.ftl:browsers-chromebook-install-firefox-as": [
     "UBlock",
     "Origin"
-  ],
-  "mozillaorg:en/firefox/browsers/chromebook.ftl:browsers-chromebook-install-firefox-from": [
-    "x86"
-  ],
-  "mozillaorg:en/firefox/browsers/chromebook.ftl:browsers-chromebook-x86-based-chromebook": [
-    "x86"
   ],
   "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-brave-also-recently-gained": [
     "Basic",
@@ -114,18 +100,11 @@
   "mozillaorg:en/firefox/browsers/compare/chrome.ftl:compare-chrome-although-not-as-extensive": [
     "source"
   ],
-  "mozillaorg:en/firefox/browsers/compare/chrome.ftl:compare-chrome-if-having-tons-of-open-tabs": [
-    "favicon",
-    "favicon"
-  ],
   "mozillaorg:en/firefox/browsers/compare/chrome.ftl:compare-chrome-in-fact-both-chrome-and-firefox": [
     "sandboxing"
   ],
   "mozillaorg:en/firefox/browsers/compare/edge.ftl:compare-edge-edge-is-integrated-into-the": [
     "SmartScreen"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/edge.ftl:compare-edge-firefox-features-a-scrolling": [
-    "favicon"
   ],
   "mozillaorg:en/firefox/browsers/compare/edge.ftl:compare-edge-firefox-is-a-fast-and-open": [
     "source",
@@ -255,9 +234,6 @@
   "mozillaorg:en/firefox/features/bookmarks.ftl:features-bookmarks-practice-your-precision": [
     "screenshot"
   ],
-  "mozillaorg:en/firefox/features/fast.ftl:features-fast-multi-tasking-with-multiple": [
-    "multitasking"
-  ],
   "mozillaorg:en/firefox/features/fast.ftl:features-fast-we-led-the-tech-to-run-3d-games": [
     "lag"
   ],
@@ -269,9 +245,6 @@
   ],
   "mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-built-in-screenshot": [
     "screenshot"
-  ],
-  "mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-from-watching-a": [
-    "multitasking"
   ],
   "mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-grab-a-high": [
     "screenshot"

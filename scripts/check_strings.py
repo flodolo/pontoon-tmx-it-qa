@@ -30,6 +30,7 @@ class CheckStrings():
 
     included_products = (
         'android-l10n',
+        'firefox-for-ios',
         'mozillaorg',
         'mozilla-vpn-client',
         'firefox-monitor-website',
@@ -47,23 +48,17 @@ donate-thunderbird-content
 engagement
 engagement-heartbeat-apr2018
 facebook-container
-firefox
 firefox-accounts
 firefox-accounts-payments
 firefox-for-fire-tv
-firefox-for-ios
 firefox-monitor-add-on
 fundraising
-lightning
-lockwise-add-on
-lockwise-ios
 mdn
 mozilla-advocacy
 mozilla-donate-website
 mozilla-learning-network
 seamonkey
 sumo
-thunderbird
 thunderbirdnet
 webthings-gateway
 '''

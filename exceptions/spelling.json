@@ -143,6 +143,50 @@
   "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tip_firefox_preview_moved_header": [
     "Preview"
   ],
+  "firefox-for-ios:firefox-ios.xliff:clientauthenticationmanagerstringsface-id-passcode": [
+    "Face"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:clientauthenticationmanagerstringsuse-face-id": [
+    "Face"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:clientbookmarkpanelstringsdesktop-bookmarks": [
+    "pc"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:clientintrostringsfirefox-and-the-cloud": [
+    "cloud"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:clientlocalizablestringsaa": [
+    "Aa"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:clientlocalizablestringsaddpasserrormessage": [
+    "Wallet"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:clientlocalizablestringsbookmark": [
+    "Agg"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:clientlocalizablestringsdebug-forget-sync-auth-state": [
+    "auth"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:clientlocalizablestringsfxaqr-scanning-viewinstructions": [
+    "firefox.com",
+    "pair"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:clientlocalizablestringsfxasigninqr-link-instruction": [
+    "firefox.com",
+    "pair"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:clientlocalizablestringslast-synced": [
+    "sinc"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:clientlocalizablestringssettingsdnttitle": [
+    "Track"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesmenustringsmenuopensyncedtabsactionaccessibilitylabelv2": [
+    "sinc"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filestodaystringstodaywidgetquickactiongallerydescription": [
+    "widget"
+  ],
   "firefox-monitor-website:app.ftl:-brand-hibp": [
     "Have",
     "Been",
