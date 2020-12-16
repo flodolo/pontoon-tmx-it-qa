@@ -43,7 +43,7 @@ def main():
 
     if terms_to_remove:
         print("Terms to remove:")
-        print("\n".join(to_remove))
+        print("\n".join(terms_to_remove))
 
 
 if __name__ == "__main__":
