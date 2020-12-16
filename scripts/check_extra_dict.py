@@ -7,8 +7,7 @@ import os
 def main():
     script_path = os.path.abspath(os.path.dirname(__file__))
 
-    # Set up spellcheckers
-    # Load hunspell dictionaries
+    # Load Hunspell dictionaries
     dictionary_path = os.path.join(script_path, os.path.pardir, "dictionaries")
     spellchecker = hunspell.HunSpell(
         os.path.join(dictionary_path, "it_IT.dic"),
@@ -20,9 +19,11 @@ def main():
     with open(extra_dict) as f:
         terms = []
         for i, line in enumerate(f):
+            # Strip new line character
             line = line.rstrip()
-            # Ignore number of items at the beginning
-            if i == 0:
+
+            # Ignore the number of items at the beginning
+            if i == 0 and line.isdigit():
                 continue
 
             # Ignore comments and empty lines
@@ -32,13 +33,15 @@ def main():
             terms.append(line.split("/")[0])
 
     print(f"Additional terms loaded: {len(terms)}")
-    # Check spelling for each term. If it passes, it should be removed
-    to_remove = []
+
+    # Check spelling for each term. If it passes, it should be removed,
+    # because it's already included in the main dictionary.
+    terms_to_remove = []
     for term in terms:
         if spellchecker.spell(term):
-            to_remove.append(term)
+            terms_to_remove.append(term)
 
-    if to_remove:
+    if terms_to_remove:
         print("Terms to remove:")
         print("\n".join(to_remove))
 

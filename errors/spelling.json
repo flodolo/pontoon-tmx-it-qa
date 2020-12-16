@@ -1,11 +1,4 @@
 {
-  "mozillaorg:en/brands.ftl:-brand-name-common-voice": [
-    "Common",
-    "Voice"
-  ],
-  "mozillaorg:en/brands.ftl:-brand-name-creative-commons": [
-    "Commons"
-  ],
   "mozillaorg:en/brands.ftl:-brand-name-facebook-messenger": [
     "Messenger"
   ],
@@ -18,10 +11,6 @@
   "mozillaorg:en/brands.ftl:-brand-name-messenger": [
     "Messenger"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-mozilla-common-voice": [
-    "Common",
-    "Voice"
-  ],
   "mozillaorg:en/brands.ftl:-brand-name-mozilla-corporation": [
     "Corporation"
   ],
@@ -30,9 +19,6 @@
   ],
   "mozillaorg:en/brands.ftl:-brand-name-workplace": [
     "Workplace"
-  ],
-  "mozillaorg:en/firefox/accounts.ftl:firefox-accounts-get-into-the-open": [
-    "source"
   ],
   "mozillaorg:en/firefox/accounts.ftl:firefox-accounts-help-us-keep-big-tech": [
     "Big",
@@ -75,12 +61,6 @@
   "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-braves-advertising-replacement": [
     "micro"
   ],
-  "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-customization-of-ui-elements": [
-    "source"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-just-like-the-firefox-browser": [
-    "source"
-  ],
   "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-on-the-other-side-of-the-coin": [
     "fingerprinting"
   ],
@@ -88,17 +68,9 @@
     "Basic",
     "Attention"
   ],
-  "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-the-brave-browser-like-so": [
-    "source",
-    "source",
-    "source"
-  ],
   "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-the-internet-as-a-whole-is": [
     "Basic",
     "Attention"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/chrome.ftl:compare-chrome-although-not-as-extensive": [
-    "source"
   ],
   "mozillaorg:en/firefox/browsers/compare/chrome.ftl:compare-chrome-in-fact-both-chrome-and-firefox": [
     "sandboxing"
@@ -106,23 +78,9 @@
   "mozillaorg:en/firefox/browsers/compare/edge.ftl:compare-edge-edge-is-integrated-into-the": [
     "SmartScreen"
   ],
-  "mozillaorg:en/firefox/browsers/compare/edge.ftl:compare-edge-firefox-is-a-fast-and-open": [
-    "source",
-    "source"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/edge.ftl:compare-edge-firefox-is-a-fast-and-open-fallback": [
-    "source",
-    "source"
-  ],
   "mozillaorg:en/firefox/browsers/compare/edge.ftl:compare-edge-in-firefox-private-browsing": [
     "InPrivate",
     "InPrivate"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/edge.ftl:compare-edge-with-windows-10-microsoft-introduced": [
-    "source"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/edge.ftl:compare-edge-with-windows-10-microsoft-introduced-updated": [
-    "source"
   ],
   "mozillaorg:en/firefox/browsers/compare/ie.ftl:compare-ie-as-microsoft-has-made-the-move": [
     "laptop"
@@ -165,9 +123,6 @@
   "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-firefox-and-safari-both-provide": [
     "laptop"
   ],
-  "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-like-safari-firefox-encourages": [
-    "source"
-  ],
   "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-our-private-browsing-mode": [
     "WebMD"
   ],
@@ -196,14 +151,8 @@
   "mozillaorg:en/firefox/enterprise.ftl:firefox-enterprise-sample-plist-for-configuration": [
     "plist"
   ],
-  "mozillaorg:en/firefox/enterprise.ftl:firefox-enterprise-the-firefox-browser-is-open": [
-    "source"
-  ],
   "mozillaorg:en/firefox/faq.ftl:firefox-does-not": [
     "virtual"
-  ],
-  "mozillaorg:en/firefox/faq.ftl:firefox-is-not": [
-    "source"
   ],
   "mozillaorg:en/firefox/faq.ftl:not-only-is": [
     "fingerprinting"
@@ -251,12 +200,6 @@
   ],
   "mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-screenshots": [
     "Screenshot"
-  ],
-  "mozillaorg:en/firefox/new/platform.ftl:new-platform-look-under-the-hood": [
-    "source"
-  ],
-  "mozillaorg:en/firefox/new/platform.ftl:new-platform-open-source": [
-    "source"
   ],
   "mozillaorg:en/firefox/nightly/firstrun.ftl:nightly-firstrun-contribute-link": [
     "L10n",
@@ -558,8 +501,7 @@
   ],
   "mozillaorg:en/navigation.ftl:navigation-help-make-deep-learning": [
     "deep",
-    "learning",
-    "source"
+    "learning"
   ],
   "mozillaorg:en/navigation.ftl:navigation-machine-learning": [
     "Machine",
@@ -575,7 +517,6 @@
     "Mixed"
   ],
   "mozillaorg:en/navigation.ftl:navigation-mozilla-open-source-support": [
-    "Source",
     "Support"
   ],
   "mozillaorg:en/navigation.ftl:navigation-web-of-things-iot": [

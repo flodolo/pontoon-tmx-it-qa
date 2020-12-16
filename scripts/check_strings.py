@@ -40,7 +40,6 @@ class CheckStrings:
 amo
 amo-frontend
 amo-linter
-appstores
 common-voice
 copyright-campaign
 donate-mozilla-content
@@ -53,14 +52,11 @@ firefox-accounts-payments
 firefox-for-fire-tv
 firefox-monitor-add-on
 fundraising
-mdn
 mozilla-advocacy
 mozilla-donate-website
 mozilla-learning-network
 seamonkey
-sumo
 thunderbirdnet
-webthings-gateway
 """
 
     def __init__(self, script_path, tmx_file):
@@ -279,11 +275,25 @@ webthings-gateway
                         continue
 
                     """
-                    Check if the next token is an apostrophe. If it is,
-                    check spelling together  with the two next tokens.
+                      Check if the next token is an apostrophe. If it is,
+                      check spelling together with the two next tokens.
+                      This allows to ignore things like "cos’altro".
                     """
                     if i + 3 <= len(tokens) and tokens[i + 1] == "’":
                         group = "".join(tokens[i : i + 3])
+                        if self.spellchecker.spell(group):
+                            continue
+
+                    """
+                      It might be a brand with two words, e.g. Common Voice.
+                      Need to look in both direction.
+                    """
+                    if i + 2 <= len(tokens):
+                        group = " ".join(tokens[i : i + 2])
+                        if self.spellchecker.spell(group):
+                            continue
+                    if i >= 1:
+                        group = " ".join(tokens[i - 1 : i + 1])
                         if self.spellchecker.spell(group):
                             continue
 
