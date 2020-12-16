@@ -30,9 +30,6 @@
   "mozillaorg:en/firefox/browsers/best-browser.ftl:best-browser-in-the-mid-nineties": [
     "dial-up"
   ],
-  "mozillaorg:en/firefox/browsers/best-browser.ftl:best-browser-last-but-not-least": [
-    "e-commerce"
-  ],
   "mozillaorg:en/firefox/browsers/best-browser.ftl:best-browser-marshall-erwin-senior": [
     "Marshall",
     "Erwin",
@@ -82,9 +79,6 @@
     "InPrivate",
     "InPrivate"
   ],
-  "mozillaorg:en/firefox/browsers/compare/ie.ftl:compare-ie-as-microsoft-has-made-the-move": [
-    "laptop"
-  ],
   "mozillaorg:en/firefox/browsers/compare/ie.ftl:compare-ie-so-whats-the-solution-if-your": [
     "Support"
   ],
@@ -120,20 +114,11 @@
   "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-both-browsers-have-a-lot": [
     "screenshot"
   ],
-  "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-firefox-and-safari-both-provide": [
-    "laptop"
-  ],
   "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-our-private-browsing-mode": [
     "WebMD"
   ],
   "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-privacy-has-become-a-white": [
     "interweb"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-safari-does-a-great-job-of": [
-    "multipiattaforma"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-the-firefox-app-for-ios-and": [
-    "laptop"
   ],
   "mozillaorg:en/firefox/browsers/compare/shared.ftl:compare-shared-blocks-cryptomining-scripts": [
     "cryptomining"
@@ -220,12 +205,6 @@
   "mozillaorg:en/firefox/welcome/page1.ftl:welcome-page1-were-you-one-of-many": [
     "Evite"
   ],
-  "mozillaorg:en/firefox/whatsnew/whatsnew-fx79.ftl:whatsnew79-keep-facebook-contained": [
-    "Contieni"
-  ],
-  "mozillaorg:en/firefox/whatsnew/whatsnew-s2d.ftl:whatsnew-s2d-send-firefox-to-your-phone": [
-    "smarphone"
-  ],
   "mozillaorg:en/footer.ftl:footer-privacy-hub": [
     "Hub"
   ],
@@ -308,9 +287,6 @@
   ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-this-set-of-guidelines": [
     "ShareAlike"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-unwelcome-sexual-attention-or": [
-    "emoji"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-violence-and-threats-of": [
     "offline",
