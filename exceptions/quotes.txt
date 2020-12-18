@@ -4,6 +4,11 @@ mozillaorg:en/firefox/accounts.ftl:firefox-accounts-firefox-browser
 mozillaorg:en/firefox/browsers.ftl:firefox-browsers-build-sites-and-refine-your
 mozillaorg:en/firefox/browsers.ftl:firefox-browsers-enterprise-packages
 mozillaorg:en/firefox/browsers.ftl:firefox-browsers-learn-more-about-devtools
+mozillaorg:en/firefox/developer.ftl:firefox-developer-firefox-devtools
+mozillaorg:en/firefox/developer.ftl:firefox-developer-firefox-devtools-has-a-brand-new
+mozillaorg:en/firefox/developer.ftl:firefox-developer-firefox-devtools-has-a-brand-new-v2
+mozillaorg:en/firefox/developer.ftl:firefox-developer-help-build-the-last
+mozillaorg:en/firefox/developer.ftl:firefox-developer-want-to-be-on-the-cutting-edge
 mozillaorg:en/firefox/enterprise.ftl:firefox-enterprise-enterprise-downloads
 mozillaorg:en/firefox/enterprise.ftl:firefox-enterprise-firefox-browser
 mozillaorg:en/firefox/enterprise.ftl:firefox-enterprise-firefox-browser-msi-installer

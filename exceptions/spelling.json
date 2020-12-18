@@ -258,5 +258,88 @@
   ],
   "mozilla-vpn-client:mozillavpn.xliff:srcuisettingsviewnetworksettingsqmlvpnsettingsipv6": [
     "IPv6"
+  ],
+  "mozillaorg:en/brands.ftl:-brand-name-facebook-messenger": [
+    "Messenger"
+  ],
+  "mozillaorg:en/brands.ftl:-brand-name-fire-tv": [
+    "Fire"
+  ],
+  "mozillaorg:en/brands.ftl:-brand-name-firefox-accounts": [
+    "Accounts"
+  ],
+  "mozillaorg:en/brands.ftl:-brand-name-messenger": [
+    "Messenger"
+  ],
+  "mozillaorg:en/brands.ftl:-brand-name-mozilla-corporation": [
+    "Corporation"
+  ],
+  "mozillaorg:en/brands.ftl:-brand-name-mozilla-labs": [
+    "Labs"
+  ],
+  "mozillaorg:en/brands.ftl:-brand-name-workplace": [
+    "Workplace"
+  ],
+  "mozillaorg:en/firefox/accounts.ftl:firefox-accounts-help-us-keep-big-tech": [
+    "Big",
+    "Tech"
+  ],
+  "mozillaorg:en/firefox/all.ftl:firefox-all-the-pre-alpha-version": [
+    "pre-alpha"
+  ],
+  "mozillaorg:en/firefox/browsers/best-browser.ftl:best-browser-in-the-mid-nineties": [
+    "dial-up"
+  ],
+  "mozillaorg:en/firefox/browsers/best-browser.ftl:best-browser-marshall-erwin-senior": [
+    "Marshall",
+    "Erwin",
+    "of",
+    "and"
+  ],
+  "mozillaorg:en/firefox/browsers/best-browser.ftl:best-browser-today-is-a-different": [
+    "fake",
+    "news"
+  ],
+  "mozillaorg:en/firefox/browsers/chromebook.ftl:browsers-chromebook-alwayson-tracking-protection": [
+    "cryptomining"
+  ],
+  "mozillaorg:en/firefox/browsers/chromebook.ftl:browsers-chromebook-install-firefox-as": [
+    "UBlock",
+    "Origin"
+  ],
+  "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-brave-also-recently-gained": [
+    "Basic",
+    "Attention"
+  ],
+  "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-brave-also-supports-the-huge": [
+    "store",
+    "torrent"
+  ],
+  "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-braves-advertising-replacement": [
+    "micro"
+  ],
+  "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-on-the-other-side-of-the-coin": [
+    "fingerprinting"
+  ],
+  "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-the-bottom-line-is-that-even": [
+    "Basic",
+    "Attention"
+  ],
+  "mozillaorg:en/firefox/browsers/compare/brave.ftl:compare-brave-the-internet-as-a-whole-is": [
+    "Basic",
+    "Attention"
+  ],
+  "mozillaorg:en/firefox/browsers/compare/chrome.ftl:compare-chrome-in-fact-both-chrome-and-firefox": [
+    "sandboxing"
+  ],
+  "mozillaorg:en/firefox/browsers/compare/edge.ftl:compare-edge-edge-is-integrated-into-the": [
+    "SmartScreen"
+  ],
+  "mozillaorg:en/firefox/browsers/compare/edge.ftl:compare-edge-in-firefox-private-browsing": [
+    "InPrivate",
+    "InPrivate"
+  ],
+  "mozillaorg:en/firefox/browsers/compare/ie.ftl:compare-ie-so-whats-the-solution-if-your": [
+    "Support"
   ]
 }
