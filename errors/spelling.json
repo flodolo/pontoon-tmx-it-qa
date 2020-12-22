@@ -1,133 +1,6 @@
 {
-  "mozillaorg:en/firefox/browsers/compare/index.ftl:compare-index-using-a-browser-that-blocks": [
-    "fingerprinting"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/opera.ftl:compare-opera-opera-provides-a-lot-of-hidden": [
-    "Messenger"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/opera.ftl:compare-opera-we-also-offer-an-additional": [
-    "Preview"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-also-when-you-sign-up-for-fallback": [
-    "screenshot"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-also-when-you-sign-up-for-updated": [
-    "offline"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-as-alluded-to-before-apple-fallback": [
-    "anti-monitoraggio"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-both-browsers-have-a-lot": [
-    "screenshot"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-our-private-browsing-mode": [
-    "WebMD"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/safari.ftl:compare-safari-privacy-has-become-a-white": [
-    "interweb"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/shared.ftl:compare-shared-blocks-cryptomining-scripts": [
-    "cryptomining"
-  ],
-  "mozillaorg:en/firefox/browsers/compare/shared.ftl:compare-shared-web-extensionsadd-ons": [
-    "WebExtensions"
-  ],
-  "mozillaorg:en/firefox/browsers/history/browser-history.ftl:browser-history-arpanet-was-the": [
-    "Research",
-    "Institute"
-  ],
-  "mozillaorg:en/firefox/browsers/windows-64-bit.ftl:windows-64-bit-heres-the-key-thing": [
-    "Address",
-    "Randomization"
-  ],
-  "mozillaorg:en/firefox/channel.ftl:firefox-channel-test-beta-versions-of-firefox-ios-long": [
-    "iPod"
-  ],
-  "mozillaorg:en/firefox/developer.ftl:firefox-developer-feedback-makes-us": [
-    "Suggeriscici"
-  ],
-  "mozillaorg:en/firefox/developer.ftl:firefox-developer-firefox-devtools-has-a-brand-new-v2": [
-    "shape-outside",
-    "clip-path"
-  ],
-  "mozillaorg:en/firefox/developer.ftl:firefox-developer-the-new-firefox-devtools": [
-    "React",
-    "Redux"
-  ],
-  "mozillaorg:en/firefox/enterprise.ftl:firefox-enterprise-sample-plist-for-configuration": [
-    "plist"
-  ],
-  "mozillaorg:en/firefox/faq.ftl:firefox-does-not": [
-    "virtual"
-  ],
-  "mozillaorg:en/firefox/faq.ftl:not-only-is": [
-    "fingerprinting"
-  ],
-  "mozillaorg:en/firefox/features/adblocker.ftl:features-adblocker-if-you-dont-want-your": [
-    "Not",
-    "Track",
-    "Not",
-    "Track"
-  ],
-  "mozillaorg:en/firefox/features/adblocker.ftl:features-adblocker-one-of-the-most-popular": [
-    "AdBlock"
-  ],
-  "mozillaorg:en/firefox/features/adblocker.ftl:features-adblocker-popup-ads-are-the-worst": [
-    "Popup",
-    "Blocker"
-  ],
-  "mozillaorg:en/firefox/features/adblocker.ftl:features-adblocker-send-a-do-not-track-signal": [
-    "Not",
-    "Track"
-  ],
-  "mozillaorg:en/firefox/features/adblocker.ftl:features-adblocker-theres-adblocker-ultimate": [
-    "AdBlocker"
-  ],
-  "mozillaorg:en/firefox/features/bookmarks.ftl:features-bookmarks-practice-your-exactitude": [
-    "screenshot"
-  ],
-  "mozillaorg:en/firefox/features/bookmarks.ftl:features-bookmarks-practice-your-precision": [
-    "screenshot"
-  ],
-  "mozillaorg:en/firefox/features/fast.ftl:features-fast-we-led-the-tech-to-run-3d-games": [
-    "lag"
-  ],
-  "mozillaorg:en/firefox/features/memory.ftl:features-memory-every-computer-program-you": [
-    "mooolto"
-  ],
-  "mozillaorg:en/firefox/home.ftl:firefox-home-trade-clickbait-for": [
-    "acchiappaclic"
-  ],
-  "mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-built-in-screenshot": [
-    "screenshot"
-  ],
-  "mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-grab-a-high": [
-    "screenshot"
-  ],
-  "mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-screenshots": [
-    "Screenshot"
-  ],
-  "mozillaorg:en/firefox/nightly/firstrun.ftl:nightly-firstrun-contribute-link": [
-    "L10n",
-    "Contribute"
-  ],
-  "mozillaorg:en/firefox/nightly/whatsnew.ftl:nightly-whatsnew-do-you-experience": [
-    "-community"
-  ],
   "mozillaorg:en/firefox/nightly/whatsnew.ftl:nightly-whatsnew-if-you-want-to": [
     "community"
-  ],
-  "mozillaorg:en/firefox/products/lockwise.ftl:lockwise-firefox-lockwise-lets-you": [
-    "Face"
-  ],
-  "mozillaorg:en/firefox/products/lockwise.ftl:lockwise-get-to-your-passwords-securely": [
-    "Face"
-  ],
-  "mozillaorg:en/firefox/welcome/page1.ftl:welcome-page1-were-you-one-of-many": [
-    "Evite"
-  ],
-  "mozillaorg:en/footer.ftl:footer-privacy-hub": [
-    "Hub"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-community-participation": [
     "community"
@@ -136,78 +9,25 @@
     "community"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-the-heart-of-mozilla": [
-    "contributor",
     "community"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-to-report-violations": [
     "community",
     "community"
   ],
-  "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-to-report-violations-email": [
-    "cpg-report"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-1-the-anti-harassment": [
-    "anti-molestie"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-all-mozilla-events": [
-    "anti-abuso"
-  ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-be-inclusive-of-everyone": [
     "inclusivit\u00e0"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-by-matching-your-actions": [
-    "community",
-    "mission"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-everyone-is-encouraged": [
-    "cpg-questions"
+    "community"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-if-you-believe-youre": [
     "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-if-you-believe-youre-email": [
-    "cpg-report"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-mozilla-staff-are": [
-    "anti-molestie",
-    "anti-discriminazioni"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-questions-cpg-questionsmozillacom": [
-    "cpg-questions"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-reports-will-receive": [
-    "cpg-questions"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-these-guidelines-have": [
-    "community",
-    "View",
-    "Source",
-    "Conference",
-    "Language",
-    "Citizen",
-    "of",
-    "Conduct",
-    "Stumptown",
-    "Syndicate",
-    "Technology",
-    "of",
-    "Conduct",
-    "WisCon",
-    "Mozilliani"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-these-guidelines-outline": [
     "community",
     "offline",
     "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-these-guidelines-work": [
-    "anti-molestie",
-    "anti-discriminazioni",
-    "anti-molestie",
-    "anti-discriminazioni"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-this-set-of-guidelines": [
-    "ShareAlike"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-violence-and-threats-of": [
     "offline",
@@ -228,12 +48,6 @@
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-community-participation": [
     "community"
   ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-contributor": [
-    "Contributor"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-do-let-them-know-that-email": [
-    "hotline"
-  ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-from-the-community-participation": [
     "community"
   ],
@@ -245,9 +59,6 @@
     "community",
     "community"
   ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-a-mozilla-manager-or-email": [
-    "hotline"
-  ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-the-reporter-wants": [
     "community"
   ],
@@ -256,9 +67,6 @@
     "contributor",
     "contributor",
     "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-you-have-a-report-by-email": [
-    "cpg-"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-mozilla-does-not-tolerate": [
     "community"
@@ -280,152 +88,13 @@
     "community",
     "community"
   ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-this-document-includes": [
-    "PyCon",
-    "of",
-    "Conduct",
-    "Revision",
-    "2f4d980",
-    "Unported"
-  ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-this-document-is-intended": [
     "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-this-document-is-licensed": [
-    "Unported"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-this-document-provides": [
     "community"
   ],
   "mozillaorg:en/mozorg/contribute.ftl:contribute-newsletter-desc": [
     "Mozilliani"
-  ],
-  "mozillaorg:en/mozorg/contribute.ftl:contribute-task-join-desc": [
-    "Community",
-    "Portal"
-  ],
-  "mozillaorg:en/mozorg/mission.ftl:mission-governance": [
-    "Governance"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-a-monthly-newsletter-affiliates": [
-    "Affiliates"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-about-labs": [
-    "Labs"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-about-standards": [
-    "Standards"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-addon-development": [
-    "Addon",
-    "Development"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-beta-news": [
-    "News"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-drumbeat-newsgroup": [
-    "Newsgroup",
-    "Drumbeat"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-email-updates-from-vouched": [
-    "mozilliani",
-    "mozillians.org"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-firefox-accounts-tips": [
-    "Tips"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-firefox-affiliates": [
-    "Affiliates"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-firefox-flicks": [
-    "Flicks"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-firefox-for-android": [
-    "for"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-firefox-for-desktop": [
-    "for"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-firefox-os-and-you": [
-    "You"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-firefox-student-ambassadors": [
-    "Student",
-    "Ambassadors"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-firefox-weekly-tips": [
-    "Weekly",
-    "Tips"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-former-university-program": [
-    "University",
-    "program",
-    "Student",
-    "Ambassadors",
-    "program"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-internet-health-report": [
-    "Health"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-join-mozillians-all-around": [
-    "Mozilliani"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-maker-party": [
-    "Maker"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-mozilla-learning-network": [
-    "Learning"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-mozillians": [
-    "Mozillians"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-please-be-sure-to-add-mozillaemozillaorg": [
-    "mozilla"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-please-be-sure-to-add-our": [
-    "mozilla"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-shapre-of-the-web": [
-    "Shape",
-    "of",
-    "the"
-  ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-student-reps": [
-    "Student"
-  ],
-  "mozillaorg:en/navigation.ftl:navigation-firefox-playground": [
-    "Playground"
-  ],
-  "mozillaorg:en/navigation.ftl:navigation-help-make-deep-learning": [
-    "deep",
-    "learning"
-  ],
-  "mozillaorg:en/navigation.ftl:navigation-machine-learning": [
-    "Machine",
-    "Learning"
-  ],
-  "mozillaorg:en/navigation.ftl:navigation-make-devices-connected": [
-    "interoperabili"
-  ],
-  "mozillaorg:en/navigation.ftl:navigation-meet-people-in-experimental": [
-    "chatroom"
-  ],
-  "mozillaorg:en/navigation.ftl:navigation-mozilla-mixed-reality": [
-    "Mixed"
-  ],
-  "mozillaorg:en/navigation.ftl:navigation-mozilla-open-source-support": [
-    "Support"
-  ],
-  "mozillaorg:en/navigation.ftl:navigation-web-of-things-iot": [
-    "IoT"
-  ],
-  "mozillaorg:en/navigation_v2.ftl:navigation-v2-learn-more-about-the-new": [
-    "assembly"
-  ],
-  "mozillaorg:en/newsletter/opt-out-confirmation.ftl:opt-out-confirmation-yournameexamplecom": [
-    "yourname"
-  ],
-  "mozillaorg:en/newsletter_form.ftl:newsletter-form-yournameexamplecom": [
-    "iltuonome"
   ]
 }
