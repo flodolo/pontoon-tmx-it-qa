@@ -323,8 +323,8 @@ thunderbirdnet
                 message_id in all_errors
                 and all_errors[message_id] != exceptions[message_id]
             ):
-                # Assume the tokens in exceptions need to be updated
-                exceptions[message_id] = all_errors[message_id]
+                # Remove tokens that are not errors anymore
+                exceptions[message_id] = [e for e in exceptions[message_id] if not self.spellchecker.spell(e)]
 
         # Write back updated exceptions file
         with open(exceptions_filename, "w") as f:
