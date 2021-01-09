@@ -256,9 +256,6 @@
   "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioninfogbps": [
     "Gbps"
   ],
-  "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioninfokbps": [
-    "Kbps"
-  ],
   "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioninfotbps": [
     "tB"
   ],
@@ -556,7 +553,7 @@
     "anti-abuso"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-by-matching-your-actions": [
-    "mission"
+    "community"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-everyone-is-encouraged": [
     "cpg-questions"
