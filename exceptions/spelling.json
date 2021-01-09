@@ -271,6 +271,12 @@
   "mozillaorg:en/brands.ftl:-brand-name-firefox-accounts": [
     "Accounts"
   ],
+  "mozillaorg:en/brands.ftl:-brand-name-lightbeam": [
+    "Lightbeam"
+  ],
+  "mozillaorg:en/brands.ftl:-brand-name-maker-party": [
+    "Maker"
+  ],
   "mozillaorg:en/brands.ftl:-brand-name-messenger": [
     "Messenger"
   ],
@@ -543,6 +549,10 @@
   "mozillaorg:en/footer.ftl:footer-privacy-hub": [
     "Hub"
   ],
+  "mozillaorg:en/mozorg/about.ftl:about-in-mozillas-irl-podcast-host": [
+    "Manoush",
+    "Zomorodi"
+  ],
   "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-to-report-violations-email": [
     "cpg-report"
   ],
@@ -619,6 +629,18 @@
   ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-this-document-is-licensed": [
     "Unported"
+  ],
+  "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-details-build-and-deliver": [
+    "consumer"
+  ],
+  "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-details-some-foundation": [
+    "consumer"
+  ],
+  "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-i-support-the-vision-of": [
+    "mozilla"
+  ],
+  "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-use-open-badges-to-share": [
+    "Badges"
   ],
   "mozillaorg:en/mozorg/contribute.ftl:contribute-task-join-desc": [
     "Community",
