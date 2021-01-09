@@ -143,6 +143,17 @@
   "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tip_firefox_preview_moved_header": [
     "Preview"
   ],
+  "facebook-container:messages.json:onboarding1-p1": [
+    "facebook.com"
+  ],
+  "facebook-container:messages.json:onboarding2-p1": [
+    "facebook.com"
+  ],
+  "facebook-container:messages.json:onfacebooktext": [
+    "Facebook.com",
+    "Instagram.com",
+    "Messenger.com"
+  ],
   "firefox-for-ios:firefox-ios.xliff:clientauthenticationmanagerstringsface-id-passcode": [
     "Face"
   ],

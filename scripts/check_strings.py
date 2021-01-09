@@ -30,6 +30,7 @@ class CheckStrings:
 
     included_products = (
         "android-l10n",
+        "facebook-container",
         "firefox-for-ios",
         "mozillaorg",
         "mozilla-vpn-client",
@@ -46,11 +47,8 @@ donate-mozilla-content
 donate-thunderbird-content
 engagement
 engagement-heartbeat-apr2018
-facebook-container
 firefox-accounts
-firefox-accounts-payments
 firefox-for-fire-tv
-firefox-monitor-add-on
 fundraising
 mozilla-advocacy
 mozilla-donate-website
