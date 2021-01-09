@@ -157,6 +157,9 @@
   "firefox-accounts:LC_MESSAGES/client.po:by-proceeding-you-agree-to-the-a-idfxa-tos-hreflegaltermsterms-of-servicea-and-a-idfxa-pp-hreflegalprivacyprivacy-noticea-of-firefox-cloud-services": [
     "cloud"
   ],
+  "firefox-accounts:LC_MESSAGES/client.po:by-proceeding-you-agree-to-the-a-idfxa-tos-hreflegaltermsterms-of-servicea-and-a-idfxa-pp-hreflegalprivacyprivacy-noticea-of-firefox-cloud-services_92bb0eb50109bd7c28bb77998b591883": [
+    "cloud"
+  ],
   "firefox-accounts:LC_MESSAGES/client.po:email-resent-add-accountsfirefoxcom-to-your-contacts-to-ensure-a-smooth-delivery": [
     "accounts",
     "firefox.com"
@@ -165,6 +168,9 @@
     "firefox.com"
   ],
   "firefox-accounts:LC_MESSAGES/client.po:firefox-cloud-services": [
+    "cloud"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:firefox-cloud-services_5646264da2cba2aa926f71f35ef5f5a8": [
     "cloud"
   ],
   "firefox-accounts:LC_MESSAGES/client.po:force_auth-requires-an-email": [
@@ -194,16 +200,25 @@
   "firefox-accounts:LC_MESSAGES/server.po:__heartbeat__": [
     "__heartbeat__"
   ],
+  "firefox-accounts:LC_MESSAGES/server.po:__heartbeat___40e9784d17b3f97860343e6797867e68": [
+    "__heartbeat__"
+  ],
   "firefox-accounts:LC_MESSAGES/server.po:confirm-your-email-so-that-you-can-start-using-firefox-sync-pocket-lockbox-firefox-send-monitor-and-more": [
     "Lockbox"
   ],
   "firefox-accounts:LC_MESSAGES/server.po:contentserverurl": [
     "contentServer.url"
   ],
+  "firefox-accounts:LC_MESSAGES/server.po:contentserverurl_c2aae1b1e4c63681b519160aedefe56f": [
+    "contentServer.url"
+  ],
   "firefox-accounts:LC_MESSAGES/server.po:env": [
     "env"
   ],
-  "firefox-accounts:LC_MESSAGES/server.po:firefox-accounts-makes-use-of-features-that-are-not-supported-in-your-version-of-firefox-please-download-and-install-the-latest-version-of-firefox-to-continue": [
+  "firefox-accounts:LC_MESSAGES/server.po:env_ff035a1dd7655da15295fa5fa89362a7": [
+    "env"
+  ],
+  "firefox-accounts:LC_MESSAGES/server.po:firefox-accounts-makes-use-of-features-that-are-not-supported-in-your-version-of-firefox-please-download-and-install-the-latest-version-of-firefox-to-continue_510d03396a1114aeb99cbab86e859b3f": [
     "Accounts"
   ],
   "firefox-accounts:LC_MESSAGES/server.po:firefox-cloud-services": [
@@ -211,6 +226,9 @@
   ],
   "firefox-accounts:LC_MESSAGES/server.po:firefox-cloud-terms-of-service": [
     "Cloud"
+  ],
+  "firefox-accounts:LC_MESSAGES/server.po:the-firefox-accounts-team": [
+    "Accounts"
   ],
   "firefox-accounts:main.ftl:document": [
     "Accounts"
@@ -300,6 +318,9 @@
   "firefox-monitor-website:email-strings.ftl:share-by-email-message": [
     "monitor.firefox.com"
   ],
+  "firefox-monitor-website:email-strings.ftl:share-by-email-message_a1a0b7aaf6933d1686f33a93a386b23f": [
+    "monitor.firefox.com"
+  ],
   "firefox-monitor-website:recommendations.ftl:rec-moz-vpn": [
     "Protocol"
   ],
@@ -326,10 +347,16 @@
     "gB"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioinfombps": [
+    "Mbps"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioinfombps_92fed2b350d243eb67dcaf11001417d8": [
     "mB"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioninfogbps": [
     "Gbps"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioninfokbps": [
+    "Kbps"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioninfotbps": [
     "tB"
@@ -628,6 +655,9 @@
     "Manoush",
     "Zomorodi"
   ],
+  "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-community-participation-report_9a491829c50c1a182f87a200ecac87ee": [
+    "community"
+  ],
   "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-to-report-violations-email": [
     "cpg-report"
   ],
@@ -638,7 +668,7 @@
     "anti-abuso"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-by-matching-your-actions": [
-    "community"
+    "mission"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-everyone-is-encouraged": [
     "cpg-questions"

@@ -2,6 +2,7 @@
 
 from html.parser import HTMLParser
 from lxml import etree
+import hashlib
 import hunspell
 import json
 import nltk
@@ -98,6 +99,11 @@ thunderbirdnet
             if product not in self.included_products:
                 continue
             if tuv.get("{http://www.w3.org/XML/1998/namespace}lang") == "it":
+                if string_id in self.translations:
+                    # There can be multiple strings with the same tuid.
+                    # Adding am hash of the translation, since it should be
+                    # unique.
+                    string_id += "_" + hashlib.md5(tuv[0].text.encode('utf-8')).hexdigest()
                 self.translations[string_id] = tuv[0].text
 
     def strip_tags(self, text):

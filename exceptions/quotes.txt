@@ -1,5 +1,6 @@
 firefox-monitor-website:app.ftl:fxa-account
 firefox-monitor-website:email-strings.ftl:share-by-email-message
+firefox-monitor-website:email-strings.ftl:share-by-email-message_a1a0b7aaf6933d1686f33a93a386b23f
 mozillaorg:en/firefox/accounts.ftl:firefox-accounts-firefox-browser
 mozillaorg:en/firefox/browsers.ftl:firefox-browsers-build-sites-and-refine-your
 mozillaorg:en/firefox/browsers.ftl:firefox-browsers-enterprise-packages
