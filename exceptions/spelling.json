@@ -154,6 +154,70 @@
     "Instagram.com",
     "Messenger.com"
   ],
+  "firefox-accounts:LC_MESSAGES/client.po:by-proceeding-you-agree-to-the-a-idfxa-tos-hreflegaltermsterms-of-servicea-and-a-idfxa-pp-hreflegalprivacyprivacy-noticea-of-firefox-cloud-services": [
+    "cloud"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:email-resent-add-accountsfirefoxcom-to-your-contacts-to-ensure-a-smooth-delivery": [
+    "accounts",
+    "firefox.com"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:enter-a-valid-email-address-firefoxcom-does-not-offer-email": [
+    "firefox.com"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:firefox-cloud-services": [
+    "cloud"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:force_auth-requires-an-email": [
+    "force_auth"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:if-you-are-not-receiving-the-sms-message-you-can-also-search-your-app-store-for-firefox": [
+    "store"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:incorrect-redirect_uri": [
+    "redirect_uri"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:invalid-data-flow-begin-attribute": [
+    "data-flow-begin"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:invalid-id_token_hint": [
+    "id_token_hint"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:invalid-nonce-in-request-signature": [
+    "nonce"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:missing-content-length-header": [
+    "content-length"
+  ],
+  "firefox-accounts:LC_MESSAGES/client.po:open-restmail": [
+    "Restmail"
+  ],
+  "firefox-accounts:LC_MESSAGES/server.po:__heartbeat__": [
+    "__heartbeat__"
+  ],
+  "firefox-accounts:LC_MESSAGES/server.po:confirm-your-email-so-that-you-can-start-using-firefox-sync-pocket-lockbox-firefox-send-monitor-and-more": [
+    "Lockbox"
+  ],
+  "firefox-accounts:LC_MESSAGES/server.po:contentserverurl": [
+    "contentServer.url"
+  ],
+  "firefox-accounts:LC_MESSAGES/server.po:env": [
+    "env"
+  ],
+  "firefox-accounts:LC_MESSAGES/server.po:firefox-accounts-makes-use-of-features-that-are-not-supported-in-your-version-of-firefox-please-download-and-install-the-latest-version-of-firefox-to-continue": [
+    "Accounts"
+  ],
+  "firefox-accounts:LC_MESSAGES/server.po:firefox-cloud-services": [
+    "cloud"
+  ],
+  "firefox-accounts:LC_MESSAGES/server.po:firefox-cloud-terms-of-service": [
+    "Cloud"
+  ],
+  "firefox-accounts:main.ftl:document": [
+    "Accounts"
+  ],
+  "firefox-accounts:main.ftl:project-brand": [
+    "Accounts"
+  ],
   "firefox-for-ios:firefox-ios.xliff:clientauthenticationmanagerstringsface-id-passcode": [
     "Face"
   ],

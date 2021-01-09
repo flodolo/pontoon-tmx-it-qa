@@ -31,10 +31,11 @@ class CheckStrings:
     included_products = (
         "android-l10n",
         "facebook-container",
+        "firefox-accounts",
         "firefox-for-ios",
-        "mozillaorg",
-        "mozilla-vpn-client",
         "firefox-monitor-website",
+        "mozilla-vpn-client",
+        "mozillaorg",
     )
 
     """
@@ -47,7 +48,6 @@ donate-mozilla-content
 donate-thunderbird-content
 engagement
 engagement-heartbeat-apr2018
-firefox-accounts
 firefox-for-fire-tv
 fundraising
 mozilla-advocacy
@@ -189,6 +189,9 @@ thunderbirdnet
             ],
             ".ini": [
                 re.compile(r"%[A-Z_-]+%"),
+            ],
+            ".po": [
+                re.compile(r"\([a-zA-Z_-]+\)s"),
             ],
         }
 
