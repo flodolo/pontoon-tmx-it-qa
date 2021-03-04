@@ -1,3 +1,4 @@
+firefox-accounts:settings.ftl:drop-down-menu-title
 firefox-monitor-website:app.ftl:fxa-account
 firefox-monitor-website:email-strings.ftl:share-by-email-message
 firefox-monitor-website:email-strings.ftl:share-by-email-message_a1a0b7aaf6933d1686f33a93a386b23f

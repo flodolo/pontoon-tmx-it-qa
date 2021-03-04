@@ -1,98 +1,20 @@
 {
-  "mozillaorg:en/firefox/nightly/whatsnew.ftl:nightly-whatsnew-if-you-want-to": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-community-participation": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-community-participation-report": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-the-heart-of-mozilla": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-to-report-violations": [
-    "community",
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-by-matching-your-actions": [
-    "community",
-    "mission"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-if-you-believe-youre": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-these-guidelines-outline": [
-    "community",
-    "offline",
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-violence-and-threats-of": [
-    "offline",
-    "doxxing"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-while-these-guidelines": [
-    "community",
-    "community",
-    "community",
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-working-with-other": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-community-hotline": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-community-participation": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-from-the-community-participation": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-how-to-report-violations": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-a-mozilla-manager-or": [
-    "community",
-    "community",
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-the-reporter-wants": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-you-have-a-report-by": [
-    "contributor",
-    "contributor",
-    "contributor",
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-mozilla-does-not-tolerate": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-mozilla-managers-and-community": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-names-of-the-people-involved": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-please-report-all-incidents": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-reports-are-handled-discretely": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-the-heart-of-mozilla-is": [
-    "contributor",
-    "community",
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-this-document-is-intended": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-this-document-provides": [
-    "community"
-  ],
   "mozillaorg:en/mozorg/contribute.ftl:contribute-newsletter-desc": [
     "Mozilliani"
+  ],
+  "mozillaorg:en/products/vpn/platforms/android.ftl:vpn-android-ability": [
+    "wireless"
+  ],
+  "mozillaorg:en/products/vpn/platforms/desktop.ftl:vpn-desktop-wifi-headline": [
+    "wireless"
+  ],
+  "mozillaorg:en/products/vpn/platforms/ios.ftl:vpn-ios-speed-copy": [
+    "ultraveloci"
+  ],
+  "mozillaorg:en/products/vpn/platforms/mobile.ftl:vpn-mobile-wifi-headline": [
+    "wireless"
+  ],
+  "mozillaorg:en/products/vpn/platforms/windows.ftl:vpn-windows-ability": [
+    "wireless"
   ]
 }

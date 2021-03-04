@@ -227,11 +227,20 @@
   "firefox-accounts:LC_MESSAGES/server.po:firefox-cloud-terms-of-service": [
     "Cloud"
   ],
+  "firefox-accounts:LC_MESSAGES/server.po:paypal": [
+    "PayPal"
+  ],
   "firefox-accounts:LC_MESSAGES/server.po:the-firefox-accounts-team": [
     "Accounts"
   ],
+  "firefox-accounts:main.ftl:-brand-name-paypal": [
+    "PayPal"
+  ],
   "firefox-accounts:main.ftl:document": [
     "Accounts"
+  ],
+  "firefox-accounts:main.ftl:no-subscription-upgrades": [
+    "upgrade"
   ],
   "firefox-accounts:main.ftl:payment-legal-copy-stripe-paypal": [
     "PayPal"
@@ -244,6 +253,9 @@
   ],
   "firefox-accounts:settings.ftl:-product-firefox-accounts": [
     "Accounts"
+  ],
+  "firefox-accounts:settings.ftl:bento-menu-title": [
+    "bento"
   ],
   "firefox-accounts:settings.ftl:cs-disconnect-suspicious-advice-content": [
     "logins"
@@ -411,6 +423,12 @@
   ],
   "mozillaorg:en/brands.ftl:-brand-name-mozilla-labs": [
     "Labs"
+  ],
+  "mozillaorg:en/brands.ftl:-brand-name-mullvad": [
+    "Mullvad"
+  ],
+  "mozillaorg:en/brands.ftl:-brand-name-wireguard": [
+    "WireGuard"
   ],
   "mozillaorg:en/brands.ftl:-brand-name-workplace": [
     "Workplace"
@@ -616,6 +634,9 @@
   "mozillaorg:en/firefox/features/memory.ftl:features-memory-every-computer-program-you": [
     "mooolto"
   ],
+  "mozillaorg:en/firefox/features/picture-in-picture.ftl:features-pip-repeat-steps-1-3-to-have": [
+    "picture-in-picture"
+  ],
   "mozillaorg:en/firefox/features/translate.ftl:features-translate-google-translate-with": [
     "translate.google.com",
     "To",
@@ -640,12 +661,25 @@
   "mozillaorg:en/firefox/home.ftl:firefox-home-trade-clickbait-for": [
     "acchiappaclic"
   ],
+  "mozillaorg:en/firefox/more/misinformation.ftl:misinformation-disinformation": [
+    "misinformation",
+    "disinformation"
+  ],
+  "mozillaorg:en/firefox/more/misinformation.ftl:misinformation-page-desc": [
+    "misinformation"
+  ],
+  "mozillaorg:en/firefox/more/misinformation.ftl:misinformation-social-media-clean-heading": [
+    "feed"
+  ],
   "mozillaorg:en/firefox/nightly/firstrun.ftl:nightly-firstrun-contribute-link": [
     "L10n",
     "Contribute"
   ],
   "mozillaorg:en/firefox/nightly/whatsnew.ftl:nightly-whatsnew-do-you-experience": [
     "-community"
+  ],
+  "mozillaorg:en/firefox/nightly/whatsnew.ftl:nightly-whatsnew-if-you-want-to": [
+    "community"
   ],
   "mozillaorg:en/firefox/privacy/passwords.ftl:privacy-passwords-2fa-provides-much": [
     "twofactorauth.org"
@@ -679,7 +713,20 @@
     "Manoush",
     "Zomorodi"
   ],
+  "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-community-participation": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-community-participation-report": [
+    "community"
+  ],
   "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-community-participation-report_9a491829c50c1a182f87a200ecac87ee": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-the-heart-of-mozilla": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-to-report-violations": [
+    "community",
     "community"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-to-report-violations-email": [
@@ -691,8 +738,15 @@
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-all-mozilla-events": [
     "anti-abuso"
   ],
+  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-by-matching-your-actions": [
+    "community",
+    "mission"
+  ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-everyone-is-encouraged": [
     "cpg-questions"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-if-you-believe-youre": [
+    "community"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-if-you-believe-youre-email": [
     "cpg-report"
@@ -724,6 +778,11 @@
     "WisCon",
     "Mozilliani"
   ],
+  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-these-guidelines-outline": [
+    "community",
+    "offline",
+    "community"
+  ],
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-these-guidelines-work": [
     "anti-molestie",
     "anti-discriminazioni",
@@ -733,17 +792,76 @@
   "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-this-set-of-guidelines": [
     "ShareAlike"
   ],
+  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-violence-and-threats-of": [
+    "offline",
+    "doxxing"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-while-these-guidelines": [
+    "community",
+    "community",
+    "community",
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/participation.ftl:participation-working-with-other": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-community-hotline": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-community-participation": [
+    "community"
+  ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-contributor": [
     "Contributor"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-do-let-them-know-that-email": [
     "hotline"
   ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-from-the-community-participation": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-how-to-report-violations": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-a-mozilla-manager-or": [
+    "community",
+    "community",
+    "community"
+  ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-a-mozilla-manager-or-email": [
     "hotline"
   ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-the-reporter-wants": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-you-have-a-report-by": [
+    "contributor",
+    "contributor",
+    "contributor",
+    "community"
+  ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-you-have-a-report-by-email": [
     "cpg-"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-mozilla-does-not-tolerate": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-mozilla-managers-and-community": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-names-of-the-people-involved": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-please-report-all-incidents": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-reports-are-handled-discretely": [
+    "community"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-the-heart-of-mozilla-is": [
+    "contributor",
+    "community",
+    "community"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-this-document-includes": [
     "PyCon",
@@ -753,8 +871,14 @@
     "2f4d980",
     "Unported"
   ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-this-document-is-intended": [
+    "community"
+  ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-this-document-is-licensed": [
     "Unported"
+  ],
+  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-this-document-provides": [
+    "community"
   ],
   "mozillaorg:en/mozorg/about/history.ftl:history-mozilla-digital-memory-bank": [
     "Digital",
@@ -886,6 +1010,9 @@
   "mozillaorg:en/mozorg/newsletters.ftl:newsletters-student-reps": [
     "Student"
   ],
+  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-subscribe-here-to-keep-current": [
+    "news"
+  ],
   "mozillaorg:en/navigation.ftl:navigation-firefox-playground": [
     "Playground"
   ],
@@ -936,5 +1063,21 @@
   ],
   "mozillaorg:en/privacy/index.ftl:privacy-index-to-review-and-comment-on-proposed": [
     "Governance"
+  ],
+  "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-faq-uses-encrypt": [
+    "Crittando"
+  ],
+  "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-faq-uses-question-desc": [
+    "Virtual"
+  ],
+  "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-invite-email-placeholder": [
+    "tuonome"
+  ],
+  "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-privacy-desc": [
+    "wireless"
+  ],
+  "mozillaorg:en/products/vpn/shared.ftl:vpn-shared-wireguard-copyright": [
+    "Jason",
+    "Donenfeld"
   ]
 }
