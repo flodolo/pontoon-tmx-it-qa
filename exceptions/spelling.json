@@ -197,12 +197,6 @@
   "firefox-accounts:LC_MESSAGES/client.po:open-restmail": [
     "Restmail"
   ],
-  "firefox-accounts:LC_MESSAGES/server.po:__heartbeat__": [
-    "__heartbeat__"
-  ],
-  "firefox-accounts:LC_MESSAGES/server.po:__heartbeat___40e9784d17b3f97860343e6797867e68": [
-    "__heartbeat__"
-  ],
   "firefox-accounts:LC_MESSAGES/server.po:confirm-your-email-so-that-you-can-start-using-firefox-sync-pocket-lockbox-firefox-send-monitor-and-more": [
     "Lockbox"
   ],
@@ -227,17 +221,26 @@
   "firefox-accounts:LC_MESSAGES/server.po:firefox-cloud-terms-of-service": [
     "Cloud"
   ],
+  "firefox-accounts:LC_MESSAGES/server.po:heartbeat": [
+    "__heartbeat__"
+  ],
+  "firefox-accounts:LC_MESSAGES/server.po:heartbeat_40e9784d17b3f97860343e6797867e68": [
+    "__heartbeat__"
+  ],
   "firefox-accounts:LC_MESSAGES/server.po:paypal": [
     "PayPal"
   ],
   "firefox-accounts:LC_MESSAGES/server.po:the-firefox-accounts-team": [
     "Accounts"
   ],
-  "firefox-accounts:main.ftl:-brand-name-paypal": [
+  "firefox-accounts:main.ftl:brand-name-paypal": [
     "PayPal"
   ],
   "firefox-accounts:main.ftl:document": [
     "Accounts"
+  ],
+  "firefox-accounts:main.ftl:new-user-email": [
+    "foxy"
   ],
   "firefox-accounts:main.ftl:no-subscription-upgrades": [
     "upgrade"
@@ -251,14 +254,14 @@
   "firefox-accounts:main.ftl:project-brand": [
     "Accounts"
   ],
-  "firefox-accounts:settings.ftl:-product-firefox-accounts": [
-    "Accounts"
-  ],
   "firefox-accounts:settings.ftl:bento-menu-title": [
     "bento"
   ],
   "firefox-accounts:settings.ftl:cs-disconnect-suspicious-advice-content": [
     "logins"
+  ],
+  "firefox-accounts:settings.ftl:product-firefox-accounts": [
+    "Accounts"
   ],
   "firefox-for-ios:firefox-ios.xliff:clientbookmarkpanelstringsdesktop-bookmarks": [
     "pc"
@@ -319,13 +322,13 @@
   "firefox-for-ios:firefox-ios.xliff:widgetkitbaselprojwidgetintentsintentdefinitionfi3w24-xrjbbp": [
     "count"
   ],
-  "firefox-monitor-website:app.ftl:-brand-hibp": [
+  "firefox-monitor-website:app.ftl:ba-next-step-blurb-2": [
+    "dark"
+  ],
+  "firefox-monitor-website:app.ftl:brand-hibp": [
     "Have",
     "Been",
     "Pwned"
-  ],
-  "firefox-monitor-website:app.ftl:ba-next-step-blurb-2": [
-    "dark"
   ],
   "firefox-monitor-website:app.ftl:content-available": [
     "Commons"
@@ -338,6 +341,13 @@
   ],
   "firefox-monitor-website:app.ftl:error-bot-blurb": [
     "bot"
+  ],
+  "firefox-monitor-website:app.ftl:facebook-breach-what-to-do-2-copy": [
+    "swapping",
+    "jacking"
+  ],
+  "firefox-monitor-website:app.ftl:facebook-breach-what-to-do-2-headline": [
+    "swapping"
   ],
   "firefox-monitor-website:app.ftl:fxa-pwt-section-blurb": [
     "ssw0rd"
@@ -376,11 +386,25 @@
   "firefox-monitor-website:recommendations.ftl:rec-ssn-subhead": [
     "credit"
   ],
+  "mozilla-vpn-client:mozillavpn.xliff:srclocalizercppmacosinstallerprevious_buildmessage": [
+    "Applications",
+    "VPN.app"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcplatformsmacosmacosutilsmmmacosinstallerprevious_buildmessage": [
+    "Applications",
+    "VPN.app"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:srcsystemtrayhandlercppvpnsystraycaptiveportalalert": [
     "portal"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:srcsystemtrayhandlercppvpnsystraycaptiveportalalerttitle": [
     "portal"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpnconnectioninfoqmlvpnconnectioninfoipv4": [
+    "IPv4"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpnconnectioninfoqmlvpnconnectioninfoipv6": [
+    "IPv6"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioinfombps": [
     "Mbps"
@@ -391,46 +415,49 @@
   "mozilla-vpn-client:mozillavpn.xliff:srcuicomponentsvpngraphlegendmarkerqmlvpnconnectioninfokbps": [
     "Kbps"
   ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcuisettingsviewadvanceddnssettingsqmlvpnsettingsuserdnsnotipv4": [
+    "IPv4"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:srcuisettingsviewnetworksettingsqmlvpnsettingsipv6": [
     "IPv6"
   ],
   "mozillaorg:en/500.ftl:error-page-you-can-also-try-refreshing": [
     "firefox.com"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-facebook-messenger": [
+  "mozillaorg:en/brands.ftl:brand-name-facebook-messenger": [
     "Messenger"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-fire-tv": [
+  "mozillaorg:en/brands.ftl:brand-name-fire-tv": [
     "Fire"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-firefox-accounts": [
+  "mozillaorg:en/brands.ftl:brand-name-firefox-accounts": [
     "Accounts"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-firefox-better-web": [
+  "mozillaorg:en/brands.ftl:brand-name-firefox-better-web": [
     "Better"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-lightbeam": [
+  "mozillaorg:en/brands.ftl:brand-name-lightbeam": [
     "Lightbeam"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-maker-party": [
+  "mozillaorg:en/brands.ftl:brand-name-maker-party": [
     "Maker"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-messenger": [
+  "mozillaorg:en/brands.ftl:brand-name-messenger": [
     "Messenger"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-mozilla-corporation": [
+  "mozillaorg:en/brands.ftl:brand-name-mozilla-corporation": [
     "Corporation"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-mozilla-labs": [
+  "mozillaorg:en/brands.ftl:brand-name-mozilla-labs": [
     "Labs"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-mullvad": [
+  "mozillaorg:en/brands.ftl:brand-name-mullvad": [
     "Mullvad"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-wireguard": [
+  "mozillaorg:en/brands.ftl:brand-name-wireguard": [
     "WireGuard"
   ],
-  "mozillaorg:en/brands.ftl:-brand-name-workplace": [
+  "mozillaorg:en/brands.ftl:brand-name-workplace": [
     "Workplace"
   ],
   "mozillaorg:en/firefox/accounts.ftl:firefox-accounts-help-us-keep-big-tech": [
@@ -910,6 +937,9 @@
   "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-use-open-badges-to-share": [
     "Badges"
   ],
+  "mozillaorg:en/mozorg/contribute.ftl:contribute-newsletter-desc": [
+    "Mozilliani"
+  ],
   "mozillaorg:en/mozorg/contribute.ftl:contribute-task-join-desc": [
     "Community",
     "Portal"
@@ -996,10 +1026,16 @@
   "mozillaorg:en/mozorg/newsletters.ftl:newsletters-mozillians": [
     "Mozillians"
   ],
+  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-please-be-sure-to-add-mozillaemailmozillaorg": [
+    "mozilla"
+  ],
   "mozillaorg:en/mozorg/newsletters.ftl:newsletters-please-be-sure-to-add-mozillaemozillaorg": [
     "mozilla"
   ],
   "mozillaorg:en/mozorg/newsletters.ftl:newsletters-please-be-sure-to-add-our": [
+    "mozilla"
+  ],
+  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-please-be-sure-to-add-our-v2": [
     "mozilla"
   ],
   "mozillaorg:en/mozorg/newsletters.ftl:newsletters-shapre-of-the-web": [
@@ -1063,6 +1099,9 @@
   ],
   "mozillaorg:en/privacy/index.ftl:privacy-index-to-review-and-comment-on-proposed": [
     "Governance"
+  ],
+  "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-faq-compatibility-question-desc-v2": [
+    "pc"
   ],
   "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-faq-uses-encrypt": [
     "Crittando"
