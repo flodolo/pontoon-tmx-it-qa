@@ -30,11 +30,12 @@ class MLStripper(HTMLParser):
 class CheckStrings:
 
     included_products = (
-        "android-l10n",
         "facebook-container",
         "firefox-accounts",
+        "firefox-for-android",
         "firefox-for-ios",
         "firefox-monitor-website",
+        "focus-for-android",
         "mozilla-vpn-client",
         "mozillaorg",
     )
