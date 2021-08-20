@@ -27,6 +27,7 @@ mozillaorg:en/firefox/more.ftl:firefox-more-firefox-chromebook
 mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-firefox
 mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-firefox-browser
 mozillaorg:en/firefox/privacy-hub.ftl:firefox-privacy-hub-firefox-browser
+mozillaorg:en/firefox/sync.ftl:firefox-sync-firefox
 mozillaorg:en/firefox/whatsnew/whatsnew.ftl:whatsnew-firefox-browser
 mozillaorg:en/navigation_v2.ftl:navigation-v2-close-firefox-browsers-menu
 mozillaorg:en/navigation_v2.ftl:navigation-v2-firefox-browsers

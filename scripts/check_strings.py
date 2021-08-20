@@ -35,6 +35,8 @@ class CheckStrings:
         "firefox-for-android",
         "firefox-for-ios",
         "firefox-monitor-website",
+        "firefox-relay-premium",
+        "focus-for-ios",
         "focus-for-android",
         "mozilla-vpn-client",
         "mozillaorg",

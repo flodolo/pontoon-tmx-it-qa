@@ -277,6 +277,30 @@
     "License",
     "v3"
   ],
+  "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringsaddpasserrormessage": [
+    "Wallet"
+  ],
+  "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringsfocushandoffsyncing": [
+    "Handoff"
+  ],
+  "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringssettingssearchsearchtemplateexample": [
+    "search"
+  ],
+  "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringssettingstogglefaceid": [
+    "Face"
+  ],
+  "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringssettingstogglefaceiddescription": [
+    "Face"
+  ],
+  "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringssettingsusagedata": [
+    "usage-data"
+  ],
+  "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringstrackingprotectiontrackerdescriptionlabel": [
+    "tracker"
+  ],
+  "focus-for-ios:focus-ios.xliff:focusintentextensioninfoplistcfbundledisplayname": [
+    "FocusIntentExtension"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsdevusestagingsubtitle": [
     "staging"
   ],
