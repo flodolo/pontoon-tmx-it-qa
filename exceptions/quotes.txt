@@ -2,6 +2,10 @@ firefox-accounts:settings.ftl:drop-down-menu-title
 firefox-monitor-website:app.ftl:fxa-account
 firefox-monitor-website:email-strings.ftl:share-by-email-message
 firefox-monitor-website:email-strings.ftl:share-by-email-message_a1a0b7aaf6933d1686f33a93a386b23f
+firefox-relay-premium:app.ftl:fx-desktop
+firefox-relay-premium:app.ftl:fx-mobile
+firefox-relay-website:app.ftl:fx-desktop
+firefox-relay-website:app.ftl:fx-mobile
 mozillaorg:en/firefox/accounts.ftl:firefox-accounts-firefox-browser
 mozillaorg:en/firefox/browsers.ftl:firefox-browsers-build-sites-and-refine-your
 mozillaorg:en/firefox/browsers.ftl:firefox-browsers-enterprise-packages
@@ -14,6 +18,7 @@ mozillaorg:en/firefox/developer.ftl:firefox-developer-want-to-be-on-the-cutting-
 mozillaorg:en/firefox/enterprise.ftl:firefox-enterprise-enterprise-downloads
 mozillaorg:en/firefox/enterprise.ftl:firefox-enterprise-firefox-browser
 mozillaorg:en/firefox/enterprise.ftl:firefox-enterprise-firefox-browser-msi-installer
+mozillaorg:en/firefox/facebook_container.ftl:facebook-container-firefox-browser
 mozillaorg:en/firefox/faq.ftl:the-firefox-browser
 mozillaorg:en/firefox/features/bookmarks.ftl:features-bookmarks-firefox-browser-better
 mozillaorg:en/firefox/features/memory.ftl:features-memory-firefox-browser-use-less
@@ -24,6 +29,7 @@ mozillaorg:en/firefox/installer-help.ftl:installer-help-firefox-developer-title
 mozillaorg:en/firefox/installer-help.ftl:installer-help-firefox-nightly-title
 mozillaorg:en/firefox/installer-help.ftl:installer-help-firefox-release-title
 mozillaorg:en/firefox/more.ftl:firefox-more-firefox-chromebook
+mozillaorg:en/firefox/more/misinformation.ftl:misinformation-brand-firefox-browser
 mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-firefox
 mozillaorg:en/firefox/new/desktop.ftl:firefox-desktop-download-firefox-browser
 mozillaorg:en/firefox/privacy-hub.ftl:firefox-privacy-hub-firefox-browser
