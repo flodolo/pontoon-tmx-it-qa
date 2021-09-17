@@ -143,6 +143,9 @@
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojauthenticationmanagerstringsuse-face-id": [
     "Face"
   ],
+  "firefox-for-ios:firefox-ios.xliff:sharedenlprojclearprivatedatastringsspotlight-index": [
+    "Spotlight"
+  ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsaa": [
     "Aa"
   ],
@@ -529,6 +532,15 @@
     "Hypertext",
     "Markup",
     "Language"
+  ],
+  "mozillaorg:en/firefox/browsers/mobile/android.ftl:mobile-android-no-need-to": [
+    "widget"
+  ],
+  "mozillaorg:en/firefox/browsers/mobile/compare.ftl:mobile-compare-news-feed": [
+    "Feed"
+  ],
+  "mozillaorg:en/firefox/browsers/mobile/compare.ftl:mobile-compare-web-extensionsaddons": [
+    "WebExtensions"
   ],
   "mozillaorg:en/firefox/browsers/windows-64-bit.ftl:windows-64-bit-heres-the-key-thing": [
     "Address",
@@ -1025,6 +1037,9 @@
   ],
   "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-faq-compatibility-question-desc-v2": [
     "pc"
+  ],
+  "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-faq-info-question-desc-v2": [
+    "referral"
   ],
   "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-faq-uses-question-desc": [
     "Virtual"

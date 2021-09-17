@@ -41,5 +41,9 @@
     "mozillaorg:en/navigation_v2.ftl:navigation-v2-view-all-firefox-browsers",
     "mozillaorg:en/navigation.ftl:navigation-firefox-browser-for-desktop",
     "mozillaorg:en/navigation.ftl:navigation-firefox-browser-for-enterprise",
-    "mozillaorg:en/navigation.ftl:navigation-firefox-browser-for-mobile"
+    "mozillaorg:en/navigation.ftl:navigation-firefox-browser-for-mobile",
+    "mozillaorg:en/firefox/browsers/mobile/android.ftl:mobile-android-firefox-browser",
+    "mozillaorg:en/firefox/browsers/mobile/ios.ftl:mobile-ios-firefox-browser",
+    "mozillaorg:en/firefox/browsers/mobile/android.ftl:mobile-android-firefox-browser-android",
+    "mozillaorg:en/firefox/browsers/mobile/ios.ftl:mobile-ios-firefox-browser-ios"
 ]
