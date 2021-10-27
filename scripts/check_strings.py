@@ -41,26 +41,8 @@ class CheckStrings:
         "focus-for-android",
         "mozilla-vpn-client",
         "mozillaorg",
+        "firefox-multi-account-containers",
     )
-
-    """
-amo
-amo-frontend
-amo-linter
-common-voice
-copyright-campaign
-donate-mozilla-content
-donate-thunderbird-content
-engagement
-engagement-heartbeat-apr2018
-firefox-for-fire-tv
-fundraising
-mozilla-advocacy
-mozilla-donate-website
-mozilla-learning-network
-seamonkey
-thunderbirdnet
-"""
 
     def __init__(self, script_path, tmx_file):
         """Initialize object"""

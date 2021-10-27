@@ -89,6 +89,12 @@
   "firefox-accounts:LC_MESSAGES/server.po:the-firefox-accounts-team": [
     "Accounts"
   ],
+  "firefox-accounts:auth.ftl:product-firefox-accounts": [
+    "accounts"
+  ],
+  "firefox-accounts:auth.ftl:product-firefox-cloud": [
+    "Cloud"
+  ],
   "firefox-accounts:main.ftl:brand-name-paypal": [
     "PayPal"
   ],
@@ -162,6 +168,12 @@
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringslast-synced": [
     "sinc"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsloginsdevicepasscoderequiredmessage": [
+    "Face"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsloginsonboardingmessage": [
+    "Face"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsdnttitle": [
     "Track"
@@ -239,18 +251,81 @@
   "firefox-monitor-website:recommendations.ftl:rec-ssn-subhead": [
     "credit"
   ],
+  "firefox-multi-account-containers:messages.json:confirmnavigationtitle": [
+    "Containers"
+  ],
+  "firefox-multi-account-containers:messages.json:extensiondescription": [
+    "Containers"
+  ],
+  "firefox-multi-account-containers:messages.json:keyboardshortcut": [
+    "keyId"
+  ],
+  "firefox-multi-account-containers:messages.json:openincontainer": [
+    "containerName"
+  ],
+  "firefox-multi-account-containers:messages.json:youaskedfirefox": [
+    "containerName"
+  ],
+  "firefox-relay-website:app.ftl:banner-register-subdomain-copy": [
+    "tuodominio"
+  ],
+  "firefox-relay-website:app.ftl:banner-register-subdomain-example-address": [
+    "tuodominio"
+  ],
   "firefox-relay-website:app.ftl:faq-question-2-answer-html": [
     "relay",
     "relay.firefox.com"
   ],
+  "firefox-relay-website:app.ftl:faq-question-2-answer-v2-html": [
+    "relay",
+    "relay.firefox.com"
+  ],
+  "firefox-relay-website:app.ftl:faq-question-4-answer": [
+    "Ccn"
+  ],
+  "firefox-relay-website:app.ftl:faq-question-4-answer-v2": [
+    "Ccn",
+    "Ccn"
+  ],
   "firefox-relay-website:app.ftl:faq-question-5-question": [
     "relay.firefox.com"
+  ],
+  "firefox-relay-website:app.ftl:faq-question-browser-support-answer": [
+    "dashboard"
+  ],
+  "firefox-relay-website:app.ftl:faq-question-mozmail-answer": [
+    "relay.firefox.com",
+    "mozmail.com",
+    "tuodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:faq-question-mozmail-question": [
+    "mozmail.com"
   ],
   "firefox-relay-website:app.ftl:how-it-works-step-2-copy": [
     "relay.firefox.com"
   ],
   "firefox-relay-website:app.ftl:how-it-works-step-3-copy": [
     "dashboard",
+    "dashboard"
+  ],
+  "firefox-relay-website:app.ftl:landing-how-it-works-step-2-body": [
+    "relay.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:landing-how-it-works-step-3-body": [
+    "dashboard",
+    "dashboard"
+  ],
+  "firefox-relay-website:app.ftl:landing-pricing-premium-feature-3-subheader": [
+    "tuaemail",
+    "tuodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:landing-use-cases-gaming-body": [
+    "gamertag"
+  ],
+  "firefox-relay-website:app.ftl:multi-part-onboarding-premium-domain-description": [
+    "tuodominio"
+  ],
+  "firefox-relay-website:app.ftl:multi-part-onboarding-premium-extension-button-dashboard": [
     "dashboard"
   ],
   "focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add": [
@@ -303,6 +378,9 @@
   "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringssettingsusagedata": [
     "usage-data"
   ],
+  "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringstipbiometricfaceiddescription": [
+    "Face"
+  ],
   "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringstrackingprotectiontrackerdescriptionlabel": [
     "tracker"
   ],
@@ -314,6 +392,9 @@
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsdevusestagingtitle": [
     "staging"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpntelemetrypolicyviewquestion": [
+    "referral"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:srclocalizercppmacosinstallerprevious_buildmessage": [
     "Applications",
@@ -667,6 +748,9 @@
   ],
   "mozillaorg:en/firefox/welcome/page1.ftl:welcome-page1-were-you-one-of-many": [
     "Evite"
+  ],
+  "mozillaorg:en/firefox/welcome/page10.ftl:welcome-page10-main-description": [
+    "Virtual"
   ],
   "mozillaorg:en/footer.ftl:footer-privacy-hub": [
     "Hub"
