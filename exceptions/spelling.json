@@ -68,7 +68,7 @@
   "firefox-accounts:LC_MESSAGES/server.po:env_ff035a1dd7655da15295fa5fa89362a7": [
     "env"
   ],
-  "firefox-accounts:LC_MESSAGES/server.po:firefox-accounts-makes-use-of-features-that-are-not-supported-in-your-version-of-firefox-please-download-and-install-the-latest-version-of-firefox-to-continue_510d03396a1114aeb99cbab86e859b3f": [
+  "firefox-accounts:LC_MESSAGES/server.po:firefox-accounts-makes-use-of-features-that-are-not-supported-in-your-version-of-firefox-please-download-and-install-the-latest-version-of-firefox-to-continue_cc7b73a783c20b88d69adb806dd90a5f": [
     "Accounts"
   ],
   "firefox-accounts:LC_MESSAGES/server.po:firefox-cloud-services": [
@@ -83,9 +83,6 @@
   "firefox-accounts:LC_MESSAGES/server.po:heartbeat_40e9784d17b3f97860343e6797867e68": [
     "__heartbeat__"
   ],
-  "firefox-accounts:LC_MESSAGES/server.po:paypal": [
-    "PayPal"
-  ],
   "firefox-accounts:LC_MESSAGES/server.po:the-firefox-accounts-team": [
     "Accounts"
   ],
@@ -95,9 +92,6 @@
   "firefox-accounts:auth.ftl:product-firefox-cloud": [
     "Cloud"
   ],
-  "firefox-accounts:main.ftl:brand-name-paypal": [
-    "PayPal"
-  ],
   "firefox-accounts:main.ftl:document": [
     "Accounts"
   ],
@@ -106,12 +100,6 @@
   ],
   "firefox-accounts:main.ftl:no-subscription-upgrades": [
     "upgrade"
-  ],
-  "firefox-accounts:main.ftl:payment-legal-copy-stripe-paypal": [
-    "PayPal"
-  ],
-  "firefox-accounts:main.ftl:payment-legal-link-stripe-paypal_d55956664ed44cb1d24dfe89229cf524": [
-    "PayPal"
   ],
   "firefox-accounts:main.ftl:project-brand": [
     "Accounts"
@@ -158,6 +146,12 @@
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsaddpasserrormessage": [
     "Wallet"
   ],
+  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsbookmarksmenudesktopbookmarks": [
+    "pc"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfirefoxhomepocketminutesv99": [
+    "min"
+  ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfxaqr-scanning-viewinstructions": [
     "firefox.com",
     "pair"
@@ -174,6 +168,9 @@
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsloginsonboardingmessage": [
     "Face"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearchsuggestsectiontitlev102": [
+    "Suggest"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsdnttitle": [
     "Track"
@@ -266,8 +263,20 @@
   "firefox-multi-account-containers:messages.json:youaskedfirefox": [
     "containerName"
   ],
+  "firefox-relay-add-on:messages.json:popupsignbackinbody": [
+    "control"
+  ],
+  "firefox-relay-add-on:messages.json:popupsignbackinbody_mask": [
+    "control"
+  ],
+  "firefox-relay-add-on:messages.json:popupsignbackinbody_mask_v2": [
+    "control"
+  ],
   "firefox-relay-website:app.ftl:banner-register-subdomain-copy": [
-    "tuodominio"
+    "miodominio"
+  ],
+  "firefox-relay-website:app.ftl:banner-register-subdomain-copy-2": [
+    "miodominio"
   ],
   "firefox-relay-website:app.ftl:banner-register-subdomain-example-address": [
     "tuodominio"
@@ -280,10 +289,24 @@
     "relay",
     "relay.firefox.com"
   ],
+  "firefox-relay-website:app.ftl:faq-question-2-answer-v3-html": [
+    "sottodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:faq-question-2-answer-v4": [
+    "sottodominio.mozmail.com"
+  ],
   "firefox-relay-website:app.ftl:faq-question-4-answer": [
     "Ccn"
   ],
   "firefox-relay-website:app.ftl:faq-question-4-answer-v2": [
+    "Ccn",
+    "Ccn"
+  ],
+  "firefox-relay-website:app.ftl:faq-question-4-answer-v3": [
+    "Ccn",
+    "Ccn"
+  ],
+  "firefox-relay-website:app.ftl:faq-question-4-answer-v4": [
     "Ccn",
     "Ccn"
   ],
@@ -293,13 +316,30 @@
   "firefox-relay-website:app.ftl:faq-question-browser-support-answer": [
     "dashboard"
   ],
+  "firefox-relay-website:app.ftl:faq-question-browser-support-answer-2": [
+    "dashboard"
+  ],
   "firefox-relay-website:app.ftl:faq-question-mozmail-answer": [
+    "miodominio.mozmail.com",
+    "relay.firefox.com",
+    "mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:faq-question-mozmail-answer-2": [
     "relay.firefox.com",
     "mozmail.com",
-    "tuodominio.mozmail.com"
+    "miodominio.mozmail.com"
   ],
   "firefox-relay-website:app.ftl:faq-question-mozmail-question": [
     "mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:faq-question-mozmail-question-2": [
+    "mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:forwarded-email-header-cc-notice": [
+    "Ccn"
+  ],
+  "firefox-relay-website:app.ftl:forwarded-email-header-cc-notice-2": [
+    "Ccn"
   ],
   "firefox-relay-website:app.ftl:how-it-works-step-2-copy": [
     "relay.firefox.com"
@@ -311,7 +351,14 @@
   "firefox-relay-website:app.ftl:landing-how-it-works-step-2-body": [
     "relay.mozmail.com"
   ],
+  "firefox-relay-website:app.ftl:landing-how-it-works-step-2-body-2": [
+    "mozmail.com"
+  ],
   "firefox-relay-website:app.ftl:landing-how-it-works-step-3-body": [
+    "dashboard",
+    "dashboard"
+  ],
+  "firefox-relay-website:app.ftl:landing-how-it-works-step-3-body-2": [
     "dashboard",
     "dashboard"
   ],
@@ -322,11 +369,93 @@
   "firefox-relay-website:app.ftl:landing-use-cases-gaming-body": [
     "gamertag"
   ],
+  "firefox-relay-website:app.ftl:landing-use-cases-gaming-body-2": [
+    "gamertag"
+  ],
+  "firefox-relay-website:app.ftl:modal-custom-alias-picker-warning": [
+    "shop",
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:modal-custom-alias-picker-warning-2": [
+    "shop",
+    "miodominio.mozmail.com"
+  ],
   "firefox-relay-website:app.ftl:multi-part-onboarding-premium-domain-description": [
-    "tuodominio"
+    "miodominio"
   ],
   "firefox-relay-website:app.ftl:multi-part-onboarding-premium-extension-button-dashboard": [
     "dashboard"
+  ],
+  "firefox-relay-website:app.ftl:multi-part-onboarding-premium-get-domain-description": [
+    "miodominio"
+  ],
+  "firefox-relay-website:app.ftl:multi-part-onboarding-premium-get-domain-description-2": [
+    "miodominio"
+  ],
+  "firefox-relay-website:app.ftl:multi-part-onboarding-premium-get-domain-description-3": [
+    "miodominio"
+  ],
+  "firefox-relay-website:app.ftl:popover-custom-alias-explainer-explanation": [
+    "shop",
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:popover-custom-alias-explainer-explanation-2": [
+    "shop",
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:premium-promo-perks-perk-custom-domain-body": [
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:premium-promo-perks-perk-custom-domain-body-2": [
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:premium-promo-perks-perk-dashboard-body": [
+    "dashboard"
+  ],
+  "firefox-relay-website:app.ftl:premium-promo-perks-perk-dashboard-body-2": [
+    "dashboard"
+  ],
+  "firefox-relay-website:app.ftl:premium-promo-perks-perk-dashboard-headline": [
+    "dashboard"
+  ],
+  "firefox-relay-website:app.ftl:premium-promo-perks-perk-dashboard-headline-2": [
+    "dashboard"
+  ],
+  "firefox-relay-website:app.ftl:premium-promo-use-cases-gaming-body": [
+    "gamertag",
+    "giochionline",
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:premium-promo-use-cases-gaming-body-2": [
+    "gamertag",
+    "giochionline",
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:premium-promo-use-cases-shopping-body": [
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:premium-promo-use-cases-shopping-body-2": [
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:tips-custom-alias-content": [
+    "shop",
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:tips-custom-alias-content-2": [
+    "shop",
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:app.ftl:waitlist-control-email-placeholder": [
+    "iltuonome"
+  ],
+  "firefox-relay-website:app.ftl:whatsnew-feature-alias-to-mask-description": [
+    "masks"
+  ],
+  "firefox-relay-website:app.ftl:whatsnew-feature-alias-to-mask-heading": [
+    "mask"
+  ],
+  "firefox-relay-website:app.ftl:whatsnew-feature-alias-to-mask-snippet": [
+    "masks"
   ],
   "focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add": [
     "pers"
@@ -387,14 +516,61 @@
   "focus-for-ios:focus-ios.xliff:focusintentextensioninfoplistcfbundledisplayname": [
     "FocusIntentExtension"
   ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppguideconnecting_external_devicesblockc_2l_2": [
+    "wireless"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppguideconnecting_external_devicesblockc_5l_2": [
+    "Chromecast",
+    "Roku",
+    "AirPlay"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpncaptiveportalalertheader": [
+    "portal"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpncaptiveportalalerttitle": [
+    "portal"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnconnectioninfolabelgbitps": [
+    "Gbit"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnconnectioninfolabelkbitps": [
+    "kbit"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnconnectioninfolabelmbitps": [
+    "Mbit"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnconnectioninfolabeltbitps": [
+    "Tbit"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsdatacollectiondescription": [
+    "referral"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsdevusestagingsubtitle": [
     "staging"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsdevusestagingtitle": [
     "staging"
   ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingstunnelport53description": [
+    "Wireguard"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpntelemetrypolicyviewquestion": [
     "referral"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnwhatsnewreleasenotesmultiaccountcontainersshortdescription": [
+    "Containers"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:nebulauicomponentsvpnconnectioninfocontentqmlvpnconnectioninfoipv4": [
+    "IPv4"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:nebulauicomponentsvpnconnectioninfocontentqmlvpnconnectioninfoipv6": [
+    "IPv6"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:nebulauicomponentsvpnconnectioninfoqmlvpnconnectioninfoipv4": [
+    "IPv4"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:nebulauicomponentsvpnconnectioninfoqmlvpnconnectioninfoipv6": [
+    "IPv6"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:srclocalizercppmacosinstallerprevious_buildmessage": [
     "Applications",
@@ -434,6 +610,9 @@
   "mozillaorg:en/500.ftl:error-page-you-can-also-try-refreshing": [
     "firefox.com"
   ],
+  "mozillaorg:en/banners/fundraising.ftl:banner-fundraising-title-giving-day": [
+    "GivingTuesday"
+  ],
   "mozillaorg:en/brands.ftl:brand-name-facebook-messenger": [
     "Messenger"
   ],
@@ -463,6 +642,12 @@
   ],
   "mozillaorg:en/brands.ftl:brand-name-mullvad": [
     "Mullvad"
+  ],
+  "mozillaorg:en/brands.ftl:brand-name-spotify": [
+    "Spotify"
+  ],
+  "mozillaorg:en/brands.ftl:brand-name-tiktok": [
+    "TikTok"
   ],
   "mozillaorg:en/brands.ftl:brand-name-wireguard": [
     "WireGuard"
@@ -578,6 +763,13 @@
     "Mosaic"
   ],
   "mozillaorg:en/firefox/browsers/history/browser-history.ftl:browser-history-in-the-future-the": [
+    "Lawnmower",
+    "Nintendo",
+    "Virtual",
+    "Neal",
+    "Stephenson"
+  ],
+  "mozillaorg:en/firefox/browsers/history/browser-history.ftl:browser-history-in-the-future-the-v2": [
     "Lawnmower",
     "Nintendo",
     "Virtual",
@@ -731,7 +923,6 @@
     "twofactorauth.org"
   ],
   "mozillaorg:en/firefox/privacy/passwords.ftl:privacy-passwords-in-general-the": [
-    "PayPal",
     "paypal.com"
   ],
   "mozillaorg:en/firefox/privacy/passwords.ftl:privacy-passwords-now-all-of": [
@@ -739,12 +930,6 @@
   ],
   "mozillaorg:en/firefox/privacy/passwords.ftl:privacy-passwords-security-questions-my": [
     "Ff926AKa9j6Q"
-  ],
-  "mozillaorg:en/firefox/products/lockwise.ftl:lockwise-firefox-lockwise-lets-you": [
-    "Face"
-  ],
-  "mozillaorg:en/firefox/products/lockwise.ftl:lockwise-get-to-your-passwords-securely": [
-    "Face"
   ],
   "mozillaorg:en/firefox/welcome/page1.ftl:welcome-page1-were-you-one-of-many": [
     "Evite"
@@ -887,7 +1072,7 @@
     "community"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-if-you-have-a-report-by-email": [
-    "cpg-"
+    "cpg-report"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-mozilla-does-not-tolerate": [
     "community"

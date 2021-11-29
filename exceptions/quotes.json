@@ -45,5 +45,9 @@
     "mozillaorg:en/firefox/browsers/mobile/android.ftl:mobile-android-firefox-browser",
     "mozillaorg:en/firefox/browsers/mobile/ios.ftl:mobile-ios-firefox-browser",
     "mozillaorg:en/firefox/browsers/mobile/android.ftl:mobile-android-firefox-browser-android",
-    "mozillaorg:en/firefox/browsers/mobile/ios.ftl:mobile-ios-firefox-browser-ios"
+    "mozillaorg:en/firefox/browsers/mobile/ios.ftl:mobile-ios-firefox-browser-ios",
+    "mozillaorg:en/firefox/firstrun.ftl:firstrun-firefox-browser",
+    "mozillaorg:en/firefox/mobile.ftl:firefox-mobile-firefox-browser",
+    "mozillaorg:en/privacy/index.ftl:privacy-index-firefox-browser",
+    "mozillaorg:en/firefox/facebook_container.ftl:facebook-container-brand-name-firefox-browser"
 ]
