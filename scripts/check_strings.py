@@ -89,7 +89,9 @@ class CheckStrings:
                     # There can be multiple strings with the same tuid.
                     # Adding am hash of the translation, since it should be
                     # unique.
-                    string_id += "_" + hashlib.md5(tuv[0].text.encode('utf-8')).hexdigest()
+                    string_id += (
+                        "_" + hashlib.md5(tuv[0].text.encode("utf-8")).hexdigest()
+                    )
                 self.translations[string_id] = tuv[0].text
 
     def strip_tags(self, text):
@@ -308,7 +310,9 @@ class CheckStrings:
                 and all_errors[message_id] != exceptions[message_id]
             ):
                 # Remove tokens that are not errors anymore
-                exceptions[message_id] = [e for e in exceptions[message_id] if not self.spellchecker.spell(e)]
+                exceptions[message_id] = [
+                    e for e in exceptions[message_id] if not self.spellchecker.spell(e)
+                ]
 
         # Write back updated exceptions file
         with open(exceptions_filename, "w") as f:
@@ -319,6 +323,7 @@ class CheckStrings:
             print("Total number of errors: {}".format(total_errors))
         else:
             print("No errors found.")
+
         # Display mispelled words and their count, if above 4
         threshold = 4
         above_threshold = []
@@ -328,6 +333,9 @@ class CheckStrings:
         if above_threshold:
             print("Errors and number of occurrences (only above {}):".format(threshold))
             print("\n".join(above_threshold))
+
+        if total_errors:
+            sys.exit(1)
 
 
 def main():
