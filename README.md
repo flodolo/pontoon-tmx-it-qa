@@ -1,11 +1,10 @@
 # Italian QA scripts for Pontoon TMX
 
-To run the script:
-- Save a copy of Pontoon TMX in `data`, by running within the folder `curl -o it.all-projects.tmx --compressed https://pontoon.mozilla.org/translation-memory/it.all-projects.tmx`
-- Run`scripts/check_strings.sh` (it will create and activate a virtualenv with Python 3 and install the dependencies).
+[![Spellcheck](https://github.com/flodolo/pontoon-tmx-it-qa/actions/workflows/linter.yaml/badge.svg)](https://github.com/flodolo/pontoon-tmx-it-qa/actions/workflows/linter.yaml)
 
-Projects analyzed:
-- mozilla.org
+To run the script:
+- Run `scripts/update_tmx.sh` (it will download Pontoon TMX).
+- Run `scripts/check_strings.sh` (it will create and activate a virtualenv with Python 3 and install the dependencies).
 
 ## Hunspell
 
