@@ -1,5 +1,5 @@
 {
-    "excluded_strings": [
-        "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:accessibility_text_size_sample_text"
-    ]
+  "excluded_strings": [
+    "android-l10n:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:accessibility_text_size_sample_text"
+  ]
 }

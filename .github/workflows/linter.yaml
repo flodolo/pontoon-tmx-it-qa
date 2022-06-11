@@ -21,10 +21,3 @@ jobs:
         run: |
           ./scripts/update_tmx.sh
           ./scripts/check_strings.sh
-      - run : git config --global user.email 'flodolo@users.noreply.github.com'
-      - uses: peter-evans/create-pull-request@v4
-        with:
-          commit-message: "Update exceptions"
-          branch: automation
-          delete-branch: true
-          title: "Update exceptions"
