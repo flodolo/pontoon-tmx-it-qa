@@ -175,6 +175,9 @@
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsdnttitle": [
     "Track"
   ],
+  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingspasswordsonboardingmessagev103": [
+    "Face"
+  ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojmenustringsmenuopensyncedtabsactionaccessibilitylabelv2": [
     "sinc"
   ],
@@ -549,6 +552,25 @@
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnconnectioninfolabeltbitps": [
     "Tbit"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnpaymentmethodsamex": [
+    "American",
+    "Express"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnpaymentmethodsdiners": [
+    "Diners"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnpaymentmethodsdiscover": [
+    "Discover"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnpaymentmethodsmastercard": [
+    "Mastercard"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnpaymentmethodsunionpay": [
+    "UnionPay"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnpaymentmethodsvisa": [
+    "Visa"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsdatacollectiondescription": [
     "referral"
