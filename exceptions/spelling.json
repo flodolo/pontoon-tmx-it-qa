@@ -967,6 +967,9 @@
   "mozillaorg:en/firefox/welcome/page10.ftl:welcome-page10-main-description": [
     "Virtual"
   ],
+  "mozillaorg:en/firefox/whatsnew/whatsnew-developer-mdnplus.ftl:developer-mdnplus-mdn-offline": [
+    "offline"
+  ],
   "mozillaorg:en/footer.ftl:footer-privacy-hub": [
     "Hub"
   ],

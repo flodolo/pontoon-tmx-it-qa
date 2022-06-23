@@ -7,6 +7,7 @@
   "firefox-relay-premium:app.ftl:fx-mobile",
   "firefox-relay-website:app.ftl:fx-desktop",
   "firefox-relay-website:app.ftl:fx-mobile",
+  "firefox-relay-website:app.ftl:landing-reviews-logo-title",
   "mozillaorg:en/firefox/accounts.ftl:firefox-accounts-firefox-browser",
   "mozillaorg:en/firefox/browsers.ftl:firefox-browsers-build-sites-and-refine-your",
   "mozillaorg:en/firefox/browsers.ftl:firefox-browsers-enterprise-packages",
