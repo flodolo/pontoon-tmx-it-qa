@@ -72,6 +72,7 @@ class CheckStrings:
         # Run checks
         self.checkQuotes()
         self.checkSpelling()
+        self.printOutput()
 
     def extractStrings(self):
         """Extract strings from tmx"""
@@ -343,8 +344,11 @@ class CheckStrings:
         if above_threshold:
             print("Errors and number of occurrences (only above {}):".format(threshold))
             print("\n".join(above_threshold))
+            
+        self.spelling_errors = total_errors
 
-        if total_errors or self.quote_errors:
+    def printOutput(self):
+        if self.spelling_errors or self.quote_errors:
             for type in ["quotes", "spelling"]:
                 filename = os.path.join(self.errors_path, f"{type}.json")
                 with open(filename, "r") as f:
