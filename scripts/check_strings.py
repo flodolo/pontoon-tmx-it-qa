@@ -110,10 +110,16 @@ class CheckStrings:
         with open(file_name, "r") as f:
             exceptions = json.load(f)
 
-        re_terms = re.compile(
-            r'(?<!\{)\{\s*(?:-[A-Za-z0-9._-]+)(?:[\[(]?[A-Za-z0-9_\-, :"]+[\])])*\s*\}'
-        )
-
+        ftl_functions = [
+            # Parameterized terms
+            re.compile(
+                r'(?<!\{)\{\s*(?:-[A-Za-z0-9._-]+)(?:[\[(]?[A-Za-z0-9_\-, :"]+[\])])*\s*\}'
+            ),
+            # DATETIME() and NUMBER() function
+            re.compile(r"{\s*(?:DATETIME|NUMBER)(.*)\s*}"),
+            # Empty string
+            re.compile(r'{\s*"\s{0,1}"\s*}'),
+        ]
         straight_quotes = re.compile(r'\'|"|‘')
 
         all_errors = []
@@ -121,18 +127,19 @@ class CheckStrings:
             if message_id in exceptions:
                 continue
             if message and straight_quotes.findall(message):
+                # Remove HTML tags
                 cleaned_msg = self.strip_tags(message)
-                if not straight_quotes.findall(cleaned_msg):
-                    # Message is clean after stripping HTML
-                    continue
+                # Remove various Fluent syntax that requires double quotes
+                for f in ftl_functions:
+                    cleaned_msg = f.sub("", cleaned_msg)
 
-                # Ignore double quotes in parameterized Fluent terms
-                if '"' in cleaned_msg and '"' not in re_terms.sub("", cleaned_msg):
+                # Continue if message is now clean
+                if not straight_quotes.findall(cleaned_msg):
                     continue
 
                 all_errors.append(message_id)
                 if self.verbose:
-                    print("{}: wrong quotes\n{}".format(message_id, message))
+                    print(f"{message_id}: wrong quotes\n{message}")
 
         with open(os.path.join(self.errors_path, "quotes.json"), "w") as f:
             json.dump(all_errors, f, indent=2, sort_keys=True)
@@ -344,7 +351,7 @@ class CheckStrings:
         if above_threshold:
             print("Errors and number of occurrences (only above {}):".format(threshold))
             print("\n".join(above_threshold))
-            
+
         self.spelling_errors = total_errors
 
     def printOutput(self):
