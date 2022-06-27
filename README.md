@@ -11,7 +11,7 @@ To run the script:
 If you’re using macOS, you need to install Hunspell and `jq` via `brew`
 
 ```
-brew install hunspell
+brew install hunspell jq
 ```
 
 Be aware of the multiple issues existing ([one](https://github.com/blatinier/pyhunspell/issues/26), [two](https://github.com/blatinier/pyhunspell/issues/33)).
