@@ -8,7 +8,7 @@ To run the script:
 
 ## Hunspell
 
-If you’re using macOS, you need to install Hunspell via `brew`
+If you’re using macOS, you need to install Hunspell and `jq` via `brew`
 
 ```
 brew install hunspell
@@ -23,4 +23,11 @@ source python-venv/bin/activate
 ln -s /usr/local/lib/libhunspell-1.7.a /usr/local/lib/libhunspell.a
 ln -s /usr/local/Cellar/hunspell/1.7.0_2/lib/libhunspell-1.7.dylib /usr/local/Cellar/hunspell/1.7.0_2/lib/libhunspell.dylib
 CFLAGS=$(pkg-config --cflags hunspell) LDFLAGS=$(pkg-config --libs hunspell) pip3 install hunspell
+```
+
+On macOS Monterey the files are located in `/opt/homebrew` instead of `/usr/local`.
+
+```
+ln -s /opt/homebrew/lib/libhunspell-1.7.a /opt/homebrew/lib/libhunspell.a
+ln -s /opt/homebrew/Cellar/hunspell/1.7.0_2/lib/libhunspell-1.7.dylib /opt/homebrew/Cellar/hunspell/1.7.0_2/lib/libhunspell.dylib
 ```
