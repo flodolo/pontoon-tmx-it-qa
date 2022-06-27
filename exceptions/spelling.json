@@ -839,9 +839,6 @@
   "mozillaorg:en/firefox/browsers/mobile/android.ftl:mobile-android-no-need-to": [
     "widget"
   ],
-  "mozillaorg:en/firefox/browsers/mobile/compare.ftl:mobile-compare-news-feed": [
-    "Feed"
-  ],
   "mozillaorg:en/firefox/browsers/mobile/compare.ftl:mobile-compare-web-extensionsaddons": [
     "WebExtensions"
   ],
@@ -935,9 +932,6 @@
   ],
   "mozillaorg:en/firefox/more/misinformation.ftl:misinformation-page-desc": [
     "misinformation"
-  ],
-  "mozillaorg:en/firefox/more/misinformation.ftl:misinformation-social-media-clean-heading": [
-    "feed"
   ],
   "mozillaorg:en/firefox/nightly/firstrun.ftl:nightly-firstrun-contribute-link": [
     "Contribute",
