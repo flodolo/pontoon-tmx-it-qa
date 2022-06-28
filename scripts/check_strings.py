@@ -72,6 +72,8 @@ class CheckStrings:
         # Run checks
         self.checkQuotes()
         self.checkSpelling()
+
+        # Print output
         self.printOutput()
 
     def extractStrings(self):
@@ -88,7 +90,7 @@ class CheckStrings:
             if tuv.get("{http://www.w3.org/XML/1998/namespace}lang") == "it":
                 if string_id in self.translations:
                     # There can be multiple strings with the same tuid.
-                    # Adding am hash of the translation, since it should be
+                    # Adding hash of the translation, since it should be
                     # unique.
                     string_id += (
                         "_" + hashlib.md5(tuv[0].text.encode("utf-8")).hexdigest()
@@ -110,14 +112,14 @@ class CheckStrings:
         with open(file_name, "r") as f:
             exceptions = json.load(f)
 
-        ftl_functions = [
+        ftl_syntax = [
             # Parameterized terms
             re.compile(
                 r'(?<!\{)\{\s*(?:-[A-Za-z0-9._-]+)(?:[\[(]?[A-Za-z0-9_\-, :"]+[\])])*\s*\}'
             ),
             # DATETIME() and NUMBER() function
             re.compile(r"{\s*(?:DATETIME|NUMBER)(.*)\s*}"),
-            # Empty string
+            # Empty string or space
             re.compile(r'{\s*"\s{0,1}"\s*}'),
         ]
         straight_quotes = re.compile(r'\'|"|‘')
@@ -129,10 +131,9 @@ class CheckStrings:
             if message and straight_quotes.findall(message):
                 # Remove HTML tags
                 cleaned_msg = self.strip_tags(message)
-                # Remove various Fluent syntax that requires double quotes
-                for f in ftl_functions:
-                    cleaned_msg = f.sub("", cleaned_msg)
-
+                # Remove Fluent syntax that requires double quotes
+                for s in ftl_syntax:
+                    cleaned_msg = s.sub("", cleaned_msg)
                 # Continue if message is now clean
                 if not straight_quotes.findall(cleaned_msg):
                     continue
@@ -149,8 +150,7 @@ class CheckStrings:
     def excludeToken(self, token):
         """Exclude specific tokens after spellcheck"""
 
-        # Ignore acronyms (all uppercase) and token made up only by
-        # unicode characters, or punctuation
+        # Ignore acronyms (all uppercase)
         if token == token.upper():
             return True
 
@@ -263,7 +263,7 @@ class CheckStrings:
                     continue
 
                 if not self.spellchecker.spell(token):
-                    # It's misspelled, but I still need to remove a few outliers
+                    # It seems misspelled, but I still need to remove a few outliers
                     if self.excludeToken(token):
                         continue
 
@@ -279,7 +279,7 @@ class CheckStrings:
 
                     """
                       It might be a brand with two words, e.g. Common Voice.
-                      Need to look in both direction.
+                      Need to look in both directions.
                     """
                     if i + 2 <= len(tokens):
                         group = " ".join(tokens[i : i + 2])
@@ -311,7 +311,7 @@ class CheckStrings:
         with open(os.path.join(self.errors_path, "spelling.json"), "w") as f:
             json.dump(all_errors, f, indent=2, sort_keys=True)
 
-        # Remove things that are not errors from the list of exceptions.
+        # Remove items that are not errors from the list of exceptions.
         for message_id in list(exceptions.keys()):
 
             if message_id not in self.translations:
@@ -342,7 +342,7 @@ class CheckStrings:
             print("Total number of strings with errors: {}".format(len(all_errors)))
             print("Total number of errors: {}".format(total_errors))
 
-        # Display mispelled words and their count, if above 4
+        # Display misspelled words and their count, if above 4
         threshold = 4
         above_threshold = []
         for k in sorted(misspelled_words, key=misspelled_words.get, reverse=True):
