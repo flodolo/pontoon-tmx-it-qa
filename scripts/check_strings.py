@@ -119,8 +119,8 @@ class CheckStrings:
             ),
             # DATETIME() and NUMBER() function
             re.compile(r"{\s*(?:DATETIME|NUMBER)(.*)\s*}"),
-            # Empty string or space
-            re.compile(r'{\s*"\s{0,1}"\s*}'),
+            # Special characters and empty string
+            re.compile(r'{\s*"(?:[\s{}]{0,1})"\s*}'),
         ]
         straight_quotes = re.compile(r'\'|"|‘')
 
