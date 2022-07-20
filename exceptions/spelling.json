@@ -113,6 +113,9 @@
   "firefox-accounts:settings.ftl:product-firefox-accounts": [
     "Accounts"
   ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:firefox_suggest_header": [
+    "Suggest"
+  ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_marketing_data_description2": [
     "Adjust"
   ],
@@ -1322,7 +1325,7 @@
     "screenshot"
   ],
   "mozillaorg:en/privacy/faq.ftl:privacy-faq-yes-user-control-is-one-of-our": [
-    "princìpi"
+    "princ\u00ecpi"
   ],
   "mozillaorg:en/privacy/index.ftl:privacy-index-read-more-about-our-ongoing": [
     "Advocacy",
