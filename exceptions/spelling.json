@@ -16,6 +16,9 @@
   "firefox-accounts:LC_MESSAGES/client.po:by-proceeding-you-agree-to-the-a-idfxa-tos-hreflegaltermsterms-of-servicea-and-a-idfxa-pp-hreflegalprivacyprivacy-noticea-of-firefox-cloud-services_92bb0eb50109bd7c28bb77998b591883": [
     "cloud"
   ],
+  "firefox-accounts:LC_MESSAGES/client.po:continue-to-firefox-accounts": [
+    "Accounts"
+  ],
   "firefox-accounts:LC_MESSAGES/client.po:email-resent-add-accountsfirefoxcom-to-your-contacts-to-ensure-a-smooth-delivery": [
     "accounts",
     "firefox.com"
@@ -86,6 +89,9 @@
   "firefox-accounts:LC_MESSAGES/server.po:the-firefox-accounts-team": [
     "Accounts"
   ],
+  "firefox-accounts:auth.ftl:postverify-sub-description": [
+    "Psst"
+  ],
   "firefox-accounts:auth.ftl:product-firefox-accounts": [
     "accounts"
   ],
@@ -148,9 +154,6 @@
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsaddpasserrormessage": [
     "Wallet"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsbookmarksmenudesktopbookmarks": [
-    "pc"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfirefoxhomepocketminutesv99": [
     "min"
@@ -269,6 +272,12 @@
   "firefox-multi-account-containers:messages.json:youaskedfirefox": [
     "containerName"
   ],
+  "firefox-relay-add-on:messages.json:popupendofintropricingcountdownminutes": [
+    "Min"
+  ],
+  "firefox-relay-add-on:messages.json:popupendofintropricingcountdownseconds": [
+    "Sec"
+  ],
   "firefox-relay-add-on:messages.json:popupsignbackinbody": [
     "control"
   ],
@@ -278,189 +287,198 @@
   "firefox-relay-add-on:messages.json:popupsignbackinbody_mask_v2": [
     "control"
   ],
-  "firefox-relay-website:app.ftl:banner-register-subdomain-copy": [
+  "firefox-relay-website:en/app.ftl:banner-register-subdomain-copy": [
     "miodominio"
   ],
-  "firefox-relay-website:app.ftl:banner-register-subdomain-copy-2": [
+  "firefox-relay-website:en/app.ftl:banner-register-subdomain-copy-2": [
     "miodominio"
   ],
-  "firefox-relay-website:app.ftl:banner-register-subdomain-example-address": [
+  "firefox-relay-website:en/app.ftl:banner-register-subdomain-example-address": [
     "tuodominio"
   ],
-  "firefox-relay-website:app.ftl:faq-question-2-answer-html": [
+  "firefox-relay-website:en/app.ftl:faq-question-2-answer-html": [
     "relay",
     "relay.firefox.com"
   ],
-  "firefox-relay-website:app.ftl:faq-question-2-answer-v2-html": [
+  "firefox-relay-website:en/app.ftl:faq-question-2-answer-v2-html": [
     "relay",
     "relay.firefox.com"
   ],
-  "firefox-relay-website:app.ftl:faq-question-2-answer-v3-html": [
+  "firefox-relay-website:en/app.ftl:faq-question-2-answer-v3-html": [
     "sottodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:faq-question-2-answer-v4": [
+  "firefox-relay-website:en/app.ftl:faq-question-2-answer-v4": [
     "sottodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:faq-question-4-answer": [
+  "firefox-relay-website:en/app.ftl:faq-question-4-answer": [
     "Ccn"
   ],
-  "firefox-relay-website:app.ftl:faq-question-4-answer-v2": [
+  "firefox-relay-website:en/app.ftl:faq-question-4-answer-v2": [
     "Ccn",
     "Ccn"
   ],
-  "firefox-relay-website:app.ftl:faq-question-4-answer-v3": [
+  "firefox-relay-website:en/app.ftl:faq-question-4-answer-v3": [
     "Ccn",
     "Ccn"
   ],
-  "firefox-relay-website:app.ftl:faq-question-4-answer-v4": [
+  "firefox-relay-website:en/app.ftl:faq-question-4-answer-v4": [
     "Ccn",
     "Ccn"
   ],
-  "firefox-relay-website:app.ftl:faq-question-5-question": [
+  "firefox-relay-website:en/app.ftl:faq-question-5-question": [
     "relay.firefox.com"
   ],
-  "firefox-relay-website:app.ftl:faq-question-browser-support-answer": [
+  "firefox-relay-website:en/app.ftl:faq-question-browser-support-answer": [
     "dashboard"
   ],
-  "firefox-relay-website:app.ftl:faq-question-browser-support-answer-2": [
+  "firefox-relay-website:en/app.ftl:faq-question-browser-support-answer-2": [
     "dashboard"
   ],
-  "firefox-relay-website:app.ftl:faq-question-mozmail-answer": [
-    "miodominio.mozmail.com",
+  "firefox-relay-website:en/app.ftl:faq-question-mozmail-answer": [
+    "relay.firefox.com",
     "mozmail.com",
-    "relay.firefox.com"
+    "miodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:faq-question-mozmail-answer-2": [
-    "miodominio.mozmail.com",
+  "firefox-relay-website:en/app.ftl:faq-question-mozmail-answer-2": [
+    "relay.firefox.com",
     "mozmail.com",
-    "relay.firefox.com"
+    "miodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:faq-question-mozmail-question": [
+  "firefox-relay-website:en/app.ftl:faq-question-mozmail-question": [
     "mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:faq-question-mozmail-question-2": [
+  "firefox-relay-website:en/app.ftl:faq-question-mozmail-question-2": [
     "mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:forwarded-email-header-cc-notice": [
+  "firefox-relay-website:en/app.ftl:forwarded-email-header-cc-notice": [
     "Ccn"
   ],
-  "firefox-relay-website:app.ftl:forwarded-email-header-cc-notice-2": [
+  "firefox-relay-website:en/app.ftl:forwarded-email-header-cc-notice-2": [
     "Ccn"
   ],
-  "firefox-relay-website:app.ftl:how-it-works-step-2-copy": [
+  "firefox-relay-website:en/app.ftl:how-it-works-step-2-copy": [
     "relay.firefox.com"
   ],
-  "firefox-relay-website:app.ftl:how-it-works-step-3-copy": [
+  "firefox-relay-website:en/app.ftl:how-it-works-step-3-copy": [
     "dashboard",
     "dashboard"
   ],
-  "firefox-relay-website:app.ftl:landing-how-it-works-step-2-body": [
+  "firefox-relay-website:en/app.ftl:landing-how-it-works-step-2-body": [
     "relay.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:landing-how-it-works-step-2-body-2": [
+  "firefox-relay-website:en/app.ftl:landing-how-it-works-step-2-body-2": [
     "mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:landing-how-it-works-step-3-body": [
+  "firefox-relay-website:en/app.ftl:landing-how-it-works-step-3-body": [
     "dashboard",
     "dashboard"
   ],
-  "firefox-relay-website:app.ftl:landing-how-it-works-step-3-body-2": [
+  "firefox-relay-website:en/app.ftl:landing-how-it-works-step-3-body-2": [
     "dashboard",
     "dashboard"
   ],
-  "firefox-relay-website:app.ftl:landing-pricing-premium-feature-3-subheader": [
+  "firefox-relay-website:en/app.ftl:landing-pricing-premium-feature-3-subheader": [
     "tuaemail",
     "tuodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:landing-use-cases-gaming-body": [
+  "firefox-relay-website:en/app.ftl:landing-use-cases-gaming-body": [
     "gamertag"
   ],
-  "firefox-relay-website:app.ftl:landing-use-cases-gaming-body-2": [
+  "firefox-relay-website:en/app.ftl:landing-use-cases-gaming-body-2": [
     "gamertag"
   ],
-  "firefox-relay-website:app.ftl:modal-custom-alias-picker-warning": [
-    "miodominio.mozmail.com",
-    "shop"
-  ],
-  "firefox-relay-website:app.ftl:modal-custom-alias-picker-warning-2": [
-    "miodominio.mozmail.com",
-    "shop"
-  ],
-  "firefox-relay-website:app.ftl:multi-part-onboarding-premium-domain-description": [
-    "miodominio"
-  ],
-  "firefox-relay-website:app.ftl:multi-part-onboarding-premium-extension-button-dashboard": [
-    "dashboard"
-  ],
-  "firefox-relay-website:app.ftl:multi-part-onboarding-premium-get-domain-description": [
-    "miodominio"
-  ],
-  "firefox-relay-website:app.ftl:multi-part-onboarding-premium-get-domain-description-2": [
-    "miodominio"
-  ],
-  "firefox-relay-website:app.ftl:multi-part-onboarding-premium-get-domain-description-3": [
-    "miodominio"
-  ],
-  "firefox-relay-website:app.ftl:popover-custom-alias-explainer-explanation": [
-    "miodominio.mozmail.com",
-    "shop"
-  ],
-  "firefox-relay-website:app.ftl:popover-custom-alias-explainer-explanation-2": [
-    "miodominio.mozmail.com",
-    "shop"
-  ],
-  "firefox-relay-website:app.ftl:premium-promo-perks-perk-custom-domain-body": [
+  "firefox-relay-website:en/app.ftl:modal-custom-alias-picker-warning": [
+    "shop",
     "miodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:premium-promo-perks-perk-custom-domain-body-2": [
+  "firefox-relay-website:en/app.ftl:modal-custom-alias-picker-warning-2": [
+    "shop",
     "miodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:premium-promo-perks-perk-dashboard-body": [
+  "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-domain-description": [
+    "miodominio"
+  ],
+  "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-extension-button-dashboard": [
     "dashboard"
   ],
-  "firefox-relay-website:app.ftl:premium-promo-perks-perk-dashboard-body-2": [
+  "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-get-domain-description": [
+    "miodominio"
+  ],
+  "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-get-domain-description-2": [
+    "miodominio"
+  ],
+  "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-get-domain-description-3": [
+    "miodominio"
+  ],
+  "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-get-domain-description-3b": [
+    "miodominio"
+  ],
+  "firefox-relay-website:en/app.ftl:offer-countdown-timer-minutes": [
+    "Min"
+  ],
+  "firefox-relay-website:en/app.ftl:offer-countdown-timer-seconds": [
+    "Sec"
+  ],
+  "firefox-relay-website:en/app.ftl:popover-custom-alias-explainer-explanation": [
+    "shop",
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:en/app.ftl:popover-custom-alias-explainer-explanation-2": [
+    "shop",
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:en/app.ftl:premium-promo-perks-perk-custom-domain-body": [
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:en/app.ftl:premium-promo-perks-perk-custom-domain-body-2": [
+    "miodominio.mozmail.com"
+  ],
+  "firefox-relay-website:en/app.ftl:premium-promo-perks-perk-dashboard-body": [
     "dashboard"
   ],
-  "firefox-relay-website:app.ftl:premium-promo-perks-perk-dashboard-headline": [
+  "firefox-relay-website:en/app.ftl:premium-promo-perks-perk-dashboard-body-2": [
     "dashboard"
   ],
-  "firefox-relay-website:app.ftl:premium-promo-perks-perk-dashboard-headline-2": [
+  "firefox-relay-website:en/app.ftl:premium-promo-perks-perk-dashboard-headline": [
     "dashboard"
   ],
-  "firefox-relay-website:app.ftl:premium-promo-use-cases-gaming-body": [
+  "firefox-relay-website:en/app.ftl:premium-promo-perks-perk-dashboard-headline-2": [
+    "dashboard"
+  ],
+  "firefox-relay-website:en/app.ftl:premium-promo-use-cases-gaming-body": [
     "gamertag",
     "giochionline",
     "miodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:premium-promo-use-cases-gaming-body-2": [
+  "firefox-relay-website:en/app.ftl:premium-promo-use-cases-gaming-body-2": [
     "gamertag",
     "giochionline",
     "miodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:premium-promo-use-cases-shopping-body": [
+  "firefox-relay-website:en/app.ftl:premium-promo-use-cases-shopping-body": [
     "miodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:premium-promo-use-cases-shopping-body-2": [
+  "firefox-relay-website:en/app.ftl:premium-promo-use-cases-shopping-body-2": [
     "miodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:tips-custom-alias-content": [
-    "miodominio.mozmail.com",
-    "shop"
+  "firefox-relay-website:en/app.ftl:tips-custom-alias-content": [
+    "shop",
+    "miodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:tips-custom-alias-content-2": [
-    "miodominio.mozmail.com",
-    "shop"
+  "firefox-relay-website:en/app.ftl:tips-custom-alias-content-2": [
+    "shop",
+    "miodominio.mozmail.com"
   ],
-  "firefox-relay-website:app.ftl:waitlist-control-email-placeholder": [
+  "firefox-relay-website:en/app.ftl:waitlist-control-email-placeholder": [
     "iltuonome"
   ],
-  "firefox-relay-website:app.ftl:whatsnew-feature-alias-to-mask-description": [
+  "firefox-relay-website:en/app.ftl:whatsnew-feature-alias-to-mask-description": [
     "masks"
   ],
-  "firefox-relay-website:app.ftl:whatsnew-feature-alias-to-mask-heading": [
+  "firefox-relay-website:en/app.ftl:whatsnew-feature-alias-to-mask-heading": [
     "mask"
   ],
-  "firefox-relay-website:app.ftl:whatsnew-feature-alias-to-mask-snippet": [
+  "firefox-relay-website:en/app.ftl:whatsnew-feature-alias-to-mask-snippet": [
     "masks"
   ],
   "focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add": [
@@ -515,6 +533,10 @@
   ],
   "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringstipbiometricfaceiddescription": [
     "Face"
+  ],
+  "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringsto-show-the-old-version-of-onboarding-disable-first-the-nimbus-experiment-then-turn-on-the-option": [
+    "Nimbus",
+    "onboarding"
   ],
   "focus-for-ios:focus-ios.xliff:blockzillaenlprojlocalizablestringstrackingprotectiontrackerdescriptionlabel": [
     "tracker"
@@ -964,6 +986,9 @@
   "mozillaorg:en/firefox/welcome/page10.ftl:welcome-page10-main-description": [
     "Virtual"
   ],
+  "mozillaorg:en/firefox/welcome/page14.ftl:welcome-page14-main-description": [
+    "Virtual"
+  ],
   "mozillaorg:en/firefox/whatsnew/whatsnew-developer-mdnplus.ftl:developer-mdnplus-mdn-offline": [
     "offline"
   ],
@@ -1171,6 +1196,28 @@
   "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-use-open-badges-to-share": [
     "Badges"
   ],
+  "mozillaorg:en/mozorg/about/this-site.ftl:about-this-site-colophon": [
+    "Colophon"
+  ],
+  "mozillaorg:en/mozorg/about/this-site.ftl:about-this-site-django": [
+    "Django",
+    "Jinja",
+    "back-end"
+  ],
+  "mozillaorg:en/mozorg/about/this-site.ftl:about-this-site-fluent": [
+    "Fluent"
+  ],
+  "mozillaorg:en/mozorg/about/this-site.ftl:about-this-site-many-other": [
+    "repository"
+  ],
+  "mozillaorg:en/mozorg/about/this-site.ftl:about-this-site-mozilla-protocol": [
+    "Protocol",
+    "branding"
+  ],
+  "mozillaorg:en/mozorg/about/this-site.ftl:about-this-site-today": [
+    "easter",
+    "egg"
+  ],
   "mozillaorg:en/mozorg/contribute.ftl:contribute-newsletter-desc": [
     "Mozilliani"
   ],
@@ -1325,7 +1372,7 @@
     "screenshot"
   ],
   "mozillaorg:en/privacy/faq.ftl:privacy-faq-yes-user-control-is-one-of-our": [
-    "princ\u00ecpi"
+    "princìpi"
   ],
   "mozillaorg:en/privacy/index.ftl:privacy-index-read-more-about-our-ongoing": [
     "Advocacy",
@@ -1333,9 +1380,6 @@
   ],
   "mozillaorg:en/privacy/index.ftl:privacy-index-to-review-and-comment-on-proposed": [
     "Governance"
-  ],
-  "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-faq-compatibility-question-desc-v2": [
-    "pc"
   ],
   "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-faq-info-question-desc-v2": [
     "referral"
