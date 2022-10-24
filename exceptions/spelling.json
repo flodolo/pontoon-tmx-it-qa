@@ -98,16 +98,19 @@
   "firefox-accounts:auth.ftl:product-firefox-cloud": [
     "Cloud"
   ],
-  "firefox-accounts:main.ftl:document": [
+  "firefox-accounts:payments.ftl:document": [
     "Accounts"
   ],
-  "firefox-accounts:main.ftl:new-user-email": [
+  "firefox-accounts:payments.ftl:iap-upgrade-already-subscribed": [
+    "store"
+  ],
+  "firefox-accounts:payments.ftl:new-user-email": [
     "foxy"
   ],
-  "firefox-accounts:main.ftl:no-subscription-upgrades": [
+  "firefox-accounts:payments.ftl:no-subscription-upgrades": [
     "upgrade"
   ],
-  "firefox-accounts:main.ftl:project-brand": [
+  "firefox-accounts:payments.ftl:project-brand": [
     "Accounts"
   ],
   "firefox-accounts:settings.ftl:bento-menu-title": [
@@ -413,6 +416,9 @@
   "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-get-domain-description-3b": [
     "miodominio"
   ],
+  "firefox-relay-website:en/app.ftl:nav-duo-description": [
+    "dashboard"
+  ],
   "firefox-relay-website:en/app.ftl:offer-countdown-timer-minutes": [
     "Min"
   ],
@@ -551,6 +557,11 @@
     "AirPlay",
     "Chromecast",
     "Roku"
+  ],
+  "mozilla-vpn-client:addons/guide_06_benefits_of_custom_dns/strings.xliff:addonqmlguidebenefits_of_custom_dnsblockc_2": [
+    "Domain",
+    "Name",
+    "System"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppguideconnecting_external_devicesblockc_2l_2": [
     "wireless"
@@ -987,6 +998,9 @@
     "Virtual"
   ],
   "mozillaorg:en/firefox/welcome/page14.ftl:welcome-page14-main-description": [
+    "Virtual"
+  ],
+  "mozillaorg:en/firefox/welcome/page14.ftl:welcome-page14-main-description-v2": [
     "Virtual"
   ],
   "mozillaorg:en/firefox/whatsnew/whatsnew-developer-mdnplus.ftl:developer-mdnplus-mdn-offline": [
