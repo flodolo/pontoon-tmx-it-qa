@@ -98,6 +98,12 @@
   "firefox-accounts:auth.ftl:product-firefox-cloud": [
     "Cloud"
   ],
+  "firefox-accounts:branding.ftl:product-firefox-accounts": [
+    "accounts"
+  ],
+  "firefox-accounts:branding.ftl:product-firefox-cloud": [
+    "Cloud"
+  ],
   "firefox-accounts:payments.ftl:document": [
     "Accounts"
   ],
@@ -127,6 +133,9 @@
   ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_marketing_data_description2": [
     "Adjust"
+  ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:private_mode_cfr_pos_button_text": [
+    "Agg"
   ],
   "firefox-for-ios:firefox-ios.xliff:clientbookmarkpanelstringsdesktop-bookmarks": [
     "pc"
@@ -238,6 +247,18 @@
   "firefox-monitor-website:app.ftl:user-unsubscribe-token-email-error": [
     "emaiHash"
   ],
+  "firefox-monitor-website:breaches.ftl:breach-checklist-ip-body": [
+    "Protocol",
+    "address"
+  ],
+  "firefox-monitor-website:breaches.ftl:breach-checklist-ssn-body": [
+    "Equifax",
+    "Experian",
+    "TransUnion"
+  ],
+  "firefox-monitor-website:breaches.ftl:breach-checklist-ssn-header": [
+    "credit"
+  ],
   "firefox-monitor-website:email-strings.ftl:share-by-email-message": [
     "monitor.firefox.com"
   ],
@@ -338,14 +359,14 @@
     "dashboard"
   ],
   "firefox-relay-website:en/app.ftl:faq-question-mozmail-answer": [
-    "relay.firefox.com",
+    "miodominio.mozmail.com",
     "mozmail.com",
-    "miodominio.mozmail.com"
+    "relay.firefox.com"
   ],
   "firefox-relay-website:en/app.ftl:faq-question-mozmail-answer-2": [
-    "relay.firefox.com",
+    "miodominio.mozmail.com",
     "mozmail.com",
-    "miodominio.mozmail.com"
+    "relay.firefox.com"
   ],
   "firefox-relay-website:en/app.ftl:faq-question-mozmail-question": [
     "mozmail.com"
@@ -391,12 +412,12 @@
     "gamertag"
   ],
   "firefox-relay-website:en/app.ftl:modal-custom-alias-picker-warning": [
-    "shop",
-    "miodominio.mozmail.com"
+    "miodominio.mozmail.com",
+    "shop"
   ],
   "firefox-relay-website:en/app.ftl:modal-custom-alias-picker-warning-2": [
-    "shop",
-    "miodominio.mozmail.com"
+    "miodominio.mozmail.com",
+    "shop"
   ],
   "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-domain-description": [
     "miodominio"
@@ -426,12 +447,12 @@
     "Sec"
   ],
   "firefox-relay-website:en/app.ftl:popover-custom-alias-explainer-explanation": [
-    "shop",
-    "miodominio.mozmail.com"
+    "miodominio.mozmail.com",
+    "shop"
   ],
   "firefox-relay-website:en/app.ftl:popover-custom-alias-explainer-explanation-2": [
-    "shop",
-    "miodominio.mozmail.com"
+    "miodominio.mozmail.com",
+    "shop"
   ],
   "firefox-relay-website:en/app.ftl:premium-promo-perks-perk-custom-domain-body": [
     "miodominio.mozmail.com"
@@ -468,15 +489,21 @@
     "miodominio.mozmail.com"
   ],
   "firefox-relay-website:en/app.ftl:tips-custom-alias-content": [
-    "shop",
-    "miodominio.mozmail.com"
+    "miodominio.mozmail.com",
+    "shop"
   ],
   "firefox-relay-website:en/app.ftl:tips-custom-alias-content-2": [
-    "shop",
-    "miodominio.mozmail.com"
+    "miodominio.mozmail.com",
+    "shop"
   ],
   "firefox-relay-website:en/app.ftl:waitlist-control-email-placeholder": [
     "iltuonome"
+  ],
+  "firefox-relay-website:en/app.ftl:waitlist-heading-bundle": [
+    "bundle"
+  ],
+  "firefox-relay-website:en/app.ftl:waitlist-privacy-policy-use-bundle": [
+    "bundle"
   ],
   "firefox-relay-website:en/app.ftl:whatsnew-feature-alias-to-mask-description": [
     "masks"
@@ -563,6 +590,9 @@
     "Name",
     "System"
   ],
+  "mozilla-vpn-client:addons/tutorial_04_split_tunneling/strings.xliff:addonqmltutorial04_split_tunnelingsteps6": [
+    "dashboard"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppguideconnecting_external_devicesblockc_2l_2": [
     "wireless"
   ],
@@ -576,6 +606,9 @@
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpncaptiveportalalerttitle": [
     "portal"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnconnectioninfoexitserverlabelipv6": [
+    "IPv6"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnconnectioninfolabelgbitps": [
     "Gbit"
@@ -637,6 +670,10 @@
   ],
   "mozilla-vpn-client:mozillavpn.xliff:nebulauicomponentsvpnconnectioninfoqmlvpnconnectioninfoipv6": [
     "IPv6"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcappsvpnlocalizercppmacosinstallerprevious_buildmessage": [
+    "Applications",
+    "VPN.app"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:srclocalizercppmacosinstallerprevious_buildmessage": [
     "Applications",

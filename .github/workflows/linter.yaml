@@ -14,7 +14,7 @@ jobs:
       - name: Install packages
         run: |
           sudo apt update
-          sudo apt install -y python-dev libhunspell-dev
+          sudo apt install -y python-dev-is-python3 libhunspell-dev
       - name: Set up Python 3
         uses: actions/setup-python@v4
         with:
