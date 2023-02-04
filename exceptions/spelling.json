@@ -98,9 +98,6 @@
   "firefox-accounts:auth.ftl:product-firefox-cloud": [
     "Cloud"
   ],
-  "firefox-accounts:branding.ftl:product-firefox-accounts": [
-    "accounts"
-  ],
   "firefox-accounts:branding.ftl:product-firefox-cloud": [
     "Cloud"
   ],
@@ -268,7 +265,13 @@
   "firefox-monitor-website:recommendations.ftl:rec-moz-vpn": [
     "Protocol"
   ],
+  "firefox-monitor-website:recommendations.ftl:rec-moz-vpn-update-2": [
+    "Protocol"
+  ],
   "firefox-monitor-website:recommendations.ftl:rec-pw-1": [
+    "passphrase"
+  ],
+  "firefox-monitor-website:recommendations.ftl:rec-pw-1-2": [
     "passphrase"
   ],
   "firefox-monitor-website:recommendations.ftl:rec-ssn": [
@@ -296,6 +299,13 @@
   "firefox-multi-account-containers:messages.json:youaskedfirefox": [
     "containerName"
   ],
+  "firefox-relay-add-on:messages.json:popupcreatecustomformmaskinputdescription": [
+    ".mozmail.com"
+  ],
+  "firefox-relay-add-on:messages.json:popupcreatecustommaskbody": [
+    "miodominio.mozmail.com",
+    "shop"
+  ],
   "firefox-relay-add-on:messages.json:popupendofintropricingcountdownminutes": [
     "Min"
   ],
@@ -318,6 +328,13 @@
     "miodominio"
   ],
   "firefox-relay-website:en/app.ftl:banner-register-subdomain-example-address": [
+    "tuodominio"
+  ],
+  "firefox-relay-website:en/app.ftl:banner-set-email-domain-placeholder": [
+    "tuodominio"
+  ],
+  "firefox-relay-website:en/app.ftl:banner-set-email-domain-step-two-body": [
+    "shop",
     "tuodominio"
   ],
   "firefox-relay-website:en/app.ftl:faq-question-2-answer-html": [
@@ -419,8 +436,18 @@
     "miodominio.mozmail.com",
     "shop"
   ],
+  "firefox-relay-website:en/app.ftl:modal-email-domain-success-body-any-word": [
+    "shop"
+  ],
   "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-domain-description": [
     "miodominio"
+  ],
+  "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-email-domain-feature-body": [
+    "shop",
+    "tuodominio"
+  ],
+  "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-email-domain-placeholder": [
+    "tuodominio"
   ],
   "firefox-relay-website:en/app.ftl:multi-part-onboarding-premium-extension-button-dashboard": [
     "dashboard"
@@ -439,6 +466,10 @@
   ],
   "firefox-relay-website:en/app.ftl:nav-duo-description": [
     "dashboard"
+  ],
+  "firefox-relay-website:en/app.ftl:nav-footer-stock-photo-legal": [
+    "iStock",
+    "iStockPhoto.com"
   ],
   "firefox-relay-website:en/app.ftl:offer-countdown-timer-minutes": [
     "Min"
@@ -496,6 +527,11 @@
     "miodominio.mozmail.com",
     "shop"
   ],
+  "firefox-relay-website:en/app.ftl:tooltip-email-domain-explanation-part-three": [
+    "tuodominio.",
+    "shop",
+    "tuodominio"
+  ],
   "firefox-relay-website:en/app.ftl:waitlist-control-email-placeholder": [
     "iltuonome"
   ],
@@ -513,6 +549,17 @@
   ],
   "firefox-relay-website:en/app.ftl:whatsnew-feature-alias-to-mask-snippet": [
     "masks"
+  ],
+  "firefox-relay-website:en/landing.ftl:highlighted-features-section-masks-on-the-go-body": [
+    "shop",
+    "tuodominio",
+    "tuodominio."
+  ],
+  "firefox-relay-website:en/landing.ftl:how-it-works-section-manage-body": [
+    "dashboard"
+  ],
+  "firefox-relay-website:en/landing.ftl:how-it-works-section-manage-headline": [
+    "dashboard"
   ],
   "focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add": [
     "pers"
@@ -590,6 +637,27 @@
     "Name",
     "System"
   ],
+  "mozilla-vpn-client:addons/guide_08_privacy_features/strings.xliff:addonqmlguideprivacyblockc_3l_3": [
+    "ransomware",
+    "spyware"
+  ],
+  "mozilla-vpn-client:addons/guide_09_custom_dns/strings.xliff:addonqmlguidecustom_dnsblockc_1": [
+    "Domain",
+    "Name",
+    "System"
+  ],
+  "mozilla-vpn-client:addons/guide_12_multi_account_containers/strings.xliff:addonqmlguideguide_multi_account_containersblockb": [
+    "Containers"
+  ],
+  "mozilla-vpn-client:addons/guide_12_multi_account_containers/strings.xliff:addonqmlguideguide_multi_account_containersblockc_2": [
+    "Containers"
+  ],
+  "mozilla-vpn-client:addons/guide_12_multi_account_containers/strings.xliff:addonqmlguideguide_multi_account_containersblockc_3": [
+    "Containers"
+  ],
+  "mozilla-vpn-client:addons/guide_12_multi_account_containers/strings.xliff:addonqmlguideguide_multi_account_containersblockc_5": [
+    "Containers"
+  ],
   "mozilla-vpn-client:addons/tutorial_04_split_tunneling/strings.xliff:addonqmltutorial04_split_tunnelingsteps6": [
     "dashboard"
   ],
@@ -650,6 +718,10 @@
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsdevusestagingtitle": [
     "staging"
   ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsprivacymalwarebody": [
+    "ransomware",
+    "spyware"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingstunnelport53description": [
     "Wireguard"
   ],
@@ -671,7 +743,19 @@
   "mozilla-vpn-client:mozillavpn.xliff:nebulauicomponentsvpnconnectioninfoqmlvpnconnectioninfoipv6": [
     "IPv6"
   ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcappstemplateextrastringshmacosinstallerprevious_buildmessage": [
+    "Applications",
+    "VPN.app"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcappsvpnextrastringshmacosinstallerprevious_buildmessage": [
+    "Applications",
+    "VPN.app"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:srcappsvpnlocalizercppmacosinstallerprevious_buildmessage": [
+    "Applications",
+    "VPN.app"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:srcappsvpnlocalizercppmacosinstallerprevious_buildmessage_b2ccebc02a22edaad4458bdd51b76c48": [
     "Applications",
     "VPN.app"
   ],
@@ -728,11 +812,17 @@
   "mozillaorg:en/brands.ftl:brand-name-firefox-better-web": [
     "Better"
   ],
+  "mozillaorg:en/brands.ftl:brand-name-firefox-translations": [
+    "Translations"
+  ],
   "mozillaorg:en/brands.ftl:brand-name-lightbeam": [
     "Lightbeam"
   ],
   "mozillaorg:en/brands.ftl:brand-name-maker-party": [
     "Maker"
+  ],
+  "mozillaorg:en/brands.ftl:brand-name-mastodon": [
+    "Mastodon"
   ],
   "mozillaorg:en/brands.ftl:brand-name-messenger": [
     "Messenger"
@@ -1040,6 +1130,9 @@
   "mozillaorg:en/firefox/welcome/page14.ftl:welcome-page14-main-description-v2": [
     "Virtual"
   ],
+  "mozillaorg:en/firefox/whatsnew/whatsnew-112-translate.ftl:whatsnew-112-translate-title": [
+    "hello"
+  ],
   "mozillaorg:en/firefox/whatsnew/whatsnew-developer-mdnplus.ftl:developer-mdnplus-mdn-offline": [
     "offline"
   ],
@@ -1341,6 +1434,13 @@
     "Student",
     "University",
     "program",
+    "program"
+  ],
+  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-former-university-program-v2": [
+    "University",
+    "program",
+    "Student",
+    "Ambassadors",
     "program"
   ],
   "mozillaorg:en/mozorg/newsletters.ftl:newsletters-internet-health-report": [
