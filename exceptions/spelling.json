@@ -10,6 +10,9 @@
     "Instagram.com",
     "Messenger.com"
   ],
+  "firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_rating_content_description_2": [
+    ".02f"
+  ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:firefox_suggest_header": [
     "Suggest"
   ],
@@ -90,6 +93,9 @@
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojcredentialsstringsloginsdevicepasscoderequiredmessagev122": [
     "Face"
   ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojcredentialsstringsloginspaymentmethodsdevicepasscoderequiredmessagev124v2": [
+    "Face"
+  ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsettingsstringssettingssearchaccessibilitylearnaboutsuggestionsv124": [
     "Suggest"
   ],
@@ -97,6 +103,9 @@
     "Suggest"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsettingsstringssettingssearchsuggestlearnaboutsuggestionsv124": [
+    "Suggest"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsettingsstringssettingssearchsuggestprivatesessiondescriptionv125": [
     "Suggest"
   ],
   "firefox-for-ios:firefox-ios.xliff:widgetkitbaselprojwidgetintentsintentdefinitionfi3w24-2gqvpe": [
@@ -488,6 +497,11 @@
     "name",
     "system"
   ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnlocalnetworkaccesssublabel": [
+    "CarPlay",
+    "AirDrop",
+    "AirPlay"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnpaymentmethodsamex": [
     "American",
     "Express"
@@ -607,27 +621,6 @@
   "mozillaorg:en/500.ftl:error-page-you-can-also-try-refreshing": [
     "firefox.com"
   ],
-  "mozillaorg:en/banners/fundraising.ftl:banner-fundraising-giving-tuesday-tagline": [
-    "Big",
-    "Tech",
-    "Giving",
-    "Tuesday"
-  ],
-  "mozillaorg:en/banners/fundraising.ftl:banner-fundraising-giving-tuesday-title": [
-    "Giving",
-    "Tuesday"
-  ],
-  "mozillaorg:en/banners/fundraising.ftl:banner-fundraising-tagline-1": [
-    "Big",
-    "Tech"
-  ],
-  "mozillaorg:en/banners/fundraising.ftl:banner-fundraising-tagline-2": [
-    "Big",
-    "Tech"
-  ],
-  "mozillaorg:en/banners/fundraising.ftl:banner-fundraising-title-giving-day": [
-    "GivingTuesday"
-  ],
   "mozillaorg:en/brands.ftl:brand-name-facebook-messenger": [
     "Messenger"
   ],
@@ -741,8 +734,9 @@
     "InPrivate",
     "InPrivate"
   ],
-  "mozillaorg:en/firefox/browsers/compare/ie.ftl:compare-ie-so-whats-the-solution-if-your": [
-    "Support"
+  "mozillaorg:en/firefox/browsers/compare/index.ftl:compare-index-firefox-engineers-focus-on-improving": [
+    "Speedometer",
+    "benchmark"
   ],
   "mozillaorg:en/firefox/browsers/compare/opera.ftl:compare-opera-opera-provides-a-lot-of-hidden": [
     "Messenger"
@@ -836,9 +830,6 @@
     "Language",
     "Markup"
   ],
-  "mozillaorg:en/firefox/browsers/mobile/compare.ftl:mobile-compare-web-extensionsaddons": [
-    "WebExtensions"
-  ],
   "mozillaorg:en/firefox/browsers/windows-64-bit.ftl:windows-64-bit-heres-the-key-thing": [
     "Address",
     "Randomization"
@@ -897,8 +888,21 @@
   "mozillaorg:en/firefox/features/fast-2023.ftl:features-fast-we-led-the-tech-to-run-3d-games": [
     "lag"
   ],
-  "mozillaorg:en/firefox/features/fast.ftl:features-fast-we-led-the-tech-to-run-3d-games": [
-    "lag"
+  "mozillaorg:en/firefox/features/fast-2024.ftl:features-fast-all-browsers-had-to-make": [
+    "Speedometer"
+  ],
+  "mozillaorg:en/firefox/features/fast-2024.ftl:features-fast-speedometer-is-the-most-widely": [
+    "benchmark",
+    "Speedometer",
+    "Speedometer"
+  ],
+  "mozillaorg:en/firefox/features/fast-2024.ftl:features-fast-the-new-speedomer-3-benchmark": [
+    "benchmark",
+    "Speedometer",
+    "benchmark"
+  ],
+  "mozillaorg:en/firefox/features/fast-2024.ftl:features-fast-theres-been-an-encouraging": [
+    "Speedometer"
   ],
   "mozillaorg:en/firefox/features/fingerprinting.ftl:features-fingerprinting-ditch-the-sticky": [
     "anti-fingerprinting"
@@ -906,8 +910,8 @@
   "mozillaorg:en/firefox/features/index-2023.ftl:features-index-ditch-the-sticky-ads": [
     "anti-fingerprinting"
   ],
-  "mozillaorg:en/firefox/features/memory.ftl:features-memory-every-computer-program-you": [
-    "mooolto"
+  "mozillaorg:en/firefox/features/index-2023.ftl:features-index-the-latest-browser-speed-benchmarks": [
+    "benchmark"
   ],
   "mozillaorg:en/firefox/features/password-manager-2023.ftl:password-manager-firefox-alerts-you-if-a-password-has": [
     "Lamborghini"
@@ -915,29 +919,18 @@
   "mozillaorg:en/firefox/features/picture-in-picture.ftl:features-pip-repeat-steps-1-3-to-have": [
     "picture-in-picture"
   ],
-  "mozillaorg:en/firefox/features/translate.ftl:features-translate-google-translate-with": [
-    "To",
-    "Translate",
-    "translate.google.com"
+  "mozillaorg:en/firefox/features/translate.ftl:features-translate-firefox-translations-is-a-built-in": [
+    "Translations"
   ],
-  "mozillaorg:en/firefox/features/translate.ftl:features-translate-once-installed-simply": [
-    "Text-to-Speech",
-    "translate.google.com"
+  "mozillaorg:en/firefox/features/translate.ftl:features-translate-the-languages-below-are-what": [
+    "Translations"
   ],
-  "mozillaorg:en/firefox/features/translate.ftl:features-translate-the-firefox-translations-extension-provides": [
+  "mozillaorg:en/firefox/features/translate.ftl:features-translate-when-your-translations-are": [
     "cloud"
   ],
-  "mozillaorg:en/firefox/features/translate.ftl:features-translate-the-google-translate": [
-    "To",
-    "Translate"
-  ],
-  "mozillaorg:en/firefox/features/translate.ftl:features-translate-to-google-translate": [
-    "To",
-    "Translate"
-  ],
-  "mozillaorg:en/firefox/features/translate.ftl:features-translate-with-the-to": [
-    "To",
-    "Translate"
+  "mozillaorg:en/firefox/features/translate.ftl:features-translate-while-other-browsers-rely-on": [
+    "cloud",
+    "Translations"
   ],
   "mozillaorg:en/firefox/home.ftl:firefox-home-trade-clickbait-for": [
     "acchiappaclic"
@@ -982,9 +975,6 @@
   ],
   "mozillaorg:en/firefox/welcome/page14.ftl:welcome-page14-main-description-v2": [
     "Virtual"
-  ],
-  "mozillaorg:en/firefox/whatsnew/whatsnew-112-translate.ftl:whatsnew-112-translate-title": [
-    "hello"
   ],
   "mozillaorg:en/firefox/whatsnew/whatsnew-developer-mdnplus.ftl:developer-mdnplus-mdn-offline": [
     "offline"
@@ -1231,6 +1221,15 @@
     "Mitchell",
     "Baker"
   ],
+  "mozillaorg:en/mozorg/home-new.ftl:home-mitchell-baker-v2": [
+    "Mitchell",
+    "Baker",
+    "Executive",
+    "Chair",
+    "of",
+    "the",
+    "Board"
+  ],
   "mozillaorg:en/mozorg/home.ftl:home-mozilla-information-trust-initiative": [
     "Information",
     "Initiative"
@@ -1460,50 +1459,23 @@
     "Name",
     "System"
   ],
-  "mozillaorg:en/products/vpn/more/ip-address.ftl:vpn-ip-address-you-dont-need_9f4511fd2001b921e0a1eb24cd173e4f": [
-    "DNS-over-HTTPS",
-    "DoH",
-    "Domain",
-    "Name",
-    "System",
-    "DoH"
-  ],
   "mozillaorg:en/products/vpn/more/ip-address.ftl:vpn-ip-address-your-ip-address": [
-    "Protocol"
-  ],
-  "mozillaorg:en/products/vpn/more/ip-address.ftl:vpn-ip-address-your-ip-address_679dde419852bc1e865687ddd657cac4": [
     "Protocol"
   ],
   "mozillaorg:en/products/vpn/more/vpn-or-proxy.ftl:vpn-or-proxy-a-proxy-is-useful": [
     "backdoor"
   ],
-  "mozillaorg:en/products/vpn/more/vpn-or-proxy.ftl:vpn-or-proxy-a-proxy-is-useful_68cc2cf8da9da32cf4817f8d7ecf6cd1": [
-    "backdoor"
-  ],
   "mozillaorg:en/products/vpn/more/vpn-or-proxy.ftl:vpn-or-proxy-a-vpn-also": [
     "quell"
   ],
-  "mozillaorg:en/products/vpn/more/vpn-or-proxy.ftl:vpn-or-proxy-a-vpn-also_019f7c3c7e96360ab1c21123694a6e56": [
-    "quell"
-  ],
   "mozillaorg:en/products/vpn/more/when-to-use-a-vpn.ftl:vpn-when-to-use-as-more-of": [
-    "Virtual"
-  ],
-  "mozillaorg:en/products/vpn/more/when-to-use-a-vpn.ftl:vpn-when-to-use-as-more-of_5aa7d1b5acd1fb791adcb8a1269ef03d": [
     "Virtual"
   ],
   "mozillaorg:en/products/vpn/more/when-to-use-a-vpn.ftl:vpn-when-to-use-have-you-ever": [
     "TIM-WiFi-Corso-Italia",
     "Vodafone-Hotspot-Roma"
   ],
-  "mozillaorg:en/products/vpn/more/when-to-use-a-vpn.ftl:vpn-when-to-use-have-you-ever_a6d70ee0c4fd2c59fca86fb307325585": [
-    "TIM-WiFi-Corso-Italia",
-    "Vodafone-Hotspot-Roma"
-  ],
   "mozillaorg:en/products/vpn/more/when-to-use-a-vpn.ftl:vpn-when-to-use-if-you-are": [
-    "Airbnb"
-  ],
-  "mozillaorg:en/products/vpn/more/when-to-use-a-vpn.ftl:vpn-when-to-use-if-you-are_d79fc0e6bf1d241594650397d8fabb8d": [
     "Airbnb"
   ],
   "mozillaorg:en/products/vpn/platform-post-download.ftl:vpn-download-faq-as-more-daily": [
