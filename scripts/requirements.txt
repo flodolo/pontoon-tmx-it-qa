@@ -1,4 +1,4 @@
-compare-locales==8.2.1
+compare-locales==9.0.4
 hunspell==0.5.5
-lxml==4.9.*
-nltk==3.7
+lxml==5.2.*
+nltk==3.8.1
