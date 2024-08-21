@@ -204,6 +204,9 @@ class CheckStrings:
             ".ini": [
                 re.compile(r"%[A-Z_-]+%"),
             ],
+            ".json": [
+                re.compile(r"\$[a-z]+\$", re.IGNORECASE),
+            ],
             ".po": [
                 re.compile(r"\([a-zA-Z_-]+\)s"),
             ],

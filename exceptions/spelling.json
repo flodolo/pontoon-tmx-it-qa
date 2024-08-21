@@ -234,20 +234,8 @@
   "firefox-multi-account-containers:messages.json:confirmnavigationtitle": [
     "Containers"
   ],
-  "firefox-multi-account-containers:messages.json:containershortcut": [
-    "keyId"
-  ],
   "firefox-multi-account-containers:messages.json:extensiondescription": [
     "Containers"
-  ],
-  "firefox-multi-account-containers:messages.json:keyboardshortcut": [
-    "keyId"
-  ],
-  "firefox-multi-account-containers:messages.json:openincontainer": [
-    "containerName"
-  ],
-  "firefox-multi-account-containers:messages.json:youaskedfirefox": [
-    "containerName"
   ],
   "firefox-relay-add-on:messages.json:popupcreatecustomformmaskinputdescription": [
     ".mozmail.com"
@@ -773,6 +761,9 @@
   "mozillaorg:en/500.ftl:error-page-you-can-also-try-refreshing": [
     "firefox.com"
   ],
+  "mozillaorg:en/banners/firefox-app-store.ftl:banner-firefox-app-store-label": [
+    "store"
+  ],
   "mozillaorg:en/brands.ftl:brand-name-facebook-messenger": [
     "Messenger"
   ],
@@ -839,6 +830,12 @@
   "mozillaorg:en/firefox/accounts.ftl:firefox-accounts-help-us-keep-big-tech": [
     "Big",
     "Tech"
+  ],
+  "mozillaorg:en/firefox/all.ftl:firefox-all-choose-a-microsoft-store-installer": [
+    "store"
+  ],
+  "mozillaorg:en/firefox/all.ftl:firefox-all-esr-when-there-is": [
+    "point"
   ],
   "mozillaorg:en/firefox/all.ftl:firefox-all-the-pre-alpha-version": [
     "pre-alpha"
