@@ -16,6 +16,9 @@
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_to_homescreen_2": [
     "Agg"
   ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_to_homescreen_xiaomi": [
+    "Xiaomi"
+  ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:firefox_suggest_header": [
     "Suggest"
   ],
@@ -633,6 +636,11 @@
     "name",
     "system"
   ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnlocalnetworkaccessdisabledsublabel": [
+    "CarPlay",
+    "AirDrop",
+    "AirPlay"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnlocalnetworkaccesssublabel": [
     "CarPlay",
     "AirDrop",
@@ -1035,6 +1043,14 @@
   "mozillaorg:en/firefox/faq.ftl:firefox-does-not": [
     "virtual"
   ],
+  "mozillaorg:en/firefox/features/adblocker.ftl:features-adblocker-adguard-adblocker-blunts": [
+    "AdGuard",
+    "AdBlocker"
+  ],
+  "mozillaorg:en/firefox/features/adblocker.ftl:features-adblocker-considered-by-many-to-be-the": [
+    "uBlock",
+    "Origin"
+  ],
   "mozillaorg:en/firefox/features/adblocker.ftl:features-adblocker-if-you-dont-want-your": [
     "Not",
     "Not",
@@ -1142,6 +1158,12 @@
   ],
   "mozillaorg:en/firefox/whatsnew/whatsnew-developer-mdnplus.ftl:developer-mdnplus-mdn-offline": [
     "offline"
+  ],
+  "mozillaorg:en/footer-refresh.ftl:footer-refresh-spotify": [
+    "Spotify"
+  ],
+  "mozillaorg:en/footer-refresh.ftl:footer-refresh-tiktok": [
+    "TikTok"
   ],
   "mozillaorg:en/footer.ftl:footer-privacy-hub": [
     "Hub"
@@ -1531,6 +1553,9 @@
   ],
   "mozillaorg:en/navigation.ftl:navigation-web-of-things-iot": [
     "IoT"
+  ],
+  "mozillaorg:en/navigation_refresh.ftl:navigation-refresh-innovation-projects": [
+    "Innovation"
   ],
   "mozillaorg:en/navigation_v2.ftl:navigation-v2-learn-more-about-the-new": [
     "assembly"
