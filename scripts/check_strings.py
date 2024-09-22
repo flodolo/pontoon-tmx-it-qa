@@ -3,7 +3,7 @@
 from html.parser import HTMLParser
 from lxml import etree
 import hashlib
-import hunspell
+from hunspell import Hunspell
 import json
 import nltk
 import os
@@ -58,10 +58,7 @@ class CheckStrings:
         # Set up spellcheckers
         # Load hunspell dictionaries
         dictionary_path = os.path.join(self.script_path, os.path.pardir, "dictionaries")
-        self.spellchecker = hunspell.HunSpell(
-            os.path.join(dictionary_path, "it_IT.dic"),
-            os.path.join(dictionary_path, "it_IT.aff"),
-        )
+        self.spellchecker = Hunspell("it_IT", hunspell_data_dir=f"{dictionary_path}")
         self.spellchecker.add_dic(
             os.path.join(dictionary_path, "mozilla_qa_specialized.dic")
         )
