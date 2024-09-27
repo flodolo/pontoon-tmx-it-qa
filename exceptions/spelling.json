@@ -22,6 +22,21 @@
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:firefox_suggest_header": [
     "Suggest"
   ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_dark_reader_name": [
+    "Dark",
+    "Reader"
+  ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_privacy_badger_name": [
+    "Badger"
+  ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_search_by_image_name": [
+    "Search",
+    "Image"
+  ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_ublock_name": [
+    "uBlock",
+    "Origin"
+  ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_search_address_bar_fx_suggest": [
     "Suggest"
   ],
@@ -137,6 +152,9 @@
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsettingsstringssettingssearchsuggestprivatesessiondescriptionv125": [
     "Suggest"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsocialmediaappstringssentfromfirefoxsocialmediaappwhatsapptitlev134": [
+    "WhatsApp"
   ],
   "firefox-for-ios:firefox-ios.xliff:widgetkitbaselprojwidgetintentsintentdefinitionfi3w24-2gqvpe": [
     "count"
@@ -540,6 +558,12 @@
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserversjohannesburg": [
     "Johannesburg"
   ],
+  "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserverslagos": [
+    "Lagos"
+  ],
+  "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserversmalm": [
+    "Malmö"
+  ],
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserversmalmo": [
     "Malmö"
   ],
@@ -772,6 +796,9 @@
   "mozillaorg:en/banners/firefox-app-store.ftl:banner-firefox-app-store-label": [
     "store"
   ],
+  "mozillaorg:en/brands.ftl:brand-name-anonym": [
+    "Anonym"
+  ],
   "mozillaorg:en/brands.ftl:brand-name-facebook-messenger": [
     "Messenger"
   ],
@@ -787,11 +814,20 @@
   "mozillaorg:en/brands.ftl:brand-name-firefox-better-web": [
     "Better"
   ],
+  "mozillaorg:en/brands.ftl:brand-name-firefox-labs": [
+    "Labs"
+  ],
   "mozillaorg:en/brands.ftl:brand-name-firefox-translations": [
     "Translations"
   ],
   "mozillaorg:en/brands.ftl:brand-name-lightbeam": [
     "Lightbeam"
+  ],
+  "mozillaorg:en/brands.ftl:brand-name-llamafile": [
+    "Llamafile"
+  ],
+  "mozillaorg:en/brands.ftl:brand-name-lumigator": [
+    "Lumigator"
   ],
   "mozillaorg:en/brands.ftl:brand-name-maker-party": [
     "Maker"
@@ -801,6 +837,9 @@
   ],
   "mozillaorg:en/brands.ftl:brand-name-messenger": [
     "Messenger"
+  ],
+  "mozillaorg:en/brands.ftl:brand-name-mozilla-ai-v2": [
+    "Mozilla.ai"
   ],
   "mozillaorg:en/brands.ftl:brand-name-mozilla-corporation": [
     "Corporation"
@@ -816,6 +855,9 @@
   ],
   "mozillaorg:en/brands.ftl:brand-name-mullvad": [
     "Mullvad"
+  ],
+  "mozillaorg:en/brands.ftl:brand-name-rise25": [
+    "Rise25"
   ],
   "mozillaorg:en/brands.ftl:brand-name-spotify": [
     "Spotify"
@@ -1168,6 +1210,13 @@
   "mozillaorg:en/footer.ftl:footer-privacy-hub": [
     "Hub"
   ],
+  "mozillaorg:en/mozorg/about-m24.ftl:m24-about-14-ai-projects": [
+    "Builders",
+    "Accelerator"
+  ],
+  "mozillaorg:en/mozorg/about-m24.ftl:m24-about-mozilla-is-a": [
+    "fellow"
+  ],
   "mozillaorg:en/mozorg/about.ftl:about-in-mozillas-irl-podcast-host": [
     "Manoush",
     "Zomorodi"
@@ -1403,6 +1452,9 @@
     "Community",
     "Portal"
   ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-builders": [
+    "Builders"
+  ],
   "mozillaorg:en/mozorg/home-new.ftl:home-mitchell-baker": [
     "Mitchell",
     "Baker"
@@ -1557,6 +1609,15 @@
   "mozillaorg:en/navigation_refresh.ftl:navigation-refresh-innovation-projects": [
     "Innovation"
   ],
+  "mozillaorg:en/navigation_refresh.ftl:navigation-refresh-innovation-projects-v2": [
+    "Innovation"
+  ],
+  "mozillaorg:en/navigation_refresh.ftl:navigation-refresh-mozilla-advertising": [
+    "Advertising"
+  ],
+  "mozillaorg:en/navigation_refresh.ftl:navigation-refresh-mozilla-ventures": [
+    "Ventures"
+  ],
   "mozillaorg:en/navigation_v2.ftl:navigation-v2-learn-more-about-the-new": [
     "assembly"
   ],
@@ -1618,6 +1679,9 @@
     "Virtual"
   ],
   "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-invite-email-placeholder": [
+    "tuonome"
+  ],
+  "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-invite-email-placeholder_8174ad466902cf114d10451ac6050cf0": [
     "tuonome"
   ],
   "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-privacy-desc": [

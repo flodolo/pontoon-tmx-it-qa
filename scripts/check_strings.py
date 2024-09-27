@@ -28,20 +28,20 @@ class MLStripper(HTMLParser):
 
 
 class CheckStrings:
-
     included_products = (
         "facebook-container",
         "firefox-accounts",
         "firefox-for-android",
         "firefox-for-ios",
         "firefox-monitor-website",
-        "firefox-relay-website",
+        "firefox-multi-account-containers",
         "firefox-relay-add-on",
-        "focus-for-ios",
+        "firefox-relay-website",
         "focus-for-android",
+        "focus-for-ios",
         "mozilla-vpn-client",
         "mozillaorg",
-        "firefox-multi-account-containers",
+        "nimbus-l10n",
     )
 
     def __init__(self, script_path, tmx_file):
@@ -317,7 +317,6 @@ class CheckStrings:
 
         # Remove items that are not errors from the list of exceptions.
         for message_id in list(exceptions.keys()):
-
             if message_id not in self.translations:
                 # String does not exist anymore
                 del exceptions[message_id]
