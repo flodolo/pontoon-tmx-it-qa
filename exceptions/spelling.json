@@ -22,6 +22,21 @@
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:firefox_suggest_header": [
     "Suggest"
   ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_dark_reader_name": [
+    "Dark",
+    "Reader"
+  ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_privacy_badger_name": [
+    "Badger"
+  ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_search_by_image_name": [
+    "Search",
+    "Image"
+  ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_ublock_name": [
+    "uBlock",
+    "Origin"
+  ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_search_address_bar_fx_suggest": [
     "Suggest"
   ],
@@ -786,6 +801,9 @@
   ],
   "mozillaorg:en/brands.ftl:brand-name-firefox-better-web": [
     "Better"
+  ],
+  "mozillaorg:en/brands.ftl:brand-name-firefox-labs": [
+    "Labs"
   ],
   "mozillaorg:en/brands.ftl:brand-name-firefox-translations": [
     "Translations"
