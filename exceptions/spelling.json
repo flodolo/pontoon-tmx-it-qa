@@ -22,6 +22,9 @@
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:firefox_suggest_header": [
     "Suggest"
   ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:link_sharing_toggle_title": [
+    "WhatsApp"
+  ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_dark_reader_name": [
     "Dark",
     "Reader"
@@ -30,12 +33,12 @@
     "Badger"
   ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_search_by_image_name": [
-    "Search",
-    "Image"
+    "Image",
+    "Search"
   ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_ublock_name": [
-    "uBlock",
-    "Origin"
+    "Origin",
+    "uBlock"
   ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_search_address_bar_fx_suggest": [
     "Suggest"
@@ -156,6 +159,10 @@
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsocialmediaappstringssentfromfirefoxsocialmediaappwhatsapptitlev134": [
     "WhatsApp"
   ],
+  "firefox-for-ios:firefox-ios.xliff:stickerstickerscatalogxcstickerssticker-packstickerpack10accessibilitylabel": [
+    "Hot",
+    "dog"
+  ],
   "firefox-for-ios:firefox-ios.xliff:widgetkitbaselprojwidgetintentsintentdefinitionfi3w24-2gqvpe": [
     "count"
   ],
@@ -212,9 +219,6 @@
   ],
   "firefox-monitor-website:breaches.ftl:breach-checklist-ssn-header": [
     "credit"
-  ],
-  "firefox-monitor-website:breaches.ftl:breach-meta-title": [
-    "Dashboard"
   ],
   "firefox-monitor-website:email-strings.ftl:share-by-email-message": [
     "monitor.firefox.com"
@@ -297,8 +301,8 @@
     "shop"
   ],
   "firefox-relay-website:en/banner.ftl:tooltip-email-domain-explanation-part-three": [
-    "tuodominio.",
     "shop",
+    "tuodominio",
     "tuodominio"
   ],
   "firefox-relay-website:en/faq.ftl:faq-question-2-answer-v4": [
@@ -316,14 +320,14 @@
     "Ccn"
   ],
   "firefox-relay-website:en/faq.ftl:faq-question-mozmail-answer-2": [
-    "relay.firefox.com",
+    "miodominio.mozmail.com",
     "mozmail.com",
-    "miodominio.mozmail.com"
+    "relay.firefox.com"
   ],
   "firefox-relay-website:en/faq.ftl:faq-question-mozmail-answer-2_850f7d181e8711fb15e7b94b5e977137": [
-    "relay.firefox.com",
+    "miodominio.mozmail.com",
     "mozmail.com",
-    "miodominio.mozmail.com"
+    "relay.firefox.com"
   ],
   "firefox-relay-website:en/faq.ftl:faq-question-mozmail-question-2": [
     "mozmail.com"
@@ -337,21 +341,15 @@
   "firefox-relay-website:en/landing.ftl:highlighted-features-section-masks-on-the-go-body": [
     "shop",
     "tuodominio",
-    "tuodominio."
-  ],
-  "firefox-relay-website:en/landing.ftl:highlighted-features-section-masks-on-the-go-body_a1839c26cda37a4f58fde7ed6edeabfb": [
-    "tuodominio.",
-    "shop",
     "tuodominio"
   ],
-  "firefox-relay-website:en/landing.ftl:how-it-works-section-manage-headline": [
-    "dashboard"
+  "firefox-relay-website:en/landing.ftl:highlighted-features-section-masks-on-the-go-body_a1839c26cda37a4f58fde7ed6edeabfb": [
+    "shop",
+    "tuodominio",
+    "tuodominio"
   ],
   "firefox-relay-website:en/landing.ftl:premium-promo-perks-perk-custom-domain-body-2": [
     "miodominio.mozmail.com"
-  ],
-  "firefox-relay-website:en/landing.ftl:premium-promo-perks-perk-dashboard-headline-2": [
-    "dashboard"
   ],
   "firefox-relay-website:en/landing.ftl:premium-promo-use-cases-gaming-body-2": [
     "gamertag",
@@ -379,24 +377,9 @@
   "firefox-relay-website:en/landing.ftl:waitlist-privacy-policy-use-bundle_fa02118ec2fdec4034132fbad381daa5": [
     "bundle"
   ],
-  "firefox-relay-website:en/layout.ftl:nav-duo-description": [
-    "dashboard"
-  ],
   "firefox-relay-website:en/layout.ftl:nav-footer-stock-photo-legal": [
     "iStock",
     "iStockPhoto.com"
-  ],
-  "firefox-relay-website:en/misc.ftl:first-time-user-email-hero-secondary-text": [
-    "dashboard"
-  ],
-  "firefox-relay-website:en/misc.ftl:first-time-user-email-how-item-1-subhead-html": [
-    "dashboard"
-  ],
-  "firefox-relay-website:en/misc.ftl:first-time-user-email-how-item-1-subhead-text": [
-    "dashboard"
-  ],
-  "firefox-relay-website:en/misc.ftl:first-time-user-email-how-item-3-header": [
-    "dashboard"
   ],
   "firefox-relay-website:en/misc.ftl:forwarded-email-header-cc-notice-2": [
     "Ccn"
@@ -408,15 +391,12 @@
     "Sec"
   ],
   "firefox-relay-website:en/misc.ftl:popover-custom-alias-explainer-explanation-2": [
-    "shop",
-    "miodominio.mozmail.com"
-  ],
-  "firefox-relay-website:en/misc.ftl:relay-email-your-dashboard": [
-    "dashboard"
+    "miodominio.mozmail.com",
+    "shop"
   ],
   "firefox-relay-website:en/misc.ftl:tips-custom-alias-content-2": [
-    "shop",
-    "miodominio.mozmail.com"
+    "miodominio.mozmail.com",
+    "shop"
   ],
   "firefox-relay-website:en/misc.ftl:what-can-you-do-with-relay-point-two": [
     "spammer"
@@ -425,8 +405,8 @@
     "dominiopersonalizzato.mozmail.com"
   ],
   "firefox-relay-website:en/modals.ftl:modal-custom-alias-picker-warning-2": [
-    "shop",
-    "miodominio.mozmail.com"
+    "miodominio.mozmail.com",
+    "shop"
   ],
   "firefox-relay-website:en/onboarding.ftl:multi-part-onboarding-premium-email-domain-feature-body": [
     "shop",
@@ -558,6 +538,10 @@
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserversjohannesburg": [
     "Johannesburg"
   ],
+  "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserverskualalumpur": [
+    "Kuala",
+    "Lumpur"
+  ],
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserverslagos": [
     "Lagos"
   ],
@@ -589,8 +573,8 @@
     "Raleigh"
   ],
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserverssaltlakecity": [
-    "Salt",
-    "Lake"
+    "Lake",
+    "Salt"
   ],
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserverssanjose": [
     "Jose"
@@ -605,8 +589,8 @@
     "Stavanger"
   ],
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserverstelaviv": [
-    "Tel",
-    "Aviv"
+    "Aviv",
+    "Tel"
   ],
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserverstokyo": [
     "Tokio"
@@ -661,14 +645,14 @@
     "system"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnlocalnetworkaccessdisabledsublabel": [
-    "CarPlay",
     "AirDrop",
-    "AirPlay"
+    "AirPlay",
+    "CarPlay"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnlocalnetworkaccesssublabel": [
-    "CarPlay",
     "AirDrop",
-    "AirPlay"
+    "AirPlay",
+    "CarPlay"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnpaymentmethodsamex": [
     "American",
@@ -799,6 +783,9 @@
   "mozillaorg:en/brands.ftl:brand-name-anonym": [
     "Anonym"
   ],
+  "mozillaorg:en/brands.ftl:brand-name-builders": [
+    "Builders"
+  ],
   "mozillaorg:en/brands.ftl:brand-name-facebook-messenger": [
     "Messenger"
   ],
@@ -832,14 +819,14 @@
   "mozillaorg:en/brands.ftl:brand-name-maker-party": [
     "Maker"
   ],
-  "mozillaorg:en/brands.ftl:brand-name-mastodon": [
-    "Mastodon"
-  ],
   "mozillaorg:en/brands.ftl:brand-name-messenger": [
     "Messenger"
   ],
   "mozillaorg:en/brands.ftl:brand-name-mozilla-ai-v2": [
     "Mozilla.ai"
+  ],
+  "mozillaorg:en/brands.ftl:brand-name-mozilla-builders": [
+    "Builders"
   ],
   "mozillaorg:en/brands.ftl:brand-name-mozilla-corporation": [
     "Corporation"
@@ -1065,8 +1052,8 @@
     "WebSocket"
   ],
   "mozillaorg:en/firefox/developer.ftl:firefox-developer-all-the-latest-v2": [
-    "WebSocket",
-    "Inspector"
+    "Inspector",
+    "WebSocket"
   ],
   "mozillaorg:en/firefox/developer.ftl:firefox-developer-feedback-makes-us": [
     "Suggeriscici"
@@ -1085,13 +1072,16 @@
   "mozillaorg:en/firefox/faq.ftl:firefox-does-not": [
     "virtual"
   ],
+  "mozillaorg:en/firefox/features/adblocker-2025.ftl:features-adblocker-tip-5": [
+    "AdGuard"
+  ],
   "mozillaorg:en/firefox/features/adblocker.ftl:features-adblocker-adguard-adblocker-blunts": [
-    "AdGuard",
-    "AdBlocker"
+    "AdBlocker",
+    "AdGuard"
   ],
   "mozillaorg:en/firefox/features/adblocker.ftl:features-adblocker-considered-by-many-to-be-the": [
-    "uBlock",
-    "Origin"
+    "Origin",
+    "uBlock"
   ],
   "mozillaorg:en/firefox/features/adblocker.ftl:features-adblocker-if-you-dont-want-your": [
     "Not",
@@ -1123,13 +1113,13 @@
     "Speedometer"
   ],
   "mozillaorg:en/firefox/features/fast-2024.ftl:features-fast-speedometer-is-the-most-widely": [
-    "benchmark",
     "Speedometer",
-    "Speedometer"
+    "Speedometer",
+    "benchmark"
   ],
   "mozillaorg:en/firefox/features/fast-2024.ftl:features-fast-the-new-speedomer-3-benchmark": [
-    "benchmark",
     "Speedometer",
+    "benchmark",
     "benchmark"
   ],
   "mozillaorg:en/firefox/features/fast-2024.ftl:features-fast-theres-been-an-encouraging": [
@@ -1163,11 +1153,11 @@
     "cloud"
   ],
   "mozillaorg:en/firefox/features/translate.ftl:features-translate-while-other-browsers-rely-on": [
-    "cloud",
-    "Translations"
+    "Translations",
+    "cloud"
   ],
-  "mozillaorg:en/firefox/home.ftl:firefox-home-trade-clickbait-for": [
-    "acchiappaclic"
+  "mozillaorg:en/firefox/features/translate.ftl:features-translate-while-other-browsers-rely-on-v2": [
+    "cloud"
   ],
   "mozillaorg:en/firefox/more/misinformation.ftl:misinformation-disinformation": [
     "disinformation",
@@ -1176,15 +1166,17 @@
   "mozillaorg:en/firefox/more/misinformation.ftl:misinformation-page-desc": [
     "misinformation"
   ],
-  "mozillaorg:en/firefox/nightly/firstrun.ftl:nightly-firstrun-contribute-link": [
-    "Contribute",
-    "L10n"
-  ],
   "mozillaorg:en/firefox/nightly/whatsnew.ftl:nightly-whatsnew-do-you-experience": [
     "-community"
   ],
   "mozillaorg:en/firefox/nightly/whatsnew.ftl:nightly-whatsnew-if-you-want-to": [
     "community"
+  ],
+  "mozillaorg:en/firefox/nightly/whatsnew.ftl:nightly-whatsnew-if-you-want-to-v4": [
+    "Bluesky"
+  ],
+  "mozillaorg:en/firefox/switch.ftl:switch-share-to-bluesky": [
+    "Bluesky"
   ],
   "mozillaorg:en/firefox/welcome/page1.ftl:welcome-page1-were-you-one-of-many": [
     "Evite"
@@ -1211,8 +1203,8 @@
     "Hub"
   ],
   "mozillaorg:en/mozorg/about-m24.ftl:m24-about-14-ai-projects": [
-    "Builders",
-    "Accelerator"
+    "Accelerator",
+    "Builders"
   ],
   "mozillaorg:en/mozorg/about-m24.ftl:m24-about-mozilla-is-a": [
     "fellow"
@@ -1222,7 +1214,6 @@
     "Zomorodi"
   ],
   "mozillaorg:en/mozorg/about.ftl:about-in-mozillas-multi-award-winning": [
-    "pluripremiato",
     "Bridget",
     "Todd"
   ],
@@ -1420,6 +1411,9 @@
   "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-i-support-the-vision-of": [
     "mozilla"
   ],
+  "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-share-on-bluesky": [
+    "Bluesky"
+  ],
   "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-use-open-badges-to-share": [
     "Badges"
   ],
@@ -1452,21 +1446,64 @@
     "Community",
     "Portal"
   ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-alt-builders": [
+    "Builders"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-alt-irl-host": [
+    "Bridget",
+    "Todd"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-alt-trustworthy": [
+    "Mark",
+    "Surman"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-big-techs-power": [
+    "Bridget",
+    "Todd"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-builders-helps-independent": [
+    "Builders"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-from-hollywood-to": [
+    "hip",
+    "hop"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-got-an-earlystage": [
+    "startup"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-keeping-genai-technologies": [
+    "GenAI"
+  ],
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-builders": [
     "Builders"
   ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-celebrates-groundbreaking": [
+    "Presents"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-privacy-not-included": [
+    "Included",
+    "Not"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-run-large-language": [
+    "Language",
+    "Large"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-why-does-it": [
+    "Bridget",
+    "Todd"
+  ],
   "mozillaorg:en/mozorg/home-new.ftl:home-mitchell-baker": [
-    "Mitchell",
-    "Baker"
+    "Baker",
+    "Mitchell"
   ],
   "mozillaorg:en/mozorg/home-new.ftl:home-mitchell-baker-v2": [
-    "Mitchell",
     "Baker",
-    "Executive",
+    "Board",
     "Chair",
+    "Executive",
+    "Mitchell",
     "of",
-    "the",
-    "Board"
+    "the"
   ],
   "mozillaorg:en/mozorg/home-new.ftl:home-product-relay-hide-your": [
     "spammer"
@@ -1517,9 +1554,6 @@
   "mozillaorg:en/mozorg/newsletters.ftl:newsletters-firefox-for-android": [
     "for"
   ],
-  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-firefox-for-desktop": [
-    "for"
-  ],
   "mozillaorg:en/mozorg/newsletters.ftl:newsletters-firefox-os-and-you": [
     "You"
   ],
@@ -1539,11 +1573,14 @@
     "program"
   ],
   "mozillaorg:en/mozorg/newsletters.ftl:newsletters-former-university-program-v2": [
+    "Ambassadors",
+    "Student",
     "University",
     "program",
-    "Student",
-    "Ambassadors",
     "program"
+  ],
+  "mozillaorg:en/mozorg/newsletters.ftl:newsletters-im-keeping-in-touch-v3": [
+    "Bluesky"
   ],
   "mozillaorg:en/mozorg/newsletters.ftl:newsletters-internet-health-report": [
     "Health"
@@ -1634,6 +1671,9 @@
   "mozillaorg:en/privacy/cookie-settings.ftl:cookie-settings-page-intro-v2": [
     "beacon",
     "clear"
+  ],
+  "mozillaorg:en/privacy/faq-v2.ftl:privacy-faq-v2-mozilla-is-not": [
+    "royalty"
   ],
   "mozillaorg:en/privacy/faq.ftl:privacy-faq-mozilla-doesnt-know-as-much": [
     "Pioneer"
@@ -1733,12 +1773,12 @@
     "repository"
   ],
   "mozillaorg:en/products/vpn/platforms/linux_v2.ftl:vpn-linux-if-you-use": [
-    "mozillavpn",
-    "Launchpad"
+    "Launchpad",
+    "mozillavpn"
   ],
   "mozillaorg:en/products/vpn/platforms/linux_v2.ftl:vpn-linux-if-you-use-v2": [
-    "mozillavpn",
-    "Launchpad"
+    "Launchpad",
+    "mozillavpn"
   ],
   "mozillaorg:en/products/vpn/platforms/windows_v2.ftl:vpn-windows-you-can-exclude": [
     "split"
