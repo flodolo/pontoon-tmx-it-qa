@@ -365,7 +365,7 @@ class CheckStrings:
                     json_data = json.load(f)
                     if json_data:
                         print(f"Errors for {type}:")
-                        print(json.dumps(json_data, indent=2))
+                        print(json.dumps(json_data, indent=2, ensure_ascii=False))
             sys.exit(1)
         else:
             print("No errors found.")
