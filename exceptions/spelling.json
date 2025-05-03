@@ -13,6 +13,12 @@
   "firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_rating_content_description_2": [
     ".02f"
   ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:alternative_app_icon_option_momo": [
+    "Momo"
+  ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:alternative_app_icon_option_momo_subtitle": [
+    "heyheymomodraws"
+  ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_to_homescreen_2": [
     "Agg"
   ],
@@ -82,6 +88,9 @@
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfirefoxhomepocketminutesv99": [
     "min"
   ],
+  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfirefoxhomestoriesminutesv140": [
+    "min"
+  ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfxaqr-scanning-viewinstructions": [
     "firefox.com",
     "pair"
@@ -110,6 +119,9 @@
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojmenustringsmenuopensyncedtabsactionaccessibilitylabelv2": [
     "sinc"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojappiconselectionstringssettingsappiconselectionappiconnamesfromcontributorsmomotitlev139": [
+    "Momo"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojcredentialsstringsloginsdevicepasscoderequiredmessagev122": [
     "Face"
@@ -502,6 +514,10 @@
   "mozilla-vpn-client:addons/guide_12_multi_account_containers/strings.xliff:addonqmlguideguide_multi_account_containersblockc_5": [
     "Containers"
   ],
+  "mozilla-vpn-client:addons/strings.xliff:addonqmlvpn231updatemessagebullet1": [
+    "CarPlay",
+    "AirDrop"
+  ],
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserversashburn": [
     "Ashburn"
   ],
@@ -522,6 +538,9 @@
   ],
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserversdusseldorf": [
     "Düsseldorf"
+  ],
+  "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserversfortaleza": [
+    "Fortaleza"
   ],
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserversgothenburg": [
     "Göteborg"
@@ -611,6 +630,10 @@
     "Chromecast",
     "Roku",
     "AirPlay"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnbypassvpnsublabel": [
+    "CarPlay",
+    "AirDrop"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpncaptiveportalalertheader": [
     "portal"
@@ -1178,9 +1201,6 @@
   "mozillaorg:en/firefox/welcome/page14.ftl:welcome-page14-main-description-v2": [
     "Virtual"
   ],
-  "mozillaorg:en/firefox/whatsnew/whatsnew-developer-mdnplus.ftl:developer-mdnplus-mdn-offline": [
-    "offline"
-  ],
   "mozillaorg:en/footer-refresh.ftl:footer-refresh-mozilla-advertising": [
     "Advertising"
   ],
@@ -1424,6 +1444,10 @@
     "branding"
   ],
   "mozillaorg:en/mozorg/about/this-site.ftl:about-this-site-today": [
+    "easter",
+    "egg"
+  ],
+  "mozillaorg:en/mozorg/about/this-site.ftl:about-this-site-today-v2": [
     "easter",
     "egg"
   ],
