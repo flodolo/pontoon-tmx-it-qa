@@ -171,6 +171,9 @@
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsummarizerstringssummarizertosalertapplemessagelabelv142": [
     "Intelligence"
   ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsummarizerstringssummarizertosalertfirefoxmessagelabelv144": [
+    "cloud"
+  ],
   "firefox-for-ios:firefox-ios.xliff:stickerstickerscatalogxcstickerssticker-packstickerpack10accessibilitylabel": [
     "Hot",
     "dog"
@@ -794,6 +797,10 @@
     "IPv6"
   ],
   "mozillaorg:en/404.ftl:not-found-page-donate-to-mozilla-reclaim-from": [
+    "big",
+    "tech"
+  ],
+  "mozillaorg:en/404.ftl:not-found-page-donate-to-mozilla-reclaim-from-v2": [
     "big",
     "tech"
   ],
@@ -1423,6 +1430,9 @@
     "consumer"
   ],
   "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-details-some-foundation": [
+    "consumer"
+  ],
+  "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-details-some-foundation-v2": [
     "consumer"
   ],
   "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-i-support-the-vision-of": [
