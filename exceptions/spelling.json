@@ -13,6 +13,9 @@
   "firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_rating_content_description_2": [
     ".02f"
   ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:alternative_app_icon_option_cool": [
+    "Cool"
+  ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:alternative_app_icon_option_momo": [
     "Momo"
   ],
@@ -170,6 +173,9 @@
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsummarizerstringssummarizertosalertapplemessagelabelv142": [
     "Intelligence"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsummarizerstringssummarizertosalertfirefoxmessagelabelv144": [
+    "cloud"
   ],
   "firefox-for-ios:firefox-ios.xliff:stickerstickerscatalogxcstickerssticker-packstickerpack10accessibilitylabel": [
     "Hot",
@@ -794,6 +800,10 @@
     "IPv6"
   ],
   "mozillaorg:en/404.ftl:not-found-page-donate-to-mozilla-reclaim-from": [
+    "big",
+    "tech"
+  ],
+  "mozillaorg:en/404.ftl:not-found-page-donate-to-mozilla-reclaim-from-v2": [
     "big",
     "tech"
   ],
@@ -1425,6 +1435,9 @@
   "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-details-some-foundation": [
     "consumer"
   ],
+  "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-details-some-foundation-v2": [
+    "consumer"
+  ],
   "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-i-support-the-vision-of": [
     "mozilla"
   ],
@@ -1810,5 +1823,8 @@
   "mozillaorg:en/products/vpn/shared.ftl:vpn-shared-wireguard-copyright": [
     "Jason",
     "Donenfeld"
+  ],
+  "mozillaorg:en/send_to_device.ftl:send-to-device-email-placeholder": [
+    "iltuonome"
   ]
 }

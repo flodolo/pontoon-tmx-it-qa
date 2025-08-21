@@ -1,4 +1,3 @@
-compare-locales==9.0.4
-chunspell==2.0.4
-lxml==5.3.*
-nltk==3.9.1
+chunspell ~= 2.0.4
+lxml ~= 6.0.2
+nltk ~= 3.9.1
