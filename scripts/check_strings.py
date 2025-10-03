@@ -1,15 +1,19 @@
 #!/usr/bin/python3
 
-from html.parser import HTMLParser
-from lxml import etree
+import argparse
 import hashlib
-from hunspell import Hunspell
 import json
-import nltk
 import os
 import re
 import string
 import sys
+
+from html.parser import HTMLParser
+
+import lxml.etree as ET
+import nltk
+
+from hunspell import Hunspell
 
 
 class MLStripper(HTMLParser):
@@ -20,8 +24,8 @@ class MLStripper(HTMLParser):
         self.convert_charrefs = True
         self.fed = []
 
-    def handle_data(self, d):
-        self.fed.append(d)
+    def handle_data(self, data):
+        self.fed.append(data)
 
     def get_data(self):
         return " ".join(self.fed)
@@ -44,13 +48,17 @@ class CheckStrings:
         "nimbus-l10n",
     )
 
-    def __init__(self, script_path, tmx_file):
+    def __init__(self, script_path, tmx_file, args):
         """Initialize object"""
 
         self.verbose = False
         self.tmx_file = tmx_file
         self.translations = {}
-
+        self.write_errors = args.errors
+        self.errors = {
+            "quotes": [],
+            "spelling": {},
+        }
         self.script_path = script_path
         self.exceptions_path = os.path.join(script_path, os.path.pardir, "exceptions")
         self.errors_path = os.path.join(script_path, os.path.pardir, "errors")
@@ -76,7 +84,7 @@ class CheckStrings:
     def extractStrings(self):
         """Extract strings from tmx"""
 
-        tree = etree.parse(self.tmx_file)
+        tree = ET.parse(self.tmx_file)
         root = tree.getroot()
 
         for tuv in root.xpath("//tuv"):
@@ -139,12 +147,24 @@ class CheckStrings:
                 if self.verbose:
                     print(f"{message_id}: wrong quotes\n{message}")
 
-        with open(
-            os.path.join(self.errors_path, "quotes.json"), "w", encoding="utf8"
-        ) as f:
-            json.dump(all_errors, f, indent=2, sort_keys=True, ensure_ascii=False)
+        # Add new errors to exceptions and write back the file if needed
+        if all_errors:
+            with open(file_name, "w", encoding="utf8") as f:
+                json.dump(
+                    exceptions + all_errors,
+                    f,
+                    indent=2,
+                    sort_keys=True,
+                    ensure_ascii=False,
+                )
 
-        self.quote_errors = all_errors
+        if self.write_errors:
+            with open(
+                os.path.join(self.errors_path, "quotes.json"), "w", encoding="utf8"
+            ) as f:
+                json.dump(all_errors, f, indent=2, sort_keys=True, ensure_ascii=False)
+
+        self.errors["quotes"] = all_errors
 
     def excludeToken(self, token):
         """Exclude specific tokens after spellcheck"""
@@ -310,10 +330,11 @@ class CheckStrings:
                         print(nltk.word_tokenize(cleaned_message))
                 all_errors[message_id] = errors
 
-        with open(
-            os.path.join(self.errors_path, "spelling.json"), "w", encoding="utf8"
-        ) as f:
-            json.dump(all_errors, f, indent=2, sort_keys=True, ensure_ascii=False)
+        if self.write_errors:
+            with open(
+                os.path.join(self.errors_path, "spelling.json"), "w", encoding="utf8"
+            ) as f:
+                json.dump(all_errors, f, indent=2, sort_keys=True, ensure_ascii=False)
 
         # Remove items that are not errors from the list of exceptions.
         for message_id in list(exceptions.keys()):
@@ -337,6 +358,9 @@ class CheckStrings:
                     e for e in exceptions[message_id] if not self.spellchecker.spell(e)
                 ]
 
+        # Add new errors to exceptions
+        exceptions.update(all_errors)
+
         # Write back updated exceptions file
         with open(exceptions_filename, "w", encoding="utf8") as f:
             json.dump(exceptions, f, indent=2, sort_keys=True, ensure_ascii=False)
@@ -348,24 +372,25 @@ class CheckStrings:
         # Display misspelled words and their count, if above 4
         threshold = 4
         above_threshold = []
-        for k in sorted(misspelled_words, key=misspelled_words.get, reverse=True):
+        for k in sorted(
+            misspelled_words, key=lambda x: misspelled_words[x], reverse=True
+        ):
             if misspelled_words[k] >= threshold:
                 above_threshold.append("{}: {}".format(k, misspelled_words[k]))
         if above_threshold:
             print("Errors and number of occurrences (only above {}):".format(threshold))
             print("\n".join(above_threshold))
 
-        self.spelling_errors = total_errors
+        self.errors["spelling"] = all_errors
 
     def printOutput(self):
-        if self.spelling_errors or self.quote_errors:
-            for type in ["quotes", "spelling"]:
-                filename = os.path.join(self.errors_path, f"{type}.json")
-                with open(filename, "r") as f:
-                    json_data = json.load(f)
-                    if json_data:
-                        print(f"Errors for {type}:")
-                        print(json.dumps(json_data, indent=2, ensure_ascii=False))
+        errors_found = False
+        for type in ["quotes", "spelling"]:
+            if self.errors[type]:
+                errors_found = True
+                print(f"Errors for {type}:")
+                print(json.dumps(self.errors[type], indent=2, ensure_ascii=False))
+        if errors_found:
             sys.exit(1)
         else:
             print("No errors found.")
@@ -378,7 +403,15 @@ def main():
     if not os.path.isfile(tmx_file):
         sys.exit(f"Missing tmx file in {tmx_file}.")
 
-    CheckStrings(script_path, tmx_file)
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--errors",
+        action="store_true",
+        help="Write errors to separate files in /errors",
+    )
+    args = parser.parse_args()
+
+    CheckStrings(script_path, tmx_file, args)
 
 
 if __name__ == "__main__":

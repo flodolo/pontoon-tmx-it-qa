@@ -10,6 +10,12 @@
     "Instagram.com",
     "Messenger.com"
   ],
+  "firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_unknown_host_message": [
+    "ww"
+  ],
+  "firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_unknown_protocol_message": [
+    "wxyz"
+  ],
   "firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_rating_content_description_2": [
     ".02f"
   ],
@@ -855,6 +861,9 @@
   "mozillaorg:en/brands.ftl:brand-name-messenger": [
     "Messenger"
   ],
+  "mozillaorg:en/brands.ftl:brand-name-mozilla-ads": [
+    "Ads"
+  ],
   "mozillaorg:en/brands.ftl:brand-name-mozilla-ai-v2": [
     "Mozilla.ai"
   ],
@@ -1216,6 +1225,9 @@
   ],
   "mozillaorg:en/firefox/welcome/page14.ftl:welcome-page14-main-description-v2": [
     "Virtual"
+  ],
+  "mozillaorg:en/footer-refresh.ftl:footer-refresh-learn-more-about-mozilla-advertising": [
+    "Advertising"
   ],
   "mozillaorg:en/footer-refresh.ftl:footer-refresh-mozilla-advertising": [
     "Advertising"
