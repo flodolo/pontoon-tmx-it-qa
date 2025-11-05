@@ -43,6 +43,7 @@ class CheckStrings:
         "firefox-relay-website",
         "focus-for-android",
         "focus-for-ios",
+        "mozilla-accounts-cms",
         "mozilla-vpn-client",
         "mozillaorg",
         "nimbus-l10n",
