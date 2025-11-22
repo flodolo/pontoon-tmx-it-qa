@@ -27,7 +27,8 @@ for ((attempt=1; attempt<=max_attempts; attempt++)); do
 
     # Check if download succeeded and file is non-empty
     if [ -s "$output" ]; then
-        echo "✅ Download succeeded and file is not empty."
+        size=$(du -h "$output" | cut -f1)
+        echo "✅ Download succeeded and file is not empty ($size)."
         break
     else
         echo "⚠️ File is empty or download failed. Retrying in $delay seconds..."
