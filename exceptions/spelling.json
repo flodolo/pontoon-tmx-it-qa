@@ -26,19 +26,16 @@
     "Oblast"
   ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_parish": [
-    "Parish"
-  ],
-  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_pin": [
-    "Pin"
+    "parish"
   ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_post_town": [
     "town"
   ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_suburb": [
-    "Suburb"
+    "suburb"
   ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_townland": [
-    "Townland"
+    "townland"
   ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_village_township": [
     "township"
@@ -172,19 +169,16 @@
     "Oblast"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdressparishv129": [
-    "Parish"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdresspinv129": [
-    "Pin"
+    "parish"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdressposttownv129": [
     "town"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdresssuburbv129": [
-    "Suburb"
+    "suburb"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdresstownlandv129": [
-    "Townland"
+    "townland"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdressvillagetownshipv129": [
     "township"
@@ -281,6 +275,9 @@
     "Equifax",
     "Experian",
     "TransUnion"
+  ],
+  "firefox-monitor-website:how-it-works.ftl:how-it-works-page-footersection-input-placeholder": [
+    "example"
   ],
   "firefox-monitor-website:landing-all.ftl:landing-all-hero-emailform-input-placeholder": [
     "iltuonome"
@@ -1008,6 +1005,9 @@
   "mozillaorg:en/brands.ftl:brand-name-spotify": [
     "Spotify"
   ],
+  "mozillaorg:en/brands.ftl:brand-name-thundermail": [
+    "Thundermail"
+  ],
   "mozillaorg:en/brands.ftl:brand-name-tiktok": [
     "TikTok"
   ],
@@ -1331,6 +1331,9 @@
   "mozillaorg:en/firefox/nightly/whatsnew.ftl:nightly-whatsnew-if-you-want-to": [
     "community"
   ],
+  "mozillaorg:en/firefox/products.ftl:firefox-products-0din-desc": [
+    "GenAI"
+  ],
   "mozillaorg:en/firefox/welcome/page1.ftl:welcome-page1-were-you-one-of-many": [
     "Evite"
   ],
@@ -1361,6 +1364,10 @@
   "mozillaorg:en/mozorg/about-m24.ftl:m24-about-14-ai-projects": [
     "Builders",
     "Accelerator"
+  ],
+  "mozillaorg:en/mozorg/about-m24.ftl:m24-about-can-we-have": [
+    "Mark",
+    "Surman"
   ],
   "mozillaorg:en/mozorg/about-m24.ftl:m24-about-mozilla-is-a": [
     "fellow"
@@ -1470,9 +1477,6 @@
   ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-community-participation": [
     "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-contributor": [
-    "Contributor"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/reporting.ftl:reporting-do-let-them-know-that-email": [
     "hotline"
@@ -1606,6 +1610,12 @@
     "Community",
     "Portal"
   ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-0din-desc": [
+    "GenAI"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-agent-platform": [
+    "Platform"
+  ],
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-alt-builders": [
     "Builders"
   ],
@@ -1613,9 +1623,17 @@
     "Bridget",
     "Todd"
   ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-alt-transformation": [
+    "Signal",
+    "Mark",
+    "Surman"
+  ],
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-alt-trustworthy": [
     "Mark",
     "Surman"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-axios": [
+    "Axios"
   ],
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-big-techs-power": [
     "Bridget",
@@ -1624,6 +1642,12 @@
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-builders-helps-independent": [
     "Builders"
   ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-choice-first-stack": [
+    "Choice-first"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-fast-company": [
+    "Company"
+  ],
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-from-hollywood-to": [
     "hip",
     "hop"
@@ -1631,14 +1655,83 @@
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-got-an-earlystage": [
     "startup"
   ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-how-do-legacy": [
+    "Mark",
+    "Surman"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-how-ventures-investee": [
+    "Ventures",
+    "Investee",
+    "Germ"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-in-the-atlantic": [
+    "The",
+    "Atlantic",
+    "Krikorian",
+    "The",
+    "Atlantic"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-interview-with-mark": [
+    "Mark",
+    "Surman"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-introducing-thundermail-and": [
+    "Thundermail"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-join-mozilla-data": [
+    "Collective"
+  ],
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-keeping-genai-technologies": [
     "GenAI"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mark-surman-discusses": [
+    "Mark",
+    "Surman"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mit-sloan-management-review": [
+    "Sloan",
+    "Review"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mit-sloan-review": [
+    "Sloan",
+    "Review"
   ],
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-builders": [
     "Builders"
   ],
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-celebrates-groundbreaking": [
     "Presents"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-data-collective": [
+    "Collective"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-data-collective-is": [
+    "Collective"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-data-collective-is-v3": [
+    "Collective"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-is-reinventing-itself-v3": [
+    "of"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-nothing-personal": [
+    "Nothing",
+    "Personal"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-ventures-funds": [
+    "networking",
+    "Filament"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-mozilla-welcomes-raffi": [
+    "Krikorian",
+    "Chief",
+    "Technology",
+    "Officer"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-outside-the-fox": [
+    "Outside",
+    "the",
+    "Fox"
   ],
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-privacy-not-included": [
     "Not",
@@ -1648,9 +1741,57 @@
     "Large",
     "Language"
   ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-scaling-open-source": [
+    "Mark",
+    "Surman",
+    "Tim",
+    "Bradshaw"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-silicon-angle": [
+    "Silicon",
+    "Angle"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-state-of-mozilla-alt-v2": [
+    "pixelato"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-stop-wiring-tools": [
+    "Platform"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-tech-crunch": [
+    "TechCrunch"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-tech-crunch-v2": [
+    "TechCrunch"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-tech-policy-press": [
+    "Tech",
+    "Press"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-tech-target": [
+    "Tech"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-the-ft": [
+    "The"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-the-guardian": [
+    "The",
+    "Guardian"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-the-validation-machines": [
+    "The",
+    "Validation",
+    "Machines"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-this-is-where": [
+    "trash"
+  ],
   "mozillaorg:en/mozorg/home-m24.ftl:m24-home-why-does-it": [
     "Bridget",
     "Todd"
+  ],
+  "mozillaorg:en/mozorg/home-m24.ftl:m24-home-women-in-product": [
+    "Women",
+    "Product"
   ],
   "mozillaorg:en/mozorg/home-new.ftl:home-mitchell-baker": [
     "Mitchell",
