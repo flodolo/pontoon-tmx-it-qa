@@ -210,7 +210,7 @@ class CheckStrings:
             ],
             ".properties": [
                 # printf
-                re.compile(r"(%(?:[0-9]+\$){0,1}(?:[0-9].){0,1}([sS]))"),
+                re.compile(r"%(?:[0-9]+\$)?(?:[0-9]*)(?:\.[0-9]+)?[sScCdoxXfFeEgG]"),
                 # webl10n in pdf.js
                 re.compile(
                     r"\{\[\s?plural\([a-zA-Z]+\)\s?\]\}|\{{1,2}\s?[a-zA-Z_-]+\s?\}{1,2}"
@@ -227,6 +227,9 @@ class CheckStrings:
             ],
             ".po": [
                 re.compile(r"\([a-zA-Z_-]+\)s"),
+            ],
+            ".xml": [
+                re.compile(r"%(?:[0-9]+\$)?(?:[0-9]*)(?:\.[0-9]+)?[sScCdoxXfFeEgG]"),
             ],
         }
 
