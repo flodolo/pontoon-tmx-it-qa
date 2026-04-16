@@ -16,9 +16,6 @@
   "firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_unknown_protocol_message": [
     "wxyz"
   ],
-  "firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_rating_content_description_2": [
-    ".02f"
-  ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_eircode": [
     "Eircode"
   ],
@@ -39,6 +36,10 @@
   ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addresses_village_township": [
     "township"
+  ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:ai_controls_voice_search_description": [
+    "Speech",
+    "Services"
   ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:alternative_app_icon_option_cool": [
     "Cool"
@@ -675,6 +676,19 @@
   ],
   "mozilla-vpn-client:addons/strings.xliff:addonqmlvpn236updatemessagebullet7": [
     "Containers"
+  ],
+  "mozilla-vpn-client:addons/strings.xliff:addonqmlvpn237updatemessagebullet5": [
+    "IPv6"
+  ],
+  "mozilla-vpn-client:addons/strings.xliff:addonqmlvpn237updatemessagebullet6": [
+    "IPv6"
+  ],
+  "mozilla-vpn-client:addons/strings.xliff:addonqmlvpn237updatemessagebullet7": [
+    "GNOME+Wayland"
+  ],
+  "mozilla-vpn-client:addons/strings.xliff:addonqmlvpn237updatemessagebullet8": [
+    "IPv6",
+    "multihop"
   ],
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserversashburn": [
     "Ashburn"
@@ -1591,6 +1605,14 @@
     "Cloud",
     "Services"
   ],
+  "mozillaorg:en/mozorg/about/legal.ftl:legal-smart-window": [
+    "Smart",
+    "Window"
+  ],
+  "mozillaorg:en/mozorg/about/legal.ftl:legal-smart-window-rights": [
+    "Smart",
+    "Window"
+  ],
   "mozillaorg:en/mozorg/about/manifesto.ftl:manifesto-details-build-and-deliver": [
     "consumer"
   ],
@@ -2028,6 +2050,10 @@
   "mozillaorg:en/privacy/index.ftl:privacy-index-read-more-about-our-ongoing": [
     "and",
     "Advocacy"
+  ],
+  "mozillaorg:en/privacy/index.ftl:privacy-index-smart-window": [
+    "Smart",
+    "Window"
   ],
   "mozillaorg:en/privacy/index.ftl:privacy-index-to-review-and-comment-on-proposed": [
     "Governance"

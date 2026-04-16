@@ -1,4 +1,5 @@
 [
   "firefox-monitor-website:email-strings.ftl:share-by-email-message",
-  "firefox-monitor-website:email-strings.ftl:share-by-email-message_a1a0b7aaf6933d1686f33a93a386b23f"
+  "firefox-monitor-website:email-strings.ftl:share-by-email-message_a1a0b7aaf6933d1686f33a93a386b23f",
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sports_widget_choose_another_team"
 ]
