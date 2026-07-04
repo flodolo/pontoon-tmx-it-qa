@@ -68,6 +68,9 @@
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:homepage_shortcuts_add_shortcut": [
     "Agg"
   ],
+  "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:microsurvey_uninstall_survey_title": [
+    "disinstallando"
+  ],
   "firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_add_on_dark_reader_name": [
     "Dark",
     "Reader"
