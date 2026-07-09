@@ -160,9 +160,6 @@
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingspasswordsonboardingmessagev103": [
     "Face"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedenlprojmenustringsmenuopensyncedtabsactionaccessibilitylabelv2": [
-    "sinc"
-  ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojappiconselectionstringssettingsappiconselectionappiconnamesfromcontributorsmomotitlev139": [
     "Momo"
   ],
@@ -196,6 +193,25 @@
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdressvillagetownshipv129": [
     "township"
   ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojnativeerrorpagestringsnativeerrorpagewaybackerrorcouldnotreachv154": [
+    "Wayback",
+    "Machine"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojnativeerrorpagestringsnativeerrorpagewaybackerrordescriptionv154": [
+    "Wayback",
+    "Machine"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojnativeerrorpagestringsnativeerrorpagewaybackerrorfooterdescriptionv155": [
+    "Archive"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojnativeerrorpagestringsnativeerrorpagewaybackerrorlinktextv155": [
+    "Wayback",
+    "Machine"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojnativeerrorpagestringsnativeerrorpagewaybackerrorwaybackbuttona11yhintv154": [
+    "Wayback",
+    "Machine"
+  ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsettingsstringssettingssearchaccessibilitylearnaboutsuggestionsv124": [
     "Suggest"
   ],
@@ -216,6 +232,15 @@
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsummarizerstringssummarizertosalertfirefoxmessagelabelv144": [
     "cloud"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojwebcompatreporterstringswebcompatreporteradditionalinfoincludescreenshotv154": [
+    "screenshot"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojwebcompatreporterstringswebcompatreporterpreviewdatahastouchscreenv155": [
+    "touchscreen"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojwebcompatreporterstringswebcompatreporterpreviewscreenshotaccessibilitylabelv154": [
+    "Screenshot"
   ],
   "firefox-for-ios:firefox-ios.xliff:stickerstickerscatalogxcstickerssticker-packstickerpack10accessibilitylabel": [
     "Hot",
@@ -702,9 +727,6 @@
     "Aviv",
     "Tel"
   ],
-  "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserverstokyo": [
-    "Tokio"
-  ],
   "mozilla-vpn-client:extras.xliff:srcappsvpnuiscreenshomeviewserversqmlserversvalencia": [
     "Valencia"
   ],
@@ -802,6 +824,15 @@
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsdevusestagingtitle": [
     "staging"
   ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsobfuscationlwobody": [
+    "WireGuard"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsobfuscationshadowsocksbody": [
+    "Shadowsocks"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsobfuscationshadowsockstitle": [
+    "Shadowsocks"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsprivacymalwarebody": [
     "ransomware",
     "spyware"
@@ -843,7 +874,7 @@
     "Applications",
     "VPN.app"
   ],
-  "mozilla-vpn-client:mozillavpn.xliff:srcappsvpnextrastringshmacosinstallerprevious_buildmessage_b2ccebc02a22edaad4458bdd51b76c48": [
+  "mozilla-vpn-client:mozillavpn.xliff:srcappsvpnextrastringshmacosinstallerprevious_buildmessage_f8ff325da44603d13bb5a937133dce9e": [
     "Applications",
     "VPN.app"
   ],
