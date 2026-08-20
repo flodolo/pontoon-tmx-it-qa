@@ -503,6 +503,12 @@
   "mozilla-accounts-cms:cms.ftl:fxa-description-54faaa23": [
     "123Done"
   ],
+  "mozilla-accounts-cms:cms.ftl:fxa-description-763ec700": [
+    "smart"
+  ],
+  "mozilla-accounts-cms:cms.ftl:fxa-description-d9154126": [
+    "smart"
+  ],
   "mozilla-accounts-cms:cms.ftl:fxa-description-e11f8ec5": [
     "123Done"
   ],
@@ -521,14 +527,38 @@
   "mozilla-accounts-cms:cms.ftl:fxa-headline-020c9b24": [
     "123Done"
   ],
+  "mozilla-accounts-cms:cms.ftl:fxa-headline-52e7ed4b": [
+    "smart"
+  ],
+  "mozilla-accounts-cms:cms.ftl:fxa-headline-574e7a6e": [
+    "smart"
+  ],
+  "mozilla-accounts-cms:cms.ftl:fxa-headline-72079cba": [
+    "smart"
+  ],
   "mozilla-accounts-cms:cms.ftl:fxa-headline-86789eb5": [
     "123Done"
+  ],
+  "mozilla-accounts-cms:cms.ftl:fxa-headline-943c9f95": [
+    "smart"
+  ],
+  "mozilla-accounts-cms:cms.ftl:fxa-headline-d54122be": [
+    "smart"
   ],
   "mozilla-accounts-cms:cms.ftl:fxa-headline-e9d74dbb": [
     "123Done"
   ],
   "mozilla-accounts-cms:cms.ftl:fxa-logoalttext-bd9c68cb": [
     "123Done"
+  ],
+  "mozilla-accounts-cms:cms.ftl:fxa-pagetitle-2351bc23": [
+    "smart"
+  ],
+  "mozilla-accounts-cms:cms.ftl:fxa-pagetitle-9ef4f0dd": [
+    "smart"
+  ],
+  "mozilla-accounts-cms:cms.ftl:fxa-primarybuttontext-a35fe0c1": [
+    "smart"
   ],
   "mozilla-accounts-cms:cms.ftl:fxa-subject-020c9b24": [
     "123Done"
