@@ -310,14 +310,7 @@
   "firefox-relay-website:en/faq.ftl:faq-question-2-answer-v4": [
     "sottodominio.mozmail.com"
   ],
-  "firefox-relay-website:en/faq.ftl:faq-question-2-answer-v4_7284201d5f4486cde6c4395f1341944f": [
-    "sottodominio.mozmail.com"
-  ],
   "firefox-relay-website:en/faq.ftl:faq-question-4-answer-v4": [
-    "Ccn",
-    "Ccn"
-  ],
-  "firefox-relay-website:en/faq.ftl:faq-question-4-answer-v4_487b4b7ee16e41a7ebbf2370fe96306f": [
     "Ccn",
     "Ccn"
   ],
@@ -326,15 +319,7 @@
     "mozmail.com",
     "relay.firefox.com"
   ],
-  "firefox-relay-website:en/faq.ftl:faq-question-mozmail-answer-2_850f7d181e8711fb15e7b94b5e977137": [
-    "miodominio.mozmail.com",
-    "mozmail.com",
-    "relay.firefox.com"
-  ],
   "firefox-relay-website:en/faq.ftl:faq-question-mozmail-question-2": [
-    "mozmail.com"
-  ],
-  "firefox-relay-website:en/faq.ftl:faq-question-mozmail-question-2_c0d5f665ce86356ef55bf6023144b533": [
     "mozmail.com"
   ],
   "firefox-relay-website:en/freeonboarding.ftl:profile-free-onboarding-copy-mask-item-description-2": [
@@ -346,11 +331,6 @@
     "tuodominio"
   ],
   "firefox-relay-website:en/landing.ftl:highlighted-features-section-masks-on-the-go-body-2": [
-    "shop",
-    "tuodominio",
-    "tuodominio"
-  ],
-  "firefox-relay-website:en/landing.ftl:highlighted-features-section-masks-on-the-go-body_a1839c26cda37a4f58fde7ed6edeabfb": [
     "shop",
     "tuodominio",
     "tuodominio"
@@ -369,19 +349,10 @@
   "firefox-relay-website:en/landing.ftl:waitlist-control-email-placeholder": [
     "iltuonome"
   ],
-  "firefox-relay-website:en/landing.ftl:waitlist-control-email-placeholder_f416a4a98b6e1fc287178a6eb5ce7115": [
-    "iltuonome"
-  ],
   "firefox-relay-website:en/landing.ftl:waitlist-heading-bundle": [
     "bundle"
   ],
-  "firefox-relay-website:en/landing.ftl:waitlist-heading-bundle_eb23ced95d469e42abc8537b03ea0705": [
-    "bundle"
-  ],
   "firefox-relay-website:en/landing.ftl:waitlist-privacy-policy-use-bundle": [
-    "bundle"
-  ],
-  "firefox-relay-website:en/landing.ftl:waitlist-privacy-policy-use-bundle_fa02118ec2fdec4034132fbad381daa5": [
     "bundle"
   ],
   "firefox-relay-website:en/layout.ftl:nav-footer-stock-photo-legal": [
@@ -912,10 +883,6 @@
     "Applications",
     "VPN.app"
   ],
-  "mozilla-vpn-client:mozillavpn.xliff:srcappsvpnlocalizercppmacosinstallerprevious_buildmessage_b2ccebc02a22edaad4458bdd51b76c48": [
-    "Applications",
-    "VPN.app"
-  ],
   "mozilla-vpn-client:mozillavpn.xliff:srclocalizercppmacosinstallerprevious_buildmessage": [
     "Applications",
     "VPN.app"
@@ -1419,9 +1386,6 @@
     "community"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-community-participation-report": [
-    "community"
-  ],
-  "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-community-participation-report_9a491829c50c1a182f87a200ecac87ee": [
     "community"
   ],
   "mozillaorg:en/mozorg/about/governance/policies/community-hotline.ftl:community-hotline-the-heart-of-mozilla": [
@@ -2084,9 +2048,6 @@
     "Virtual"
   ],
   "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-invite-email-placeholder": [
-    "tuonome"
-  ],
-  "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-invite-email-placeholder_8174ad466902cf114d10451ac6050cf0": [
     "tuonome"
   ],
   "mozillaorg:en/products/vpn/landing.ftl:vpn-landing-privacy-desc": [

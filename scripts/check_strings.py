@@ -8,6 +8,7 @@ import re
 import string
 import sys
 
+from collections import defaultdict
 from html.parser import HTMLParser
 
 import lxml.etree as ET
@@ -88,20 +89,30 @@ class CheckStrings:
         tree = ET.parse(self.tmx_file)
         root = tree.getroot()
 
+        # Group translations by tuid: the order of tu elements in the TMX
+        # export is not stable, so IDs can't depend on it.
+        grouped = defaultdict(list)
         for tuv in root.xpath("//tuv"):
             string_id = tuv.getparent().get("tuid")
             product = string_id.split(":")[0]
             if product not in self.included_products:
                 continue
             if tuv.get("{http://www.w3.org/XML/1998/namespace}lang") == "it":
-                if string_id in self.translations:
-                    # There can be multiple strings with the same tuid.
-                    # Adding hash of the translation, since it should be
-                    # unique.
-                    string_id += (
-                        "_" + hashlib.md5(tuv[0].text.encode("utf-8")).hexdigest()
-                    )
-                self.translations[string_id] = tuv[0].text
+                grouped[string_id].append(tuv[0].text)
+
+        for string_id, texts in grouped.items():
+            # There can be multiple strings with the same tuid. Sorting the
+            # unique translations by their hash keeps the IDs stable across
+            # runs, no matter how the TMX orders them.
+            hashes = {
+                text: hashlib.md5(text.encode("utf-8")).hexdigest() for text in texts
+            }
+            unique = sorted(set(texts), key=lambda text: hashes[text])
+            self.translations[string_id] = unique[0]
+            # Add the hash of the translation to the ID of the extra strings,
+            # since it should be unique.
+            for text in unique[1:]:
+                self.translations[f"{string_id}_{hashes[text]}"] = text
 
     def strip_tags(self, text):
         html_stripper = MLStripper()
