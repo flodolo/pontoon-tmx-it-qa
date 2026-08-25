@@ -10,6 +10,13 @@
     "Instagram.com",
     "Messenger.com"
   ],
+  "firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_archive_description": [
+    "Archive"
+  ],
+  "firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_archive_wayback_machine": [
+    "Wayback",
+    "Machine"
+  ],
   "firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_unknown_host_message": [
     "ww"
   ],
@@ -101,7 +108,7 @@
   "firefox-for-ios:firefox-ios.xliff:clientbookmarkpanelstringsdesktop-bookmarks": [
     "pc"
   ],
-  "firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsnsfaceidusagedescription": [
+  "firefox-for-ios:firefox-ios.xliff:clienten-uslprojinfopliststringsnsfaceidusagedescription": [
     "Face"
   ],
   "firefox-for-ios:firefox-ios.xliff:clientintrostringsfirefox-and-the-cloud": [
@@ -113,32 +120,38 @@
   "firefox-for-ios:firefox-ios.xliff:clientlocalizablestringsdebug-forget-sync-auth-state": [
     "auth"
   ],
+  "firefox-for-ios:firefox-ios.xliff:shareden-uslprojclearprivatedatastringsspotlight-index": [
+    "Spotlight"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:shareden-uslprojlocalizablestringsaa": [
+    "Aa"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:shareden-uslprojlocalizablestringsaddpasserrormessage": [
+    "Wallet"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:shareden-uslprojlocalizablestringsfirefoxhomepocketminutesv99": [
+    "min"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:shareden-uslprojlocalizablestringsfirefoxhomestoriesminutesv140": [
+    "min"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:shareden-uslprojlocalizablestringsfxasigninqr-link-instruction": [
+    "firefox.com",
+    "pair"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:shareden-uslprojlocalizablestringssearchsuggestsectiontitlev102": [
+    "Suggest"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:shareden-uslprojlocalizablestringssettingspasswordsonboardingmessagev103": [
+    "Face"
+  ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojauthenticationmanagerstringsface-id-passcode": [
     "Face"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojauthenticationmanagerstringsuse-face-id": [
     "Face"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedenlprojclearprivatedatastringsspotlight-index": [
-    "Spotlight"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsaa": [
-    "Aa"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsaddpasserrormessage": [
-    "Wallet"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfirefoxhomepocketminutesv99": [
-    "min"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfirefoxhomestoriesminutesv140": [
-    "min"
-  ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfxaqr-scanning-viewinstructions": [
-    "firefox.com",
-    "pair"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfxasigninqr-link-instruction": [
     "firefox.com",
     "pair"
   ],
@@ -151,96 +164,93 @@
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsloginsonboardingmessage": [
     "Face"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearchsuggestsectiontitlev102": [
-    "Suggest"
-  ],
   "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsdnttitle": [
     "Track"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingspasswordsonboardingmessagev103": [
-    "Face"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojappiconselectionstringssettingsappiconselectionappiconnamesfromcontributorsmomotitlev139": [
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojappiconselectionstringssettingsappiconselectionappiconnamesfromcontributorsmomotitlev139": [
     "Momo"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojappiconselectionstringssettingsappiconselectionappiconnamesfuncooltitle146": [
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojappiconselectionstringssettingsappiconselectionappiconnamesfuncooltitle146": [
     "Cool"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojcredentialsstringsloginsdevicepasscoderequiredmessagev122": [
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojcredentialsstringsloginsdevicepasscoderequiredmessagev122": [
     "Face"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojcredentialsstringsloginspaymentmethodsdevicepasscoderequiredmessagev124v2": [
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojcredentialsstringsloginspaymentmethodsdevicepasscoderequiredmessagev124v2": [
     "Face"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdresseircodev129": [
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojeditaddressstringsaddresseseditaddressautofilladdresseircodev129": [
     "Eircode"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdressoblastv129": [
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojeditaddressstringsaddresseseditaddressautofilladdressoblastv129": [
     "Oblast"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdressparishv129": [
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojeditaddressstringsaddresseseditaddressautofilladdressparishv129": [
     "parish"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdressposttownv129": [
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojeditaddressstringsaddresseseditaddressautofilladdressposttownv129": [
     "town"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdresssuburbv129": [
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojeditaddressstringsaddresseseditaddressautofilladdresssuburbv129": [
     "suburb"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdresstownlandv129": [
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojeditaddressstringsaddresseseditaddressautofilladdresstownlandv129": [
     "townland"
   ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojeditaddressstringsaddresseseditaddressautofilladdressvillagetownshipv129": [
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojeditaddressstringsaddresseseditaddressautofilladdressvillagetownshipv129": [
     "township"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojnativeerrorpagestringsnativeerrorpagewaybackerrordescriptionv154": [
+    "Wayback",
+    "Machine"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojnativeerrorpagestringsnativeerrorpagewaybackerrorfooterdescriptionv155": [
+    "Archive"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojnativeerrorpagestringsnativeerrorpagewaybackerrorlinktextv155": [
+    "Wayback",
+    "Machine"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojnativeerrorpagestringsnativeerrorpagewaybackerrorwaybackbuttona11yhintv154": [
+    "Wayback",
+    "Machine"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojsettingsstringssettingshomeoptionwallpaperwrexhambrandtitlev155": [
+    "Wrexham"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojsettingsstringssettingssearchaccessibilitylearnaboutsuggestionsv124": [
+    "Suggest"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojsettingsstringssettingssearchsuggestaddressbarsettingtitlev124": [
+    "Suggest"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojsettingsstringssettingssearchsuggestlearnaboutsuggestionsv124": [
+    "Suggest"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojsettingsstringssettingssearchsuggestprivatesessiondescriptionv125": [
+    "Suggest"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojsummarizerstringssummarizerapplebrandlabelv142": [
+    "Intelligence"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojwebcompatreporterstringswebcompatreporteradditionalinfoincludescreenshotv154": [
+    "screenshot"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojwebcompatreporterstringswebcompatreporterpreviewdatahastouchscreenv155": [
+    "touchscreen"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojwebcompatreporterstringswebcompatreporterpreviewscreenshotaccessibilitylabelv154": [
+    "Screenshot"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojnativeerrorpagestringsnativeerrorpagewaybackerrorcouldnotreachv154": [
     "Wayback",
     "Machine"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojnativeerrorpagestringsnativeerrorpagewaybackerrordescriptionv154": [
-    "Wayback",
-    "Machine"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojnativeerrorpagestringsnativeerrorpagewaybackerrorfooterdescriptionv155": [
-    "Archive"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojnativeerrorpagestringsnativeerrorpagewaybackerrorlinktextv155": [
-    "Wayback",
-    "Machine"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojnativeerrorpagestringsnativeerrorpagewaybackerrorwaybackbuttona11yhintv154": [
-    "Wayback",
-    "Machine"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsettingsstringssettingssearchaccessibilitylearnaboutsuggestionsv124": [
-    "Suggest"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsettingsstringssettingssearchsuggestaddressbarsettingtitlev124": [
-    "Suggest"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsettingsstringssettingssearchsuggestlearnaboutsuggestionsv124": [
-    "Suggest"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsettingsstringssettingssearchsuggestprivatesessiondescriptionv125": [
-    "Suggest"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsummarizerstringssummarizerapplebrandlabelv142": [
-    "Intelligence"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsummarizerstringssummarizertosalertapplemessagelabelv142": [
     "Intelligence"
   ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojsummarizerstringssummarizertosalertfirefoxmessagelabelv144": [
     "cloud"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojwebcompatreporterstringswebcompatreporteradditionalinfoincludescreenshotv154": [
-    "screenshot"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojwebcompatreporterstringswebcompatreporterpreviewdatahastouchscreenv155": [
-    "touchscreen"
-  ],
-  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojwebcompatreporterstringswebcompatreporterpreviewscreenshotaccessibilitylabelv154": [
-    "Screenshot"
   ],
   "firefox-for-ios:firefox-ios.xliff:stickerstickerscatalogxcstickerssticker-packstickerpack10accessibilitylabel": [
     "Hot",
@@ -998,6 +1008,9 @@
   "mozillaorg:en/brands.ftl:brand-name-mullvad": [
     "Mullvad"
   ],
+  "mozillaorg:en/brands.ftl:brand-name-otari": [
+    "Otari"
+  ],
   "mozillaorg:en/brands.ftl:brand-name-rise25": [
     "Rise25"
   ],
@@ -1335,6 +1348,10 @@
   ],
   "mozillaorg:en/firefox/products.ftl:firefox-products-0din-desc": [
     "GenAI"
+  ],
+  "mozillaorg:en/firefox/products.ftl:firefox-products-otari-desc": [
+    "failover",
+    "audit"
   ],
   "mozillaorg:en/firefox/welcome/page1.ftl:welcome-page1-were-you-one-of-many": [
     "Evite"
