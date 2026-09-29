@@ -230,6 +230,12 @@
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojsettingsstringssettingssearchsuggestprivatesessiondescriptionv125": [
     "Suggest"
   ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojsettingsstringsvpnsettingsdatalimitaccessibilityvaluev161": [
+    "gigabyte"
+  ],
+  "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojsettingsstringsvpnsettingsdatausageaccessibilitylabelv160": [
+    "gigabyte"
+  ],
   "firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesen-uslprojsummarizerstringssummarizerapplebrandlabelv142": [
     "Intelligence"
   ],
@@ -807,6 +813,13 @@
     "AirPlay",
     "CarPlay"
   ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnnetworkmanagerunavailablebody": [
+    "NetworkManager",
+    "NetworkManager"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnnetworkmanagerunavailabletitle": [
+    "NetworkManager"
+  ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnpaymentmethodsamex": [
     "American",
     "Express"
@@ -837,6 +850,10 @@
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsobfuscationlwobody": [
     "WireGuard"
+  ],
+  "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsobfuscationnetworkmanageroutdated": [
+    "NetworkManager",
+    "NetworkManager"
   ],
   "mozilla-vpn-client:mozillavpn.xliff:generatedl18nstrings_pcppvpnsettingsobfuscationshadowsocksbody": [
     "Shadowsocks"
@@ -1348,6 +1365,9 @@
   ],
   "mozillaorg:en/firefox/products.ftl:firefox-products-0din-desc": [
     "GenAI"
+  ],
+  "mozillaorg:en/firefox/products.ftl:firefox-products-mozilla-ads-desc": [
+    "brand"
   ],
   "mozillaorg:en/firefox/products.ftl:firefox-products-otari-desc": [
     "failover",
